@@ -1,0 +1,1001 @@
+timestamp,device_id,energy_consumed,device_type,location,data_size,latency,error_rate,protocol_type,air_quality,temperature,humidity,traffic_flow,transaction_id,transaction_status,block_hash,node_id,validation_status,model_version,training_time,model_accuracy,communication_cost,system_status
+2020-01-01 00:00:00,device_4,4.64,heater,Zone 1,886,49,0.096,HTTP,150,24.8,74,16,txn_1,pending,block_9067,node_1,successful,3,163,0.79,0.04,2
+2020-01-01 00:05:00,device_1,4.56,heater,Zone 3,285,8,0.005,HTTP,118,22.2,34,49,txn_2,failed,block_4021,node_2,failed,2,248,0.95,0.07,3
+2020-01-01 00:10:00,device_1,2.05,fan,Zone 4,2639,30,0.017,CoAP,97,18.1,40,59,txn_3,failed,block_7287,node_2,successful,3,154,0.86,0.19,3
+2020-01-01 00:15:00,device_3,0.69,fan,Zone 4,567,27,0.068,MQTT,129,22.9,80,78,txn_4,pending,block_7042,node_1,failed,2,162,0.77,0.01,1
+2020-01-01 00:20:00,device_1,0.75,fan,Zone 2,4349,43,0.086,CoAP,133,16.7,67,25,txn_5,pending,block_9325,node_2,successful,2,186,0.78,0.02,1
+2020-01-01 00:25:00,device_4,0.79,smart appliance,Zone 2,1388,37,0.073,MQTT,71,32.0,35,87,txn_6,pending,block_8820,node_2,successful,3,63,0.92,0.11,2
+2020-01-01 00:30:00,device_5,0.83,heater,Zone 1,3979,46,0.069,FTP,145,17.8,58,7,txn_7,pending,block_7614,node_2,successful,3,249,0.76,0.09,2
+2020-01-01 00:35:00,device_1,1.31,smart appliance,Zone 5,4088,35,0.007,FTP,149,23.4,58,88,txn_8,confirmed,block_9157,node_3,successful,3,207,0.77,0.18,1
+2020-01-01 00:40:00,device_2,3.54,air conditioner,Zone 3,1309,32,0.069,FTP,116,34.4,71,59,txn_9,failed,block_9758,node_1,failed,5,286,0.82,0.2,1
+2020-01-01 00:45:00,device_4,1.75,fan,Zone 4,2706,33,0.098,CoAP,103,16.4,38,38,txn_10,confirmed,block_9263,node_1,successful,3,208,0.95,0.01,2
+2020-01-01 00:50:00,device_1,4.45,heater,Zone 2,797,7,0.034,HTTP,131,30.3,78,14,txn_11,confirmed,block_5217,node_1,failed,5,281,0.89,0.14,2
+2020-01-01 00:55:00,device_1,1.77,light bulb,Zone 5,2851,40,0.02,HTTP,135,25.8,75,36,txn_12,failed,block_4050,node_2,successful,3,229,0.76,0.1,1
+2020-01-01 01:00:00,device_1,3.66,heater,Zone 1,2608,16,0.025,CoAP,71,20.6,39,32,txn_13,pending,block_1266,node_3,successful,2,57,0.91,0.06,1
+2020-01-01 01:05:00,device_5,0.98,heater,Zone 1,2256,49,0.03,FTP,78,29.3,76,55,txn_14,failed,block_8115,node_1,failed,3,83,0.79,0.04,2
+2020-01-01 01:10:00,device_1,4.61,light bulb,Zone 2,2825,8,0.02,HTTP,73,25.3,51,1,txn_15,pending,block_4045,node_1,failed,5,216,0.93,0.02,1
+2020-01-01 01:15:00,device_4,3.5,fan,Zone 3,2257,32,0.073,MQTT,128,20.5,65,91,txn_16,failed,block_7348,node_1,failed,1,184,0.89,0.14,3
+2020-01-01 01:20:00,device_3,2.49,light bulb,Zone 5,2329,12,0.011,MQTT,61,20.6,67,37,txn_17,confirmed,block_2680,node_3,failed,2,287,0.88,0.06,1
+2020-01-01 01:25:00,device_5,0.53,smart appliance,Zone 1,4838,23,0.074,HTTP,79,16.9,69,19,txn_18,failed,block_9638,node_1,failed,4,240,0.73,0.1,1
+2020-01-01 01:30:00,device_5,0.79,fan,Zone 5,1101,37,0.054,HTTP,135,23.5,49,45,txn_19,confirmed,block_5320,node_1,failed,4,172,0.77,0.05,2
+2020-01-01 01:35:00,device_1,1.81,smart appliance,Zone 4,3028,13,0.078,FTP,65,25.5,74,100,txn_20,confirmed,block_2419,node_3,successful,1,300,0.79,0.11,3
+2020-01-01 01:40:00,device_3,3.1,heater,Zone 3,2233,48,0.031,CoAP,55,17.7,76,92,txn_21,pending,block_5384,node_3,successful,2,79,0.94,0.11,2
+2020-01-01 01:45:00,device_3,3.92,light bulb,Zone 1,498,40,0.077,CoAP,98,22.6,80,74,txn_22,pending,block_1220,node_2,failed,5,291,0.77,0.12,3
+2020-01-01 01:50:00,device_3,4.83,heater,Zone 3,2693,8,0.006,FTP,126,25.5,60,33,txn_23,failed,block_9948,node_2,failed,3,223,0.79,0.08,3
+2020-01-01 01:55:00,device_1,3.57,smart appliance,Zone 4,3274,50,0.081,CoAP,128,30.0,41,22,txn_24,failed,block_1022,node_1,failed,5,42,0.9,0.15,1
+2020-01-01 02:00:00,device_5,4.02,air conditioner,Zone 3,3947,22,0.007,HTTP,144,17.0,30,68,txn_25,pending,block_3530,node_1,successful,1,276,0.87,0.2,2
+2020-01-01 02:05:00,device_1,3.23,fan,Zone 4,3908,32,0.091,HTTP,145,29.1,37,31,txn_26,confirmed,block_7525,node_2,failed,5,34,0.73,0.06,1
+2020-01-01 02:10:00,device_1,1.19,air conditioner,Zone 3,2192,31,0.027,CoAP,70,34.5,47,93,txn_27,failed,block_7180,node_2,successful,2,242,0.83,0.16,3
+2020-01-01 02:15:00,device_2,2.31,smart appliance,Zone 1,3081,42,0.022,HTTP,63,19.0,67,2,txn_28,pending,block_7781,node_2,successful,4,133,0.88,0.03,2
+2020-01-01 02:20:00,device_5,1.82,smart appliance,Zone 5,2622,31,0.065,FTP,70,23.9,73,49,txn_29,failed,block_2894,node_3,successful,4,89,0.9,0.14,1
+2020-01-01 02:25:00,device_3,0.43,smart appliance,Zone 5,3884,21,0.014,CoAP,71,16.9,42,28,txn_30,pending,block_4995,node_1,successful,2,265,0.72,0.06,2
+2020-01-01 02:30:00,device_1,1.79,fan,Zone 1,2279,27,0.029,FTP,77,26.3,42,28,txn_31,failed,block_9912,node_3,failed,5,116,0.8,0.07,2
+2020-01-01 02:35:00,device_4,4.14,smart appliance,Zone 5,1291,46,0.073,CoAP,139,34.1,61,36,txn_32,failed,block_2325,node_2,failed,5,257,0.94,0.08,3
+2020-01-01 02:40:00,device_5,1.93,smart appliance,Zone 5,3944,8,0.066,MQTT,67,32.9,73,2,txn_33,failed,block_9879,node_2,failed,3,49,0.75,0.18,2
+2020-01-01 02:45:00,device_2,4.48,smart appliance,Zone 2,861,6,0.058,CoAP,68,33.2,36,22,txn_34,confirmed,block_6251,node_2,failed,3,116,0.72,0.14,2
+2020-01-01 02:50:00,device_5,2.83,heater,Zone 1,1455,48,0.057,MQTT,104,25.0,32,77,txn_35,failed,block_2238,node_3,failed,1,33,0.72,0.04,2
+2020-01-01 02:55:00,device_1,4.87,heater,Zone 5,1087,25,0.081,FTP,109,34.0,79,70,txn_36,pending,block_3309,node_1,successful,2,278,0.94,0.02,1
+2020-01-01 03:00:00,device_5,1.35,light bulb,Zone 4,4564,24,0.005,CoAP,114,20.7,67,46,txn_37,confirmed,block_8884,node_3,failed,1,125,0.94,0.06,1
+2020-01-01 03:05:00,device_3,1.18,heater,Zone 3,2852,25,0.099,MQTT,134,26.1,45,2,txn_38,pending,block_2545,node_3,successful,5,84,0.84,0.18,3
+2020-01-01 03:10:00,device_4,0.88,smart appliance,Zone 2,2960,43,0.094,MQTT,74,18.8,76,47,txn_39,failed,block_8193,node_1,failed,5,117,0.77,0.04,2
+2020-01-01 03:15:00,device_3,1.57,heater,Zone 1,1674,24,0.051,HTTP,103,23.0,68,68,txn_40,pending,block_7405,node_3,failed,5,47,0.71,0.13,2
+2020-01-01 03:20:00,device_5,4.24,heater,Zone 2,165,22,0.058,HTTP,149,34.9,55,41,txn_41,pending,block_7722,node_1,successful,2,117,0.89,0.19,1
+2020-01-01 03:25:00,device_5,3.81,light bulb,Zone 2,1696,18,0.005,MQTT,141,29.0,70,54,txn_42,failed,block_4338,node_2,successful,4,196,0.91,0.12,2
+2020-01-01 03:30:00,device_5,2.49,air conditioner,Zone 3,668,21,0.059,CoAP,120,18.2,74,73,txn_43,failed,block_2078,node_2,successful,5,153,0.9,0.19,3
+2020-01-01 03:35:00,device_4,0.32,air conditioner,Zone 2,3820,25,0.028,FTP,85,15.9,56,68,txn_44,failed,block_2922,node_3,failed,3,232,0.88,0.08,1
+2020-01-01 03:40:00,device_5,0.23,fan,Zone 1,1973,17,0.009,HTTP,120,18.3,66,59,txn_45,pending,block_2436,node_2,failed,5,82,0.81,0.02,3
+2020-01-01 03:45:00,device_2,1.76,air conditioner,Zone 2,744,18,0.063,HTTP,67,25.3,38,62,txn_46,pending,block_7534,node_2,failed,2,61,0.9,0.16,3
+2020-01-01 03:50:00,device_3,4.86,heater,Zone 5,4626,41,0.008,FTP,90,31.7,30,17,txn_47,failed,block_9766,node_1,successful,3,281,0.87,0.08,3
+2020-01-01 03:55:00,device_5,2.3,air conditioner,Zone 2,1745,21,0.092,MQTT,130,24.5,56,36,txn_48,confirmed,block_7671,node_2,failed,5,264,0.95,0.17,1
+2020-01-01 04:00:00,device_2,1.69,heater,Zone 5,473,48,0.073,HTTP,101,19.1,65,45,txn_49,failed,block_8726,node_2,failed,2,92,0.9,0.05,1
+2020-01-01 04:05:00,device_5,0.52,air conditioner,Zone 5,2304,30,0.015,FTP,134,23.1,44,51,txn_50,failed,block_9890,node_2,successful,5,293,0.83,0.1,2
+2020-01-01 04:10:00,device_2,1.94,fan,Zone 2,345,10,0.01,FTP,59,24.0,54,51,txn_51,failed,block_5238,node_2,failed,2,177,0.83,0.13,1
+2020-01-01 04:15:00,device_2,1.77,air conditioner,Zone 4,2002,44,0.063,FTP,145,31.7,32,26,txn_52,pending,block_1758,node_3,failed,4,175,0.71,0.1,3
+2020-01-01 04:20:00,device_3,0.92,air conditioner,Zone 5,2122,45,0.082,CoAP,96,19.8,75,59,txn_53,failed,block_3474,node_2,failed,3,186,0.79,0.08,1
+2020-01-01 04:25:00,device_3,4.63,fan,Zone 3,3068,37,0.029,MQTT,95,20.8,39,88,txn_54,pending,block_8492,node_3,successful,3,100,0.8,0.02,1
+2020-01-01 04:30:00,device_2,1.03,light bulb,Zone 1,3817,36,0.036,MQTT,125,29.8,46,75,txn_55,pending,block_3890,node_3,successful,5,110,0.94,0.04,1
+2020-01-01 04:35:00,device_5,2.86,fan,Zone 1,4180,12,0.04,CoAP,55,26.7,31,52,txn_56,pending,block_7276,node_3,successful,3,138,0.8,0.09,1
+2020-01-01 04:40:00,device_3,0.68,smart appliance,Zone 4,4352,11,0.06,MQTT,82,32.8,54,85,txn_57,confirmed,block_9631,node_2,successful,2,175,0.93,0.07,3
+2020-01-01 04:45:00,device_2,3.06,heater,Zone 5,4688,19,0.024,HTTP,118,22.7,37,11,txn_58,confirmed,block_8941,node_1,failed,4,275,0.93,0.19,3
+2020-01-01 04:50:00,device_4,1.52,light bulb,Zone 1,2805,22,0.095,MQTT,70,23.5,66,38,txn_59,failed,block_9271,node_2,successful,1,292,0.82,0.12,1
+2020-01-01 04:55:00,device_5,3.77,heater,Zone 5,288,29,0.036,MQTT,112,23.4,65,57,txn_60,pending,block_4947,node_3,failed,3,97,0.82,0.05,1
+2020-01-01 05:00:00,device_2,2.38,light bulb,Zone 2,3168,30,0.076,HTTP,57,32.1,35,35,txn_61,confirmed,block_5229,node_2,failed,3,43,0.76,0.18,1
+2020-01-01 05:05:00,device_3,2.24,light bulb,Zone 1,273,45,0.046,CoAP,135,28.0,50,2,txn_62,pending,block_4888,node_2,successful,2,279,0.74,0.18,1
+2020-01-01 05:10:00,device_2,1.26,air conditioner,Zone 1,907,14,0.02,MQTT,145,17.3,76,33,txn_63,failed,block_1857,node_2,failed,5,98,0.72,0.03,3
+2020-01-01 05:15:00,device_4,3.17,air conditioner,Zone 4,4493,7,0.059,CoAP,108,31.6,47,85,txn_64,confirmed,block_6285,node_3,failed,3,147,0.78,0.18,3
+2020-01-01 05:20:00,device_5,0.44,smart appliance,Zone 3,4497,32,0.05,FTP,84,17.0,74,25,txn_65,confirmed,block_7429,node_3,successful,1,165,0.72,0.16,2
+2020-01-01 05:25:00,device_1,3.22,heater,Zone 2,1533,44,0.088,HTTP,101,31.4,64,26,txn_66,confirmed,block_2755,node_1,successful,5,195,0.72,0.19,2
+2020-01-01 05:30:00,device_4,3.41,light bulb,Zone 2,4039,28,0.078,HTTP,103,29.5,65,7,txn_67,pending,block_4234,node_2,failed,5,133,0.76,0.02,1
+2020-01-01 05:35:00,device_2,2.49,fan,Zone 2,2119,23,0.094,CoAP,100,31.1,33,25,txn_68,confirmed,block_8247,node_1,successful,1,209,0.91,0.14,1
+2020-01-01 05:40:00,device_3,4.03,smart appliance,Zone 1,4302,10,0.066,MQTT,143,19.8,69,36,txn_69,pending,block_7905,node_1,successful,5,103,0.73,0.06,3
+2020-01-01 05:45:00,device_1,3.87,fan,Zone 5,783,21,0.022,MQTT,60,18.2,53,69,txn_70,pending,block_6039,node_1,successful,2,139,0.83,0.04,1
+2020-01-01 05:50:00,device_3,3.4,air conditioner,Zone 2,3257,38,0.02,FTP,98,21.5,56,10,txn_71,failed,block_3518,node_3,successful,5,123,0.88,0.14,3
+2020-01-01 05:55:00,device_5,3.81,air conditioner,Zone 2,504,14,0.012,CoAP,138,30.1,37,61,txn_72,confirmed,block_7290,node_2,failed,3,190,0.91,0.11,1
+2020-01-01 06:00:00,device_3,2.8,air conditioner,Zone 1,2385,5,0.093,MQTT,104,32.7,54,100,txn_73,pending,block_5202,node_2,failed,2,227,0.77,0.07,3
+2020-01-01 06:05:00,device_3,4.63,fan,Zone 1,149,10,0.091,FTP,146,33.0,69,73,txn_74,pending,block_4381,node_3,successful,4,61,0.86,0.19,1
+2020-01-01 06:10:00,device_3,2.74,heater,Zone 2,421,27,0.034,CoAP,136,32.3,54,29,txn_75,failed,block_7706,node_3,successful,1,182,0.86,0.19,3
+2020-01-01 06:15:00,device_4,3.54,heater,Zone 4,4068,21,0.088,MQTT,58,15.5,32,18,txn_76,confirmed,block_3709,node_2,failed,5,190,0.73,0.08,2
+2020-01-01 06:20:00,device_4,2.94,smart appliance,Zone 1,3037,20,0.047,MQTT,133,23.3,68,2,txn_77,confirmed,block_5437,node_2,failed,4,84,0.84,0.07,2
+2020-01-01 06:25:00,device_5,3.27,smart appliance,Zone 4,447,10,0.073,HTTP,67,22.2,45,97,txn_78,confirmed,block_5728,node_1,successful,4,281,0.82,0.19,1
+2020-01-01 06:30:00,device_3,0.86,light bulb,Zone 2,778,14,0.078,CoAP,61,31.6,62,56,txn_79,confirmed,block_5042,node_2,successful,5,170,0.84,0.08,3
+2020-01-01 06:35:00,device_4,1.26,smart appliance,Zone 1,1900,11,0.04,HTTP,139,33.3,59,95,txn_80,pending,block_9952,node_3,successful,3,79,0.76,0.11,3
+2020-01-01 06:40:00,device_1,0.76,heater,Zone 3,1590,43,0.024,CoAP,135,16.7,75,89,txn_81,confirmed,block_8985,node_2,failed,1,35,0.82,0.07,3
+2020-01-01 06:45:00,device_2,3.32,fan,Zone 5,4364,26,0.067,HTTP,139,34.9,52,10,txn_82,pending,block_6300,node_2,failed,2,43,0.74,0.19,2
+2020-01-01 06:50:00,device_4,4.09,air conditioner,Zone 3,1470,41,0.009,FTP,123,32.1,34,94,txn_83,pending,block_3474,node_2,failed,1,123,0.89,0.13,1
+2020-01-01 06:55:00,device_5,1.08,light bulb,Zone 3,3066,17,0.084,MQTT,71,22.9,77,56,txn_84,pending,block_8019,node_3,successful,1,87,0.88,0.05,2
+2020-01-01 07:00:00,device_2,3.39,air conditioner,Zone 2,2190,21,0.073,FTP,144,29.7,65,4,txn_85,confirmed,block_6912,node_1,successful,5,66,0.89,0.12,1
+2020-01-01 07:05:00,device_5,2.43,heater,Zone 4,2988,28,0.041,HTTP,106,19.1,46,0,txn_86,failed,block_6471,node_3,successful,3,72,0.93,0.2,3
+2020-01-01 07:10:00,device_5,0.73,light bulb,Zone 3,4387,47,0.083,CoAP,97,34.4,46,65,txn_87,pending,block_9239,node_3,successful,1,279,0.95,0.03,1
+2020-01-01 07:15:00,device_2,4.23,smart appliance,Zone 5,3781,13,0.073,CoAP,119,18.1,43,35,txn_88,pending,block_4307,node_3,failed,2,278,0.9,0.08,2
+2020-01-01 07:20:00,device_3,0.3,light bulb,Zone 5,4112,9,0.051,CoAP,143,30.1,45,32,txn_89,failed,block_8485,node_3,failed,5,106,0.86,0.18,1
+2020-01-01 07:25:00,device_3,2.42,air conditioner,Zone 1,1205,50,0.011,FTP,50,31.5,51,44,txn_90,pending,block_1511,node_1,failed,1,299,0.91,0.07,3
+2020-01-01 07:30:00,device_1,1.85,air conditioner,Zone 5,2913,17,0.026,FTP,92,18.6,52,87,txn_91,pending,block_5425,node_2,successful,2,210,0.89,0.06,3
+2020-01-01 07:35:00,device_3,1.66,heater,Zone 1,892,8,0.015,CoAP,108,20.2,31,31,txn_92,confirmed,block_3368,node_3,successful,1,288,0.93,0.1,1
+2020-01-01 07:40:00,device_1,3.12,fan,Zone 4,1696,41,0.052,MQTT,116,23.2,56,15,txn_93,pending,block_9812,node_1,failed,2,218,0.73,0.08,1
+2020-01-01 07:45:00,device_5,2.74,light bulb,Zone 4,3728,20,0.051,HTTP,136,31.8,59,92,txn_94,failed,block_9667,node_2,successful,3,276,0.71,0.07,1
+2020-01-01 07:50:00,device_2,3.02,light bulb,Zone 2,1061,11,0.011,HTTP,116,21.3,58,93,txn_95,confirmed,block_6188,node_3,successful,4,75,0.85,0.06,2
+2020-01-01 07:55:00,device_3,0.91,light bulb,Zone 5,4233,15,0.062,FTP,101,15.5,30,4,txn_96,pending,block_8076,node_1,successful,2,127,0.8,0.06,3
+2020-01-01 08:00:00,device_3,2.08,heater,Zone 4,2940,25,0.017,CoAP,78,29.5,79,43,txn_97,pending,block_3724,node_1,failed,4,300,0.85,0.15,1
+2020-01-01 08:05:00,device_4,2.5,heater,Zone 4,2643,43,0.003,CoAP,115,23.4,55,2,txn_98,failed,block_1182,node_1,failed,5,167,0.77,0.16,1
+2020-01-01 08:10:00,device_1,3.06,smart appliance,Zone 3,4957,27,0.047,HTTP,84,33.2,77,25,txn_99,failed,block_5549,node_1,successful,2,38,0.93,0.01,2
+2020-01-01 08:15:00,device_3,3.88,fan,Zone 2,4586,32,0.071,FTP,58,34.4,69,34,txn_100,pending,block_2813,node_2,successful,2,87,0.77,0.01,1
+2020-01-01 08:20:00,device_1,2.15,heater,Zone 4,1993,8,0.007,FTP,123,34.3,69,11,txn_101,confirmed,block_6953,node_2,successful,4,144,0.83,0.2,2
+2020-01-01 08:25:00,device_1,2.62,fan,Zone 2,4641,30,0.076,HTTP,71,29.2,47,4,txn_102,confirmed,block_4398,node_3,failed,2,258,0.73,0.11,3
+2020-01-01 08:30:00,device_2,3.85,heater,Zone 5,4587,34,0.1,CoAP,58,33.9,68,38,txn_103,failed,block_2551,node_3,failed,1,61,0.8,0.19,2
+2020-01-01 08:35:00,device_1,4.49,fan,Zone 5,4034,38,0.029,MQTT,97,16.8,60,56,txn_104,failed,block_6858,node_1,successful,5,168,0.8,0.11,1
+2020-01-01 08:40:00,device_4,0.54,heater,Zone 5,1467,32,0.092,MQTT,89,29.1,32,21,txn_105,pending,block_7357,node_2,successful,5,136,0.94,0.05,1
+2020-01-01 08:45:00,device_3,0.32,smart appliance,Zone 3,4110,50,0.044,HTTP,136,32.4,49,78,txn_106,confirmed,block_5865,node_2,failed,5,212,0.77,0.05,3
+2020-01-01 08:50:00,device_4,4.92,air conditioner,Zone 5,2925,36,0.042,HTTP,141,33.2,70,84,txn_107,failed,block_2835,node_1,failed,1,300,0.87,0.12,3
+2020-01-01 08:55:00,device_2,2.57,smart appliance,Zone 1,372,9,0.078,HTTP,78,27.9,54,83,txn_108,pending,block_5123,node_1,successful,5,109,0.81,0.05,2
+2020-01-01 09:00:00,device_5,2.27,light bulb,Zone 3,2870,49,0.036,HTTP,82,34.9,55,5,txn_109,failed,block_7894,node_1,failed,1,206,0.8,0.17,2
+2020-01-01 09:05:00,device_3,1.72,fan,Zone 2,1643,24,0.085,CoAP,123,27.7,33,32,txn_110,pending,block_9132,node_2,failed,3,277,0.79,0.2,2
+2020-01-01 09:10:00,device_4,4.77,light bulb,Zone 3,381,18,0.051,MQTT,61,24.0,49,56,txn_111,failed,block_4698,node_3,successful,3,244,0.93,0.02,2
+2020-01-01 09:15:00,device_1,0.19,smart appliance,Zone 2,4217,35,0.02,CoAP,92,28.7,64,36,txn_112,failed,block_1918,node_2,successful,4,150,0.92,0.15,3
+2020-01-01 09:20:00,device_1,1.65,air conditioner,Zone 5,3983,39,0.056,HTTP,88,33.4,32,27,txn_113,confirmed,block_9475,node_1,successful,1,33,0.71,0.03,3
+2020-01-01 09:25:00,device_5,2.1,light bulb,Zone 3,3230,17,0.052,FTP,133,34.7,69,20,txn_114,pending,block_5676,node_2,failed,3,51,0.92,0.09,3
+2020-01-01 09:30:00,device_3,4.02,air conditioner,Zone 5,2004,32,0.068,FTP,67,18.0,56,36,txn_115,failed,block_4895,node_2,successful,2,143,0.92,0.02,3
+2020-01-01 09:35:00,device_4,1.05,heater,Zone 2,4416,10,0.061,HTTP,130,17.7,72,92,txn_116,failed,block_3021,node_1,failed,1,263,0.85,0.07,3
+2020-01-01 09:40:00,device_4,3.96,fan,Zone 2,2072,20,0.023,CoAP,148,30.1,66,38,txn_117,failed,block_9106,node_2,successful,2,52,0.84,0.13,2
+2020-01-01 09:45:00,device_2,1.84,fan,Zone 4,1080,5,0.061,CoAP,84,30.1,36,51,txn_118,failed,block_9789,node_1,successful,2,47,0.75,0.18,2
+2020-01-01 09:50:00,device_2,3.99,air conditioner,Zone 2,3905,47,0.038,CoAP,56,20.1,53,85,txn_119,confirmed,block_5933,node_1,failed,2,122,0.79,0.15,3
+2020-01-01 09:55:00,device_5,0.57,smart appliance,Zone 2,801,5,0.052,FTP,110,17.4,63,69,txn_120,failed,block_2032,node_1,successful,2,41,0.76,0.04,3
+2020-01-01 10:00:00,device_3,4.36,fan,Zone 1,2175,31,0.05,HTTP,82,16.1,68,95,txn_121,pending,block_2858,node_3,failed,5,209,0.84,0.2,1
+2020-01-01 10:05:00,device_5,2.98,light bulb,Zone 5,4156,48,0.005,HTTP,107,29.6,48,77,txn_122,confirmed,block_1685,node_1,successful,2,217,0.72,0.19,3
+2020-01-01 10:10:00,device_2,1.27,smart appliance,Zone 4,4946,15,0.065,CoAP,149,32.0,45,90,txn_123,failed,block_6272,node_3,successful,4,195,0.82,0.19,1
+2020-01-01 10:15:00,device_3,4.39,fan,Zone 4,2652,34,0.044,CoAP,96,25.4,33,14,txn_124,pending,block_1416,node_3,successful,2,134,0.73,0.17,1
+2020-01-01 10:20:00,device_5,1.54,air conditioner,Zone 2,1405,43,0.053,HTTP,139,17.3,39,18,txn_125,failed,block_8238,node_3,failed,3,44,0.71,0.07,3
+2020-01-01 10:25:00,device_3,3.02,heater,Zone 2,690,9,0.061,FTP,134,26.3,46,23,txn_126,failed,block_4345,node_1,successful,4,129,0.85,0.13,2
+2020-01-01 10:30:00,device_3,0.54,light bulb,Zone 3,1580,49,0.098,MQTT,102,22.6,43,67,txn_127,confirmed,block_9119,node_3,successful,1,241,0.83,0.05,3
+2020-01-01 10:35:00,device_3,1.7,light bulb,Zone 2,3708,27,0.053,HTTP,90,34.9,47,54,txn_128,failed,block_2606,node_1,successful,1,271,0.74,0.08,2
+2020-01-01 10:40:00,device_2,4.9,air conditioner,Zone 3,2340,43,0.1,CoAP,145,30.7,48,83,txn_129,pending,block_4053,node_2,failed,4,274,0.95,0.05,2
+2020-01-01 10:45:00,device_4,4.16,heater,Zone 4,291,48,0.074,HTTP,82,16.0,38,52,txn_130,pending,block_7147,node_1,failed,3,71,0.78,0.1,3
+2020-01-01 10:50:00,device_2,4.91,fan,Zone 4,2882,35,0.08,HTTP,53,25.0,59,12,txn_131,pending,block_5984,node_2,failed,2,64,0.79,0.13,2
+2020-01-01 10:55:00,device_5,4.75,heater,Zone 5,324,46,0.089,FTP,108,22.6,41,75,txn_132,pending,block_7301,node_1,failed,1,88,0.72,0.04,1
+2020-01-01 11:00:00,device_5,0.44,light bulb,Zone 5,730,31,0.02,FTP,82,24.0,53,13,txn_133,confirmed,block_2487,node_2,successful,5,113,0.74,0.07,3
+2020-01-01 11:05:00,device_3,2.99,air conditioner,Zone 3,760,44,0.041,CoAP,75,18.0,76,13,txn_134,confirmed,block_3524,node_2,failed,4,134,0.91,0.06,2
+2020-01-01 11:10:00,device_4,0.57,light bulb,Zone 3,1953,20,0.056,CoAP,148,32.5,62,86,txn_135,failed,block_6692,node_2,successful,3,177,0.92,0.03,2
+2020-01-01 11:15:00,device_4,1.25,light bulb,Zone 2,2637,37,0.051,MQTT,130,27.4,65,73,txn_136,pending,block_8615,node_3,successful,2,174,0.94,0.02,1
+2020-01-01 11:20:00,device_1,3.02,heater,Zone 4,2215,23,0.06,FTP,56,18.4,73,99,txn_137,failed,block_3453,node_3,successful,2,154,0.89,0.05,3
+2020-01-01 11:25:00,device_2,1.12,light bulb,Zone 4,781,33,0.018,FTP,141,23.8,57,62,txn_138,failed,block_6850,node_3,failed,3,37,0.92,0.03,3
+2020-01-01 11:30:00,device_5,3.62,light bulb,Zone 2,961,37,0.095,HTTP,80,25.5,71,34,txn_139,confirmed,block_7514,node_2,failed,3,244,0.72,0.08,3
+2020-01-01 11:35:00,device_5,4.93,smart appliance,Zone 5,3765,33,0.086,FTP,150,24.5,57,14,txn_140,failed,block_4098,node_3,successful,3,78,0.84,0.1,1
+2020-01-01 11:40:00,device_3,0.49,air conditioner,Zone 1,4426,19,0.062,FTP,113,20.6,56,27,txn_141,confirmed,block_4774,node_3,successful,2,156,0.71,0.04,1
+2020-01-01 11:45:00,device_3,3.88,smart appliance,Zone 5,878,15,0.09,FTP,111,34.8,69,77,txn_142,confirmed,block_7159,node_3,successful,1,283,0.76,0.02,3
+2020-01-01 11:50:00,device_4,3.65,air conditioner,Zone 3,929,9,0.056,MQTT,106,33.9,40,23,txn_143,failed,block_4800,node_1,successful,5,121,0.75,0.04,1
+2020-01-01 11:55:00,device_3,0.17,light bulb,Zone 5,4266,33,0.081,CoAP,101,20.4,33,90,txn_144,pending,block_1221,node_3,failed,2,258,0.88,0.16,3
+2020-01-01 12:00:00,device_1,4.03,smart appliance,Zone 4,2819,31,0.016,FTP,89,28.3,62,86,txn_145,pending,block_3767,node_1,successful,4,253,0.72,0.15,1
+2020-01-01 12:05:00,device_4,4.86,light bulb,Zone 2,3792,47,0.019,FTP,122,16.3,74,80,txn_146,pending,block_2181,node_1,successful,5,115,0.78,0.1,3
+2020-01-01 12:10:00,device_1,3.87,heater,Zone 2,262,28,0.086,MQTT,145,28.3,69,79,txn_147,failed,block_6026,node_1,failed,3,269,0.89,0.2,3
+2020-01-01 12:15:00,device_5,3.53,smart appliance,Zone 3,2845,18,0.049,HTTP,53,22.9,68,28,txn_148,failed,block_9787,node_3,successful,2,193,0.91,0.05,1
+2020-01-01 12:20:00,device_1,2.23,smart appliance,Zone 3,3946,26,0.078,HTTP,90,20.0,54,16,txn_149,pending,block_8163,node_2,failed,2,295,0.87,0.11,1
+2020-01-01 12:25:00,device_2,1.46,heater,Zone 1,4535,50,0.095,FTP,134,21.3,34,29,txn_150,pending,block_1854,node_3,failed,5,274,0.74,0.08,1
+2020-01-01 12:30:00,device_4,1.65,smart appliance,Zone 5,4841,27,0.037,HTTP,100,26.0,73,0,txn_151,failed,block_8686,node_1,successful,4,233,0.78,0.05,3
+2020-01-01 12:35:00,device_3,4.36,air conditioner,Zone 5,4972,22,0.073,CoAP,53,17.7,33,48,txn_152,failed,block_4985,node_3,failed,2,143,0.87,0.02,2
+2020-01-01 12:40:00,device_4,3.72,fan,Zone 5,4972,46,0.05,FTP,114,30.1,31,92,txn_153,failed,block_4726,node_3,failed,4,299,0.93,0.05,2
+2020-01-01 12:45:00,device_1,4.37,light bulb,Zone 5,4116,48,0.049,CoAP,135,25.1,66,30,txn_154,pending,block_7256,node_2,successful,5,130,0.92,0.1,1
+2020-01-01 12:50:00,device_4,3.77,light bulb,Zone 2,1383,6,0.069,FTP,110,32.6,65,52,txn_155,failed,block_7727,node_1,successful,3,211,0.92,0.04,3
+2020-01-01 12:55:00,device_3,1.16,fan,Zone 5,4726,35,0.026,CoAP,82,16.0,57,15,txn_156,pending,block_2076,node_1,successful,4,134,0.77,0.06,3
+2020-01-01 13:00:00,device_4,0.65,air conditioner,Zone 1,4739,45,0.063,CoAP,82,28.2,31,92,txn_157,failed,block_5103,node_1,successful,5,178,0.93,0.06,2
+2020-01-01 13:05:00,device_2,1.7,air conditioner,Zone 2,2523,26,0.009,MQTT,73,15.1,48,47,txn_158,confirmed,block_2696,node_3,successful,4,271,0.88,0.19,3
+2020-01-01 13:10:00,device_5,2.76,air conditioner,Zone 1,1856,47,0.073,HTTP,117,23.8,76,23,txn_159,pending,block_4257,node_3,successful,4,177,0.79,0.01,3
+2020-01-01 13:15:00,device_4,3.11,light bulb,Zone 5,4817,12,0.033,CoAP,67,17.2,61,27,txn_160,failed,block_4272,node_3,failed,3,197,0.79,0.06,2
+2020-01-01 13:20:00,device_4,0.28,heater,Zone 1,769,49,0.033,HTTP,95,29.4,51,45,txn_161,confirmed,block_6616,node_3,failed,3,200,0.8,0.08,2
+2020-01-01 13:25:00,device_1,0.38,fan,Zone 2,2495,37,0.051,HTTP,92,28.7,46,54,txn_162,failed,block_8140,node_3,failed,4,160,0.74,0.15,2
+2020-01-01 13:30:00,device_2,4.46,air conditioner,Zone 2,2004,12,0.09,HTTP,118,26.6,47,76,txn_163,failed,block_9545,node_3,successful,4,88,0.93,0.11,1
+2020-01-01 13:35:00,device_5,0.13,smart appliance,Zone 1,4231,23,0.032,MQTT,139,19.7,79,94,txn_164,failed,block_7106,node_2,successful,3,91,0.79,0.05,2
+2020-01-01 13:40:00,device_4,2.46,fan,Zone 5,3394,24,0.066,HTTP,112,24.0,44,1,txn_165,confirmed,block_3942,node_3,successful,5,209,0.89,0.01,2
+2020-01-01 13:45:00,device_2,0.59,air conditioner,Zone 2,4105,50,0.073,HTTP,57,20.9,42,78,txn_166,confirmed,block_9657,node_1,successful,3,97,0.82,0.09,1
+2020-01-01 13:50:00,device_5,4.86,air conditioner,Zone 1,145,17,0.042,CoAP,114,15.2,42,61,txn_167,confirmed,block_5740,node_1,successful,2,148,0.87,0.01,3
+2020-01-01 13:55:00,device_3,2.98,smart appliance,Zone 2,1791,22,0.062,FTP,63,20.3,75,40,txn_168,pending,block_7208,node_1,failed,5,185,0.93,0.17,1
+2020-01-01 14:00:00,device_5,2.05,air conditioner,Zone 2,3031,49,0.048,MQTT,136,32.3,56,64,txn_169,confirmed,block_4504,node_1,successful,5,91,0.74,0.19,1
+2020-01-01 14:05:00,device_4,0.98,smart appliance,Zone 2,4747,30,0.055,HTTP,65,29.5,73,39,txn_170,failed,block_4323,node_1,successful,1,153,0.85,0.14,1
+2020-01-01 14:10:00,device_5,4.96,light bulb,Zone 4,1901,33,0.049,MQTT,77,15.9,42,44,txn_171,confirmed,block_9370,node_2,failed,4,278,0.75,0.18,1
+2020-01-01 14:15:00,device_1,2.76,light bulb,Zone 1,112,15,0.073,FTP,85,30.2,50,84,txn_172,failed,block_4884,node_2,failed,5,60,0.89,0.15,2
+2020-01-01 14:20:00,device_5,0.7,air conditioner,Zone 5,1885,14,0.085,CoAP,82,25.2,57,66,txn_173,confirmed,block_9591,node_1,successful,2,265,0.93,0.14,2
+2020-01-01 14:25:00,device_2,2.0,air conditioner,Zone 4,3613,23,0.049,CoAP,141,26.1,62,46,txn_174,failed,block_9746,node_2,failed,4,233,0.91,0.1,3
+2020-01-01 14:30:00,device_5,0.42,fan,Zone 1,3383,49,0.028,CoAP,134,17.6,53,62,txn_175,confirmed,block_5007,node_2,failed,1,84,0.76,0.11,2
+2020-01-01 14:35:00,device_2,2.55,smart appliance,Zone 1,610,37,0.011,FTP,71,35.0,36,64,txn_176,pending,block_6566,node_1,failed,4,92,0.87,0.14,2
+2020-01-01 14:40:00,device_2,0.5,smart appliance,Zone 5,4679,19,0.082,HTTP,80,16.4,66,89,txn_177,pending,block_2244,node_1,failed,3,47,0.78,0.16,3
+2020-01-01 14:45:00,device_1,3.03,fan,Zone 4,3697,13,0.064,CoAP,148,30.7,30,66,txn_178,confirmed,block_1271,node_1,successful,2,157,0.89,0.13,1
+2020-01-01 14:50:00,device_1,2.13,smart appliance,Zone 3,1711,22,0.065,HTTP,145,23.1,58,64,txn_179,failed,block_4094,node_3,successful,2,253,0.95,0.11,2
+2020-01-01 14:55:00,device_1,1.72,air conditioner,Zone 4,3473,40,0.023,FTP,95,21.7,34,59,txn_180,pending,block_9086,node_3,failed,3,280,0.91,0.18,3
+2020-01-01 15:00:00,device_1,4.7,heater,Zone 5,3430,37,0.033,MQTT,114,20.0,40,54,txn_181,pending,block_8594,node_1,successful,3,274,0.89,0.02,3
+2020-01-01 15:05:00,device_3,0.48,fan,Zone 4,1978,14,0.057,FTP,58,19.8,59,98,txn_182,confirmed,block_5573,node_1,failed,3,230,0.89,0.05,1
+2020-01-01 15:10:00,device_4,0.59,smart appliance,Zone 3,3385,41,0.003,FTP,120,31.5,71,53,txn_183,failed,block_8773,node_1,failed,3,170,0.76,0.06,1
+2020-01-01 15:15:00,device_4,3.69,heater,Zone 4,1866,45,0.048,CoAP,150,17.5,73,1,txn_184,confirmed,block_8426,node_3,failed,2,61,0.73,0.08,1
+2020-01-01 15:20:00,device_1,4.53,fan,Zone 1,3294,15,0.058,CoAP,51,31.9,56,14,txn_185,pending,block_2143,node_3,successful,5,262,0.76,0.03,1
+2020-01-01 15:25:00,device_1,4.17,smart appliance,Zone 5,1887,23,0.063,HTTP,112,26.2,47,30,txn_186,pending,block_9544,node_3,failed,2,225,0.87,0.16,1
+2020-01-01 15:30:00,device_1,2.85,smart appliance,Zone 1,3068,28,0.035,HTTP,95,28.3,61,72,txn_187,confirmed,block_6555,node_3,successful,5,205,0.88,0.05,3
+2020-01-01 15:35:00,device_2,4.16,air conditioner,Zone 1,1913,40,0.016,FTP,70,21.3,69,76,txn_188,pending,block_5845,node_2,failed,3,112,0.88,0.15,2
+2020-01-01 15:40:00,device_2,0.7,smart appliance,Zone 1,608,48,0.036,CoAP,63,32.3,68,61,txn_189,confirmed,block_9129,node_2,failed,5,43,0.93,0.15,3
+2020-01-01 15:45:00,device_2,3.18,air conditioner,Zone 5,302,19,0.022,FTP,50,17.4,73,98,txn_190,confirmed,block_6681,node_3,successful,1,284,0.84,0.09,1
+2020-01-01 15:50:00,device_5,3.28,fan,Zone 1,484,43,0.081,CoAP,132,18.0,76,89,txn_191,confirmed,block_2735,node_1,successful,1,112,0.9,0.15,2
+2020-01-01 15:55:00,device_4,2.56,air conditioner,Zone 3,4771,7,0.042,CoAP,73,30.2,51,67,txn_192,confirmed,block_2269,node_2,failed,4,125,0.95,0.12,2
+2020-01-01 16:00:00,device_1,0.7,light bulb,Zone 3,2979,15,0.061,FTP,73,30.2,64,61,txn_193,confirmed,block_6121,node_3,failed,5,258,0.81,0.15,2
+2020-01-01 16:05:00,device_1,0.93,heater,Zone 1,4835,13,0.062,MQTT,132,26.5,36,53,txn_194,confirmed,block_9304,node_1,successful,1,50,0.84,0.13,1
+2020-01-01 16:10:00,device_1,4.65,air conditioner,Zone 4,3855,33,0.072,HTTP,93,16.4,69,44,txn_195,confirmed,block_4233,node_1,successful,2,281,0.84,0.07,1
+2020-01-01 16:15:00,device_1,2.81,smart appliance,Zone 5,1107,28,0.026,CoAP,132,23.4,69,9,txn_196,pending,block_6941,node_3,successful,4,212,0.88,0.11,3
+2020-01-01 16:20:00,device_1,0.8,air conditioner,Zone 3,3591,42,0.076,FTP,137,17.4,55,40,txn_197,confirmed,block_1365,node_2,failed,4,57,0.75,0.06,1
+2020-01-01 16:25:00,device_3,3.68,fan,Zone 3,2291,17,0.032,FTP,141,23.9,47,86,txn_198,failed,block_2390,node_2,failed,1,240,0.76,0.1,3
+2020-01-01 16:30:00,device_4,2.4,fan,Zone 5,4448,27,0.021,FTP,124,17.5,72,94,txn_199,failed,block_4459,node_3,failed,2,114,0.84,0.2,3
+2020-01-01 16:35:00,device_1,3.92,air conditioner,Zone 1,2615,42,0.06,CoAP,57,16.9,69,6,txn_200,confirmed,block_7891,node_1,failed,4,111,0.75,0.11,3
+2020-01-01 16:40:00,device_2,2.25,fan,Zone 1,253,46,0.033,FTP,101,27.6,46,10,txn_201,confirmed,block_6648,node_1,failed,5,198,0.92,0.15,3
+2020-01-01 16:45:00,device_5,2.58,light bulb,Zone 5,4870,18,0.073,HTTP,116,22.0,68,21,txn_202,pending,block_4516,node_1,failed,2,117,0.9,0.19,3
+2020-01-01 16:50:00,device_1,0.3,light bulb,Zone 3,3374,14,0.092,MQTT,78,32.3,43,12,txn_203,failed,block_1595,node_3,failed,2,188,0.86,0.15,3
+2020-01-01 16:55:00,device_4,2.57,heater,Zone 1,1077,46,0.057,CoAP,132,16.0,46,92,txn_204,failed,block_8572,node_3,failed,5,236,0.87,0.09,3
+2020-01-01 17:00:00,device_2,3.01,heater,Zone 3,3103,15,0.056,MQTT,131,21.0,50,8,txn_205,failed,block_6143,node_2,successful,5,227,0.81,0.15,1
+2020-01-01 17:05:00,device_3,3.95,fan,Zone 5,1416,35,0.009,CoAP,79,33.2,56,76,txn_206,pending,block_7723,node_3,successful,4,56,0.88,0.14,2
+2020-01-01 17:10:00,device_5,4.74,light bulb,Zone 4,4833,23,0.074,CoAP,106,26.3,30,16,txn_207,pending,block_1471,node_1,successful,2,40,0.72,0.03,3
+2020-01-01 17:15:00,device_5,1.27,fan,Zone 5,1078,22,0.016,HTTP,146,33.2,69,65,txn_208,confirmed,block_1030,node_2,successful,3,46,0.73,0.1,1
+2020-01-01 17:20:00,device_5,0.52,fan,Zone 4,1515,13,0.062,FTP,85,20.9,53,68,txn_209,confirmed,block_4859,node_1,successful,2,48,0.81,0.01,2
+2020-01-01 17:25:00,device_2,4.8,air conditioner,Zone 5,4772,46,0.077,FTP,63,24.3,64,79,txn_210,confirmed,block_7990,node_1,successful,3,238,0.92,0.1,3
+2020-01-01 17:30:00,device_3,3.88,light bulb,Zone 3,4279,50,0.07,FTP,98,17.7,63,54,txn_211,confirmed,block_7897,node_2,failed,5,292,0.75,0.1,3
+2020-01-01 17:35:00,device_4,2.45,light bulb,Zone 1,1825,27,0.055,FTP,115,29.4,74,90,txn_212,pending,block_4378,node_2,successful,3,190,0.93,0.08,3
+2020-01-01 17:40:00,device_3,3.95,smart appliance,Zone 3,4372,41,0.039,CoAP,64,17.3,43,35,txn_213,failed,block_4314,node_3,successful,5,198,0.7,0.07,1
+2020-01-01 17:45:00,device_5,2.39,light bulb,Zone 2,990,11,0.1,FTP,73,20.5,52,52,txn_214,pending,block_1916,node_2,failed,2,297,0.9,0.06,3
+2020-01-01 17:50:00,device_2,2.0,fan,Zone 1,2421,15,0.028,HTTP,121,22.6,52,14,txn_215,confirmed,block_9914,node_3,failed,5,251,0.91,0.01,3
+2020-01-01 17:55:00,device_2,1.29,air conditioner,Zone 1,1340,45,0.001,HTTP,135,28.8,35,10,txn_216,confirmed,block_5066,node_3,successful,5,216,0.94,0.03,2
+2020-01-01 18:00:00,device_4,0.71,heater,Zone 3,700,6,0.047,CoAP,103,20.4,37,18,txn_217,confirmed,block_7678,node_2,failed,5,77,0.86,0.11,1
+2020-01-01 18:05:00,device_3,2.86,heater,Zone 2,4514,37,0.04,HTTP,134,25.0,58,19,txn_218,confirmed,block_4114,node_1,successful,1,135,0.87,0.16,1
+2020-01-01 18:10:00,device_5,4.61,light bulb,Zone 2,1334,16,0.075,HTTP,67,22.2,36,41,txn_219,failed,block_3396,node_2,successful,4,158,0.87,0.13,3
+2020-01-01 18:15:00,device_5,3.84,air conditioner,Zone 2,740,21,0.053,MQTT,140,27.2,66,81,txn_220,confirmed,block_8313,node_2,successful,3,199,0.77,0.11,3
+2020-01-01 18:20:00,device_4,0.19,heater,Zone 5,523,10,0.044,FTP,102,31.4,50,71,txn_221,confirmed,block_8571,node_3,failed,3,47,0.81,0.05,1
+2020-01-01 18:25:00,device_1,1.55,heater,Zone 2,158,38,0.093,CoAP,56,32.0,76,67,txn_222,pending,block_1928,node_1,successful,1,276,0.86,0.11,1
+2020-01-01 18:30:00,device_3,3.6,light bulb,Zone 1,4212,20,0.049,FTP,93,28.7,33,36,txn_223,pending,block_5819,node_1,failed,5,160,0.84,0.05,1
+2020-01-01 18:35:00,device_3,4.75,air conditioner,Zone 4,863,41,0.095,HTTP,140,21.7,45,45,txn_224,confirmed,block_3023,node_1,failed,3,68,0.81,0.1,2
+2020-01-01 18:40:00,device_3,1.75,fan,Zone 2,3000,23,0.014,MQTT,97,26.5,32,19,txn_225,pending,block_6837,node_3,failed,4,180,0.79,0.06,2
+2020-01-01 18:45:00,device_5,3.43,air conditioner,Zone 4,1227,28,0.036,MQTT,62,17.5,62,15,txn_226,confirmed,block_5892,node_3,successful,3,227,0.88,0.09,3
+2020-01-01 18:50:00,device_5,3.75,heater,Zone 2,3310,34,0.097,CoAP,133,19.2,55,90,txn_227,pending,block_5364,node_3,failed,2,205,0.88,0.11,3
+2020-01-01 18:55:00,device_1,3.91,light bulb,Zone 4,3727,12,0.092,FTP,110,26.1,50,12,txn_228,pending,block_1410,node_3,failed,3,170,0.9,0.06,2
+2020-01-01 19:00:00,device_1,3.12,heater,Zone 1,3118,9,0.083,CoAP,68,30.4,45,96,txn_229,failed,block_6909,node_2,successful,4,191,0.92,0.04,3
+2020-01-01 19:05:00,device_1,1.34,air conditioner,Zone 4,3237,21,0.053,MQTT,139,19.7,33,80,txn_230,failed,block_7145,node_1,failed,3,51,0.87,0.06,3
+2020-01-01 19:10:00,device_1,2.44,heater,Zone 1,3579,49,0.041,HTTP,142,21.0,42,92,txn_231,confirmed,block_2621,node_1,successful,2,79,0.77,0.12,1
+2020-01-01 19:15:00,device_4,2.39,heater,Zone 2,2659,6,0.063,FTP,133,30.0,71,95,txn_232,pending,block_4718,node_3,successful,2,181,0.88,0.19,1
+2020-01-01 19:20:00,device_1,0.8,light bulb,Zone 1,1779,41,0.091,MQTT,135,21.1,54,3,txn_233,failed,block_8850,node_2,failed,2,82,0.74,0.19,2
+2020-01-01 19:25:00,device_5,2.32,smart appliance,Zone 2,1772,37,0.093,HTTP,121,34.2,40,45,txn_234,failed,block_4618,node_3,successful,2,161,0.74,0.03,3
+2020-01-01 19:30:00,device_3,3.6,air conditioner,Zone 1,912,39,0.097,MQTT,70,25.1,36,52,txn_235,pending,block_6695,node_3,successful,3,262,0.81,0.13,3
+2020-01-01 19:35:00,device_2,3.28,heater,Zone 3,621,33,0.004,HTTP,122,29.5,71,22,txn_236,confirmed,block_9875,node_2,successful,5,97,0.86,0.16,3
+2020-01-01 19:40:00,device_1,0.47,light bulb,Zone 5,1460,44,0.068,FTP,123,26.0,59,14,txn_237,pending,block_7098,node_1,successful,5,106,0.78,0.03,2
+2020-01-01 19:45:00,device_1,1.77,air conditioner,Zone 2,4326,16,0.096,CoAP,132,23.0,36,50,txn_238,confirmed,block_6132,node_3,failed,4,50,0.79,0.13,1
+2020-01-01 19:50:00,device_3,0.43,air conditioner,Zone 1,1579,44,0.035,CoAP,142,23.8,78,55,txn_239,confirmed,block_3740,node_3,failed,3,67,0.93,0.15,2
+2020-01-01 19:55:00,device_2,3.53,light bulb,Zone 4,4084,19,0.098,HTTP,147,19.8,45,38,txn_240,pending,block_8860,node_3,successful,5,100,0.72,0.05,3
+2020-01-01 20:00:00,device_4,2.29,smart appliance,Zone 4,468,29,0.008,CoAP,148,21.2,64,24,txn_241,pending,block_8039,node_2,successful,3,249,0.85,0.17,1
+2020-01-01 20:05:00,device_5,2.04,smart appliance,Zone 1,1349,18,0.033,CoAP,129,34.2,45,50,txn_242,failed,block_4635,node_3,failed,1,65,0.79,0.11,2
+2020-01-01 20:10:00,device_2,4.23,heater,Zone 2,834,39,0.087,FTP,50,31.6,79,22,txn_243,failed,block_1071,node_2,successful,3,83,0.83,0.17,1
+2020-01-01 20:15:00,device_4,2.35,fan,Zone 5,748,16,0.062,HTTP,67,29.8,57,31,txn_244,confirmed,block_4706,node_2,failed,2,118,0.91,0.09,3
+2020-01-01 20:20:00,device_2,4.98,light bulb,Zone 3,2330,50,0.085,MQTT,87,22.9,33,11,txn_245,confirmed,block_1482,node_1,failed,4,226,0.94,0.14,3
+2020-01-01 20:25:00,device_5,0.23,light bulb,Zone 1,1875,15,0.075,FTP,84,24.1,78,51,txn_246,confirmed,block_6822,node_2,successful,4,272,0.71,0.03,2
+2020-01-01 20:30:00,device_5,3.97,air conditioner,Zone 1,4468,29,0.08,HTTP,132,32.0,68,58,txn_247,confirmed,block_4750,node_3,failed,3,236,0.78,0.06,3
+2020-01-01 20:35:00,device_3,3.1,air conditioner,Zone 1,2379,18,0.094,MQTT,75,25.8,71,36,txn_248,confirmed,block_2715,node_2,successful,5,58,0.88,0.17,3
+2020-01-01 20:40:00,device_2,1.98,fan,Zone 4,1517,11,0.075,FTP,114,27.1,78,45,txn_249,pending,block_9554,node_2,successful,4,267,0.87,0.04,3
+2020-01-01 20:45:00,device_5,4.81,heater,Zone 5,3609,17,0.031,MQTT,71,34.5,44,26,txn_250,failed,block_3434,node_1,failed,4,192,0.76,0.04,2
+2020-01-01 20:50:00,device_4,1.15,heater,Zone 5,381,16,0.029,CoAP,122,29.1,35,6,txn_251,confirmed,block_1657,node_2,successful,4,107,0.7,0.18,2
+2020-01-01 20:55:00,device_1,4.98,air conditioner,Zone 3,4408,13,0.026,FTP,106,17.7,65,55,txn_252,failed,block_5772,node_1,failed,1,101,0.75,0.11,1
+2020-01-01 21:00:00,device_2,2.92,fan,Zone 4,4774,40,0.024,FTP,150,16.2,58,45,txn_253,pending,block_7607,node_1,failed,5,207,0.73,0.2,1
+2020-01-01 21:05:00,device_2,4.88,air conditioner,Zone 1,4866,29,0.084,CoAP,103,26.1,58,38,txn_254,confirmed,block_3399,node_2,failed,1,230,0.81,0.08,2
+2020-01-01 21:10:00,device_4,1.97,fan,Zone 4,3590,19,0.041,FTP,114,29.3,63,46,txn_255,failed,block_7177,node_3,failed,5,53,0.85,0.13,2
+2020-01-01 21:15:00,device_5,4.87,light bulb,Zone 1,3542,40,0.06,MQTT,122,32.1,67,78,txn_256,failed,block_5758,node_3,successful,5,177,0.72,0.11,1
+2020-01-01 21:20:00,device_5,2.71,light bulb,Zone 5,3073,12,0.054,CoAP,148,21.8,48,86,txn_257,confirmed,block_8661,node_1,failed,1,45,0.93,0.04,3
+2020-01-01 21:25:00,device_3,0.43,air conditioner,Zone 4,4839,23,0.009,MQTT,88,31.5,54,70,txn_258,confirmed,block_6216,node_1,successful,1,46,0.76,0.01,3
+2020-01-01 21:30:00,device_3,2.36,air conditioner,Zone 3,850,29,0.07,HTTP,73,34.3,72,90,txn_259,pending,block_7370,node_3,successful,1,135,0.79,0.08,3
+2020-01-01 21:35:00,device_5,1.94,smart appliance,Zone 1,4064,28,0.089,MQTT,62,20.8,74,40,txn_260,confirmed,block_7751,node_1,failed,4,294,0.85,0.18,3
+2020-01-01 21:40:00,device_4,3.73,light bulb,Zone 4,4082,33,0.003,CoAP,138,21.5,30,48,txn_261,failed,block_7210,node_2,failed,1,198,0.84,0.12,2
+2020-01-01 21:45:00,device_5,4.28,air conditioner,Zone 4,2985,5,0.035,MQTT,104,16.9,53,94,txn_262,pending,block_3001,node_2,failed,4,237,0.72,0.03,3
+2020-01-01 21:50:00,device_4,4.56,light bulb,Zone 2,4177,15,0.008,CoAP,115,24.3,46,20,txn_263,failed,block_1021,node_1,failed,2,137,0.88,0.11,2
+2020-01-01 21:55:00,device_2,3.48,heater,Zone 2,4524,20,0.059,HTTP,142,20.3,80,15,txn_264,failed,block_6887,node_1,successful,2,88,0.92,0.06,2
+2020-01-01 22:00:00,device_2,3.37,smart appliance,Zone 4,829,12,0.011,HTTP,138,30.4,44,12,txn_265,pending,block_8757,node_3,successful,2,259,0.91,0.11,1
+2020-01-01 22:05:00,device_1,2.73,heater,Zone 3,1213,35,0.028,HTTP,57,32.6,64,34,txn_266,confirmed,block_1433,node_3,failed,1,32,0.85,0.1,2
+2020-01-01 22:10:00,device_1,3.98,air conditioner,Zone 2,3329,30,0.001,HTTP,111,24.3,76,12,txn_267,confirmed,block_8799,node_2,successful,2,191,0.88,0.13,3
+2020-01-01 22:15:00,device_5,4.93,heater,Zone 2,2625,25,0.054,MQTT,127,16.5,73,55,txn_268,failed,block_6273,node_3,failed,3,164,0.83,0.12,1
+2020-01-01 22:20:00,device_1,3.63,air conditioner,Zone 1,1181,21,0.1,FTP,54,23.0,40,23,txn_269,failed,block_7211,node_1,successful,5,297,0.81,0.09,2
+2020-01-01 22:25:00,device_2,4.55,fan,Zone 5,2509,29,0.06,CoAP,101,35.0,44,96,txn_270,confirmed,block_9135,node_3,failed,2,110,0.71,0.14,3
+2020-01-01 22:30:00,device_5,1.37,air conditioner,Zone 3,4066,34,0.076,FTP,138,33.7,64,50,txn_271,failed,block_6855,node_2,successful,4,172,0.93,0.09,2
+2020-01-01 22:35:00,device_5,2.71,air conditioner,Zone 3,245,17,0.041,CoAP,90,31.9,36,57,txn_272,confirmed,block_1213,node_2,failed,4,254,0.84,0.18,1
+2020-01-01 22:40:00,device_1,1.07,smart appliance,Zone 5,2920,36,0.035,HTTP,98,18.9,70,16,txn_273,confirmed,block_4185,node_1,successful,1,288,0.81,0.1,3
+2020-01-01 22:45:00,device_2,0.14,heater,Zone 5,313,29,0.091,HTTP,71,20.0,47,18,txn_274,failed,block_5952,node_3,failed,4,88,0.83,0.04,2
+2020-01-01 22:50:00,device_1,2.09,smart appliance,Zone 5,3179,13,0.093,CoAP,146,18.9,35,37,txn_275,confirmed,block_6287,node_1,successful,5,162,0.82,0.05,3
+2020-01-01 22:55:00,device_2,3.47,fan,Zone 3,2486,13,0.067,CoAP,147,28.7,63,36,txn_276,pending,block_5096,node_3,successful,3,265,0.71,0.2,1
+2020-01-01 23:00:00,device_4,3.39,light bulb,Zone 2,430,13,0.049,FTP,109,31.0,78,79,txn_277,failed,block_6290,node_2,successful,3,84,0.92,0.08,2
+2020-01-01 23:05:00,device_1,4.6,smart appliance,Zone 5,805,12,0.012,FTP,117,32.6,70,72,txn_278,confirmed,block_6722,node_1,successful,1,277,0.93,0.17,1
+2020-01-01 23:10:00,device_5,3.64,fan,Zone 4,1214,16,0.049,MQTT,53,25.3,43,14,txn_279,confirmed,block_9474,node_1,failed,4,67,0.76,0.11,2
+2020-01-01 23:15:00,device_5,4.95,smart appliance,Zone 2,458,43,0.013,FTP,69,33.2,77,64,txn_280,failed,block_5819,node_3,failed,1,251,0.85,0.18,3
+2020-01-01 23:20:00,device_4,1.88,light bulb,Zone 5,1614,32,0.012,HTTP,76,30.8,49,21,txn_281,failed,block_4299,node_3,successful,1,204,0.79,0.07,1
+2020-01-01 23:25:00,device_1,1.38,smart appliance,Zone 5,258,39,0.062,CoAP,62,34.0,59,39,txn_282,failed,block_9380,node_1,failed,2,78,0.75,0.17,3
+2020-01-01 23:30:00,device_2,0.81,smart appliance,Zone 4,1260,5,0.068,MQTT,95,22.1,77,28,txn_283,confirmed,block_5461,node_1,failed,3,196,0.85,0.15,1
+2020-01-01 23:35:00,device_1,1.18,smart appliance,Zone 1,3171,18,0.006,HTTP,140,16.2,61,1,txn_284,failed,block_3719,node_1,failed,3,221,0.86,0.17,3
+2020-01-01 23:40:00,device_3,3.66,fan,Zone 4,4736,44,0.001,MQTT,100,19.2,31,17,txn_285,failed,block_1562,node_1,failed,3,169,0.88,0.17,3
+2020-01-01 23:45:00,device_2,3.52,heater,Zone 3,828,50,0.086,CoAP,146,23.1,44,32,txn_286,pending,block_8138,node_3,successful,1,167,0.95,0.14,3
+2020-01-01 23:50:00,device_4,2.14,smart appliance,Zone 5,1402,45,0.04,CoAP,102,26.2,46,40,txn_287,failed,block_4292,node_3,failed,3,33,0.78,0.14,1
+2020-01-01 23:55:00,device_1,2.1,air conditioner,Zone 2,393,25,0.079,CoAP,146,29.0,71,2,txn_288,pending,block_2975,node_2,failed,5,137,0.75,0.03,3
+2020-01-02 00:00:00,device_5,3.13,heater,Zone 2,1386,19,0.076,FTP,77,23.7,67,65,txn_289,confirmed,block_3919,node_3,successful,2,205,0.76,0.02,2
+2020-01-02 00:05:00,device_4,1.47,heater,Zone 2,1056,29,0.046,FTP,61,18.3,63,53,txn_290,pending,block_2677,node_1,successful,2,188,0.91,0.08,2
+2020-01-02 00:10:00,device_3,2.45,light bulb,Zone 5,471,22,0.097,FTP,72,28.5,76,58,txn_291,confirmed,block_8394,node_1,failed,1,95,0.79,0.15,3
+2020-01-02 00:15:00,device_4,1.92,smart appliance,Zone 2,1553,25,0.07,CoAP,52,16.2,68,50,txn_292,pending,block_8389,node_1,successful,5,162,0.94,0.02,2
+2020-01-02 00:20:00,device_2,4.25,light bulb,Zone 1,3114,9,0.037,FTP,145,19.3,77,2,txn_293,confirmed,block_5347,node_1,successful,1,155,0.88,0.16,2
+2020-01-02 00:25:00,device_3,1.92,light bulb,Zone 4,4050,44,0.075,MQTT,92,18.3,38,59,txn_294,pending,block_1898,node_1,failed,5,282,0.79,0.03,2
+2020-01-02 00:30:00,device_3,3.18,fan,Zone 3,3993,18,0.075,CoAP,54,26.1,49,3,txn_295,confirmed,block_7173,node_2,failed,4,238,0.91,0.18,1
+2020-01-02 00:35:00,device_3,3.03,fan,Zone 1,1961,10,0.024,HTTP,80,23.3,56,18,txn_296,failed,block_8899,node_1,successful,1,214,0.82,0.16,1
+2020-01-02 00:40:00,device_1,0.67,smart appliance,Zone 3,1261,41,0.083,HTTP,73,25.3,52,65,txn_297,failed,block_7252,node_1,failed,1,204,0.85,0.07,1
+2020-01-02 00:45:00,device_1,0.63,light bulb,Zone 1,1306,34,0.028,CoAP,101,18.5,44,13,txn_298,confirmed,block_7959,node_3,successful,5,284,0.87,0.02,3
+2020-01-02 00:50:00,device_5,2.06,light bulb,Zone 3,991,27,0.07,HTTP,67,24.0,63,83,txn_299,pending,block_6850,node_2,successful,4,115,0.86,0.13,2
+2020-01-02 00:55:00,device_3,0.66,air conditioner,Zone 2,2242,47,0.03,MQTT,85,30.4,34,2,txn_300,failed,block_7558,node_1,successful,5,122,0.78,0.05,2
+2020-01-02 01:00:00,device_2,3.03,heater,Zone 3,2825,26,0.035,HTTP,76,32.8,73,16,txn_301,confirmed,block_1457,node_1,failed,1,252,0.86,0.19,1
+2020-01-02 01:05:00,device_1,1.23,light bulb,Zone 4,3442,23,0.079,HTTP,117,19.7,33,49,txn_302,pending,block_9915,node_2,successful,2,77,0.87,0.02,2
+2020-01-02 01:10:00,device_4,0.76,heater,Zone 4,412,46,0.017,MQTT,95,18.1,44,45,txn_303,failed,block_3747,node_1,successful,5,103,0.86,0.11,2
+2020-01-02 01:15:00,device_4,0.99,heater,Zone 1,104,42,0.022,HTTP,66,29.0,64,72,txn_304,failed,block_3254,node_3,successful,4,296,0.79,0.11,3
+2020-01-02 01:20:00,device_5,0.82,fan,Zone 5,3243,20,0.07,CoAP,128,28.3,55,93,txn_305,confirmed,block_5183,node_1,successful,2,202,0.81,0.08,3
+2020-01-02 01:25:00,device_1,1.39,fan,Zone 1,2161,20,0.043,HTTP,78,34.0,41,28,txn_306,confirmed,block_5193,node_2,successful,5,35,0.95,0.13,2
+2020-01-02 01:30:00,device_1,2.18,light bulb,Zone 3,1141,24,0.085,FTP,95,31.4,62,36,txn_307,confirmed,block_1287,node_1,successful,3,72,0.81,0.07,2
+2020-01-02 01:35:00,device_3,3.55,heater,Zone 4,881,36,0.08,FTP,137,21.7,30,2,txn_308,failed,block_3452,node_2,failed,5,178,0.75,0.08,2
+2020-01-02 01:40:00,device_4,2.68,smart appliance,Zone 4,2602,21,0.091,MQTT,67,25.5,79,29,txn_309,failed,block_2877,node_2,failed,1,139,0.74,0.07,3
+2020-01-02 01:45:00,device_2,2.84,light bulb,Zone 5,3271,23,0.034,FTP,74,32.0,55,36,txn_310,confirmed,block_5486,node_2,successful,4,70,0.77,0.08,2
+2020-01-02 01:50:00,device_4,2.75,heater,Zone 1,3072,31,0.063,MQTT,86,34.6,37,70,txn_311,pending,block_6738,node_1,successful,3,66,0.92,0.11,3
+2020-01-02 01:55:00,device_4,4.16,heater,Zone 3,1725,46,0.072,HTTP,78,28.0,51,9,txn_312,pending,block_8567,node_2,failed,2,172,0.79,0.09,1
+2020-01-02 02:00:00,device_4,1.59,light bulb,Zone 4,2209,44,0.083,FTP,111,29.0,47,82,txn_313,confirmed,block_3697,node_3,failed,3,187,0.85,0.07,2
+2020-01-02 02:05:00,device_1,0.3,fan,Zone 5,2228,47,0.011,MQTT,117,22.0,48,20,txn_314,pending,block_1468,node_2,failed,4,245,0.91,0.18,1
+2020-01-02 02:10:00,device_3,0.74,heater,Zone 1,3786,18,0.02,HTTP,127,32.1,51,11,txn_315,confirmed,block_1591,node_2,failed,4,148,0.84,0.01,1
+2020-01-02 02:15:00,device_1,4.15,air conditioner,Zone 5,544,29,0.077,MQTT,60,33.6,67,19,txn_316,confirmed,block_2994,node_1,successful,3,113,0.73,0.14,3
+2020-01-02 02:20:00,device_1,3.88,smart appliance,Zone 4,1771,12,0.041,HTTP,120,32.1,75,17,txn_317,confirmed,block_4761,node_1,successful,2,105,0.89,0.15,1
+2020-01-02 02:25:00,device_1,4.02,smart appliance,Zone 4,2590,11,0.028,FTP,128,15.7,60,50,txn_318,confirmed,block_4638,node_2,failed,3,101,0.84,0.05,3
+2020-01-02 02:30:00,device_3,2.27,fan,Zone 4,554,30,0.078,MQTT,116,15.4,79,17,txn_319,failed,block_7739,node_1,failed,5,281,0.8,0.13,1
+2020-01-02 02:35:00,device_5,4.44,heater,Zone 2,2887,32,0.077,MQTT,65,18.4,31,96,txn_320,confirmed,block_1786,node_1,failed,2,121,0.91,0.12,1
+2020-01-02 02:40:00,device_5,1.49,fan,Zone 1,1957,5,0.061,CoAP,89,22.5,42,68,txn_321,confirmed,block_3034,node_1,failed,3,85,0.93,0.07,3
+2020-01-02 02:45:00,device_4,2.45,smart appliance,Zone 3,3099,5,0.015,MQTT,73,16.5,56,58,txn_322,confirmed,block_3229,node_2,failed,1,209,0.75,0.06,1
+2020-01-02 02:50:00,device_1,1.2,air conditioner,Zone 1,206,28,0.02,FTP,123,25.4,56,91,txn_323,failed,block_6279,node_2,successful,2,195,0.84,0.04,1
+2020-01-02 02:55:00,device_5,0.47,air conditioner,Zone 4,3062,46,0.087,HTTP,115,33.2,42,75,txn_324,pending,block_6066,node_2,failed,5,144,0.91,0.09,3
+2020-01-02 03:00:00,device_4,3.13,air conditioner,Zone 4,4099,44,0.034,CoAP,143,18.7,38,32,txn_325,pending,block_2287,node_2,successful,2,179,0.74,0.09,2
+2020-01-02 03:05:00,device_5,0.27,air conditioner,Zone 5,510,45,0.012,MQTT,89,24.3,42,77,txn_326,pending,block_4498,node_3,successful,4,189,0.76,0.02,2
+2020-01-02 03:10:00,device_2,1.09,air conditioner,Zone 2,2731,13,0.062,HTTP,125,30.7,30,78,txn_327,confirmed,block_5880,node_3,failed,5,50,0.74,0.08,2
+2020-01-02 03:15:00,device_5,1.84,air conditioner,Zone 4,2347,40,0.032,CoAP,87,22.9,70,76,txn_328,failed,block_4736,node_3,failed,3,294,0.86,0.05,3
+2020-01-02 03:20:00,device_4,2.71,air conditioner,Zone 2,3763,28,0.019,MQTT,64,34.5,54,65,txn_329,confirmed,block_7088,node_2,failed,2,165,0.87,0.2,2
+2020-01-02 03:25:00,device_5,0.89,fan,Zone 5,1674,39,0.012,FTP,128,15.9,80,74,txn_330,pending,block_4324,node_2,failed,5,216,0.91,0.08,1
+2020-01-02 03:30:00,device_1,4.17,air conditioner,Zone 1,4366,44,0.087,CoAP,66,22.9,44,37,txn_331,pending,block_7565,node_1,failed,2,237,0.89,0.19,3
+2020-01-02 03:35:00,device_1,3.64,fan,Zone 2,3003,49,0.058,CoAP,133,22.6,37,14,txn_332,failed,block_3948,node_3,failed,5,122,0.92,0.04,3
+2020-01-02 03:40:00,device_2,0.15,heater,Zone 3,943,22,0.019,FTP,114,24.4,56,82,txn_333,failed,block_4266,node_2,successful,1,139,0.81,0.2,1
+2020-01-02 03:45:00,device_4,0.63,smart appliance,Zone 2,1682,5,0.069,CoAP,120,33.7,78,99,txn_334,failed,block_9301,node_1,successful,2,133,0.81,0.15,2
+2020-01-02 03:50:00,device_3,3.65,heater,Zone 1,2799,46,0.084,CoAP,114,27.2,64,36,txn_335,pending,block_2208,node_2,successful,1,113,0.81,0.11,3
+2020-01-02 03:55:00,device_3,0.27,smart appliance,Zone 2,1777,16,0.016,FTP,72,27.0,30,8,txn_336,failed,block_8861,node_1,successful,5,251,0.93,0.17,3
+2020-01-02 04:00:00,device_2,3.29,smart appliance,Zone 3,4889,40,0.013,MQTT,59,26.8,52,64,txn_337,confirmed,block_1591,node_1,failed,3,145,0.78,0.02,1
+2020-01-02 04:05:00,device_3,4.53,fan,Zone 3,969,16,0.074,FTP,92,22.7,34,75,txn_338,failed,block_2568,node_3,successful,4,249,0.95,0.04,2
+2020-01-02 04:10:00,device_1,0.7,fan,Zone 2,2814,21,0.069,CoAP,98,26.2,71,29,txn_339,pending,block_2247,node_2,failed,3,260,0.82,0.12,2
+2020-01-02 04:15:00,device_2,0.65,light bulb,Zone 1,4005,6,0.032,CoAP,125,24.3,36,90,txn_340,failed,block_9990,node_2,failed,2,198,0.89,0.06,1
+2020-01-02 04:20:00,device_3,1.95,heater,Zone 1,1238,21,0.051,FTP,97,34.0,71,41,txn_341,confirmed,block_3868,node_2,failed,1,253,0.82,0.09,1
+2020-01-02 04:25:00,device_3,4.54,smart appliance,Zone 2,3734,37,0.1,MQTT,74,25.4,58,26,txn_342,confirmed,block_2847,node_3,failed,1,161,0.73,0.19,1
+2020-01-02 04:30:00,device_1,1.52,smart appliance,Zone 3,2844,49,0.023,HTTP,117,34.8,63,9,txn_343,failed,block_4001,node_3,failed,2,239,0.7,0.03,1
+2020-01-02 04:35:00,device_3,2.49,air conditioner,Zone 5,4293,8,0.012,HTTP,142,26.9,68,62,txn_344,failed,block_5240,node_1,failed,5,129,0.86,0.2,3
+2020-01-02 04:40:00,device_2,1.42,heater,Zone 2,2629,37,0.057,HTTP,64,20.8,32,35,txn_345,confirmed,block_9946,node_2,successful,4,200,0.83,0.02,2
+2020-01-02 04:45:00,device_1,1.23,light bulb,Zone 2,865,6,0.07,MQTT,56,17.2,57,62,txn_346,failed,block_6755,node_3,successful,4,263,0.94,0.02,2
+2020-01-02 04:50:00,device_4,1.21,fan,Zone 2,4560,50,0.009,FTP,109,34.6,75,97,txn_347,confirmed,block_8877,node_2,successful,5,250,0.93,0.14,1
+2020-01-02 04:55:00,device_4,2.03,fan,Zone 5,2468,29,0.087,FTP,134,20.9,65,0,txn_348,pending,block_3169,node_2,failed,3,87,0.86,0.07,3
+2020-01-02 05:00:00,device_1,3.57,light bulb,Zone 1,903,33,0.034,MQTT,104,26.7,62,35,txn_349,failed,block_5220,node_3,successful,5,134,0.93,0.1,3
+2020-01-02 05:05:00,device_1,1.09,light bulb,Zone 5,4786,43,0.035,MQTT,144,29.4,45,11,txn_350,failed,block_6560,node_2,successful,1,251,0.94,0.16,2
+2020-01-02 05:10:00,device_3,3.97,air conditioner,Zone 3,4693,47,0.08,CoAP,111,21.4,47,86,txn_351,confirmed,block_3000,node_2,successful,1,148,0.84,0.17,1
+2020-01-02 05:15:00,device_2,0.65,fan,Zone 5,1495,33,0.096,MQTT,142,15.5,37,16,txn_352,confirmed,block_3042,node_3,successful,5,49,0.84,0.05,2
+2020-01-02 05:20:00,device_2,2.5,light bulb,Zone 2,4313,41,0.053,HTTP,128,22.0,42,44,txn_353,confirmed,block_7161,node_3,successful,1,114,0.72,0.13,3
+2020-01-02 05:25:00,device_5,1.54,heater,Zone 3,1523,31,0.086,MQTT,148,16.5,62,89,txn_354,failed,block_1916,node_1,failed,5,291,0.72,0.05,3
+2020-01-02 05:30:00,device_2,1.95,light bulb,Zone 2,4431,47,0.039,FTP,130,16.5,61,57,txn_355,confirmed,block_1543,node_1,failed,2,59,0.72,0.07,2
+2020-01-02 05:35:00,device_3,1.73,fan,Zone 3,1151,8,0.014,HTTP,133,17.1,67,28,txn_356,confirmed,block_2496,node_2,failed,4,287,0.91,0.08,3
+2020-01-02 05:40:00,device_1,0.18,air conditioner,Zone 3,3214,8,0.01,MQTT,107,27.3,61,51,txn_357,confirmed,block_1275,node_2,successful,4,112,0.77,0.02,3
+2020-01-02 05:45:00,device_2,3.1,heater,Zone 4,951,27,0.099,CoAP,55,34.0,70,87,txn_358,confirmed,block_2674,node_2,successful,3,130,0.71,0.17,2
+2020-01-02 05:50:00,device_4,0.13,fan,Zone 4,1900,8,0.082,FTP,129,33.3,52,51,txn_359,confirmed,block_9027,node_2,failed,1,240,0.81,0.1,1
+2020-01-02 05:55:00,device_1,1.97,air conditioner,Zone 4,740,30,0.073,FTP,141,25.7,80,88,txn_360,confirmed,block_5975,node_1,failed,5,242,0.89,0.04,3
+2020-01-02 06:00:00,device_2,2.74,fan,Zone 3,2845,5,0.099,FTP,106,26.9,38,70,txn_361,failed,block_9601,node_1,failed,5,107,0.74,0.04,1
+2020-01-02 06:05:00,device_1,0.19,smart appliance,Zone 1,3056,33,0.097,FTP,71,33.6,61,21,txn_362,pending,block_7450,node_2,successful,4,286,0.91,0.09,2
+2020-01-02 06:10:00,device_5,0.86,heater,Zone 3,4085,14,0.061,CoAP,78,28.1,36,83,txn_363,confirmed,block_3237,node_2,successful,1,180,0.87,0.16,3
+2020-01-02 06:15:00,device_1,2.89,heater,Zone 4,2977,37,0.089,FTP,103,17.1,73,86,txn_364,pending,block_7576,node_1,successful,4,95,0.77,0.19,2
+2020-01-02 06:20:00,device_3,3.18,light bulb,Zone 4,1632,26,0.093,FTP,89,22.1,60,85,txn_365,confirmed,block_5582,node_1,failed,1,119,0.74,0.01,3
+2020-01-02 06:25:00,device_1,3.54,smart appliance,Zone 4,4721,50,0.027,FTP,74,19.3,63,46,txn_366,pending,block_4100,node_3,failed,3,74,0.72,0.08,3
+2020-01-02 06:30:00,device_3,1.99,light bulb,Zone 5,1913,41,0.07,MQTT,130,23.2,66,1,txn_367,confirmed,block_5698,node_3,failed,1,64,0.92,0.05,3
+2020-01-02 06:35:00,device_2,4.27,air conditioner,Zone 5,4083,49,0.006,FTP,125,21.2,63,3,txn_368,failed,block_6942,node_2,failed,3,280,0.79,0.19,3
+2020-01-02 06:40:00,device_3,2.27,smart appliance,Zone 4,1818,22,0.012,FTP,150,25.3,63,16,txn_369,pending,block_1471,node_3,successful,5,123,0.74,0.02,2
+2020-01-02 06:45:00,device_4,0.18,light bulb,Zone 2,141,33,0.083,MQTT,64,17.4,61,90,txn_370,failed,block_4863,node_2,failed,3,83,0.92,0.12,3
+2020-01-02 06:50:00,device_5,1.11,light bulb,Zone 3,2721,35,0.05,HTTP,63,34.1,51,24,txn_371,failed,block_8601,node_2,failed,4,156,0.92,0.12,2
+2020-01-02 06:55:00,device_4,1.73,light bulb,Zone 4,2305,16,0.007,MQTT,69,19.7,62,50,txn_372,failed,block_8575,node_1,failed,5,241,0.82,0.2,2
+2020-01-02 07:00:00,device_2,2.92,air conditioner,Zone 4,1363,36,0.044,CoAP,129,17.8,50,99,txn_373,confirmed,block_2827,node_2,failed,2,54,0.72,0.09,1
+2020-01-02 07:05:00,device_5,1.38,air conditioner,Zone 2,3640,29,0.026,HTTP,68,17.3,75,44,txn_374,confirmed,block_9844,node_3,failed,2,47,0.95,0.09,1
+2020-01-02 07:10:00,device_4,0.71,light bulb,Zone 2,1568,42,0.009,FTP,59,30.3,51,50,txn_375,pending,block_9190,node_1,successful,1,190,0.75,0.11,3
+2020-01-02 07:15:00,device_1,3.13,air conditioner,Zone 5,2464,35,0.034,FTP,97,16.9,41,29,txn_376,confirmed,block_4713,node_2,successful,3,149,0.78,0.06,3
+2020-01-02 07:20:00,device_1,3.43,fan,Zone 3,1514,12,0.01,CoAP,78,24.4,63,42,txn_377,failed,block_2733,node_3,failed,5,170,0.87,0.15,1
+2020-01-02 07:25:00,device_5,4.84,fan,Zone 3,2923,29,0.035,CoAP,54,31.8,73,78,txn_378,pending,block_4635,node_3,successful,5,48,0.91,0.05,2
+2020-01-02 07:30:00,device_5,4.83,air conditioner,Zone 1,1428,32,0.051,FTP,78,16.8,76,28,txn_379,confirmed,block_8436,node_1,successful,3,214,0.89,0.11,1
+2020-01-02 07:35:00,device_4,2.64,heater,Zone 3,1890,37,0.0,HTTP,141,16.7,75,73,txn_380,failed,block_2945,node_2,successful,3,252,0.93,0.01,2
+2020-01-02 07:40:00,device_4,3.56,air conditioner,Zone 3,557,40,0.083,HTTP,52,33.2,69,23,txn_381,confirmed,block_8569,node_3,failed,1,123,0.92,0.07,1
+2020-01-02 07:45:00,device_4,4.95,fan,Zone 3,1606,24,0.071,MQTT,89,24.2,59,31,txn_382,confirmed,block_3143,node_2,failed,1,72,0.87,0.06,3
+2020-01-02 07:50:00,device_3,3.65,heater,Zone 5,1216,22,0.064,CoAP,113,16.6,65,98,txn_383,failed,block_8339,node_3,successful,1,121,0.9,0.02,3
+2020-01-02 07:55:00,device_1,3.79,smart appliance,Zone 3,4163,11,0.03,FTP,51,30.6,31,78,txn_384,pending,block_2761,node_1,failed,1,116,0.86,0.15,3
+2020-01-02 08:00:00,device_1,3.43,heater,Zone 1,4080,7,0.018,HTTP,97,15.4,63,11,txn_385,failed,block_9656,node_2,successful,5,98,0.87,0.14,1
+2020-01-02 08:05:00,device_1,2.47,light bulb,Zone 1,3408,20,0.088,MQTT,93,17.8,38,78,txn_386,confirmed,block_3434,node_1,successful,2,222,0.9,0.03,2
+2020-01-02 08:10:00,device_4,2.81,smart appliance,Zone 1,180,20,0.033,MQTT,144,27.6,50,9,txn_387,pending,block_7932,node_2,failed,4,220,0.79,0.1,1
+2020-01-02 08:15:00,device_3,1.89,air conditioner,Zone 5,3313,32,0.046,FTP,146,24.2,77,70,txn_388,confirmed,block_1482,node_3,failed,1,173,0.75,0.06,3
+2020-01-02 08:20:00,device_3,1.84,heater,Zone 5,3194,28,0.059,MQTT,51,18.0,70,64,txn_389,confirmed,block_9933,node_3,successful,3,65,0.81,0.19,3
+2020-01-02 08:25:00,device_2,0.39,smart appliance,Zone 3,3668,39,0.06,MQTT,56,16.5,31,87,txn_390,pending,block_5153,node_1,successful,4,270,0.86,0.17,2
+2020-01-02 08:30:00,device_3,4.81,light bulb,Zone 2,3221,20,0.078,HTTP,124,18.1,63,21,txn_391,confirmed,block_4310,node_1,successful,3,96,0.93,0.14,1
+2020-01-02 08:35:00,device_2,0.45,air conditioner,Zone 5,764,26,0.062,FTP,81,28.7,44,90,txn_392,pending,block_3206,node_3,successful,4,131,0.89,0.09,1
+2020-01-02 08:40:00,device_5,3.86,heater,Zone 3,3987,45,0.075,CoAP,148,34.2,60,62,txn_393,failed,block_4653,node_1,failed,1,46,0.88,0.12,1
+2020-01-02 08:45:00,device_2,4.95,smart appliance,Zone 2,1361,19,0.039,CoAP,115,18.6,35,3,txn_394,pending,block_3062,node_1,successful,2,187,0.88,0.06,3
+2020-01-02 08:50:00,device_5,2.41,light bulb,Zone 1,4651,33,0.099,FTP,133,22.6,46,65,txn_395,confirmed,block_7495,node_3,failed,1,133,0.71,0.04,3
+2020-01-02 08:55:00,device_3,1.91,air conditioner,Zone 2,4459,50,0.038,HTTP,94,27.8,78,77,txn_396,confirmed,block_1440,node_2,failed,1,42,0.81,0.14,2
+2020-01-02 09:00:00,device_1,3.4,fan,Zone 3,2101,19,0.015,CoAP,142,21.4,64,28,txn_397,confirmed,block_7171,node_2,successful,4,286,0.83,0.16,1
+2020-01-02 09:05:00,device_1,0.37,light bulb,Zone 2,2205,39,0.006,MQTT,84,21.8,60,46,txn_398,failed,block_4632,node_1,successful,5,221,0.77,0.09,1
+2020-01-02 09:10:00,device_1,4.41,fan,Zone 5,1476,32,0.009,HTTP,75,17.0,51,84,txn_399,confirmed,block_6425,node_2,failed,2,224,0.72,0.14,1
+2020-01-02 09:15:00,device_5,3.25,light bulb,Zone 3,1737,15,0.013,FTP,61,25.9,69,73,txn_400,confirmed,block_7134,node_2,failed,2,254,0.72,0.19,1
+2020-01-02 09:20:00,device_1,4.3,smart appliance,Zone 3,2398,33,0.09,CoAP,61,32.6,75,16,txn_401,failed,block_2871,node_3,failed,2,290,0.74,0.07,1
+2020-01-02 09:25:00,device_1,3.27,fan,Zone 1,2236,39,0.068,CoAP,92,28.2,76,47,txn_402,pending,block_6198,node_3,failed,2,129,0.94,0.19,3
+2020-01-02 09:30:00,device_4,3.48,air conditioner,Zone 4,4106,44,0.1,CoAP,93,30.8,41,88,txn_403,failed,block_3754,node_1,failed,1,140,0.95,0.08,1
+2020-01-02 09:35:00,device_1,2.59,heater,Zone 2,701,26,0.068,HTTP,68,22.9,63,82,txn_404,failed,block_2402,node_2,successful,5,237,0.73,0.14,1
+2020-01-02 09:40:00,device_5,3.73,heater,Zone 1,4847,39,0.008,HTTP,106,32.7,43,18,txn_405,confirmed,block_6228,node_2,successful,2,32,0.72,0.08,1
+2020-01-02 09:45:00,device_1,2.23,heater,Zone 1,773,23,0.028,HTTP,50,33.3,32,33,txn_406,failed,block_8084,node_3,failed,2,149,0.85,0.04,1
+2020-01-02 09:50:00,device_4,2.36,air conditioner,Zone 2,3659,34,0.023,FTP,96,22.2,32,80,txn_407,pending,block_3878,node_2,successful,5,273,0.73,0.18,3
+2020-01-02 09:55:00,device_1,2.4,fan,Zone 5,444,33,0.044,FTP,121,19.9,68,80,txn_408,failed,block_8347,node_1,successful,1,118,0.88,0.01,2
+2020-01-02 10:00:00,device_2,3.43,light bulb,Zone 1,2102,28,0.044,FTP,149,24.5,42,90,txn_409,failed,block_6063,node_1,failed,4,290,0.79,0.19,2
+2020-01-02 10:05:00,device_5,1.47,smart appliance,Zone 5,3936,48,0.023,MQTT,104,23.1,64,76,txn_410,confirmed,block_6675,node_1,failed,1,70,0.86,0.01,2
+2020-01-02 10:10:00,device_3,3.44,air conditioner,Zone 5,1242,49,0.033,MQTT,137,21.2,76,61,txn_411,pending,block_9299,node_1,failed,3,130,0.81,0.17,1
+2020-01-02 10:15:00,device_1,3.74,smart appliance,Zone 3,2973,44,0.064,CoAP,115,21.3,74,67,txn_412,confirmed,block_7118,node_1,failed,2,197,0.75,0.08,1
+2020-01-02 10:20:00,device_2,3.44,light bulb,Zone 4,2025,28,0.038,CoAP,111,16.8,58,4,txn_413,pending,block_4305,node_2,failed,3,145,0.86,0.1,2
+2020-01-02 10:25:00,device_5,3.93,fan,Zone 1,4491,29,0.047,MQTT,101,32.8,75,88,txn_414,confirmed,block_2677,node_2,successful,2,119,0.8,0.18,2
+2020-01-02 10:30:00,device_4,3.38,heater,Zone 1,1153,41,0.001,CoAP,124,31.8,64,6,txn_415,pending,block_9125,node_3,failed,2,103,0.87,0.17,3
+2020-01-02 10:35:00,device_3,0.11,smart appliance,Zone 3,1417,45,0.067,MQTT,125,24.3,69,9,txn_416,failed,block_3450,node_1,failed,1,68,0.72,0.01,1
+2020-01-02 10:40:00,device_1,1.66,heater,Zone 4,1556,38,0.061,HTTP,69,19.2,65,17,txn_417,confirmed,block_8497,node_1,failed,5,222,0.81,0.11,2
+2020-01-02 10:45:00,device_3,2.96,air conditioner,Zone 4,1532,7,0.088,HTTP,141,24.4,52,6,txn_418,failed,block_7489,node_3,successful,2,223,0.77,0.13,2
+2020-01-02 10:50:00,device_4,1.73,light bulb,Zone 4,800,37,0.063,HTTP,91,16.0,64,95,txn_419,failed,block_9700,node_2,failed,4,235,0.83,0.14,2
+2020-01-02 10:55:00,device_5,1.36,smart appliance,Zone 1,1485,36,0.041,MQTT,52,28.3,39,8,txn_420,confirmed,block_4242,node_1,failed,4,68,0.78,0.17,3
+2020-01-02 11:00:00,device_3,1.87,fan,Zone 4,204,11,0.053,FTP,79,24.9,64,16,txn_421,confirmed,block_8120,node_2,failed,4,104,0.81,0.04,2
+2020-01-02 11:05:00,device_4,1.83,light bulb,Zone 1,4537,19,0.024,CoAP,57,20.6,30,22,txn_422,confirmed,block_4472,node_1,successful,2,171,0.77,0.19,3
+2020-01-02 11:10:00,device_4,2.84,fan,Zone 4,4517,39,0.018,MQTT,86,18.6,33,40,txn_423,pending,block_7984,node_3,failed,4,244,0.86,0.04,3
+2020-01-02 11:15:00,device_2,4.28,air conditioner,Zone 3,4946,44,0.045,HTTP,150,23.4,59,97,txn_424,confirmed,block_9680,node_1,successful,3,221,0.71,0.02,2
+2020-01-02 11:20:00,device_1,2.57,light bulb,Zone 2,798,22,0.082,FTP,119,22.0,73,95,txn_425,failed,block_8347,node_1,failed,5,44,0.78,0.15,3
+2020-01-02 11:25:00,device_4,1.3,fan,Zone 2,1058,32,0.069,HTTP,145,29.5,47,89,txn_426,failed,block_9368,node_1,failed,3,121,0.92,0.16,2
+2020-01-02 11:30:00,device_4,1.25,smart appliance,Zone 1,4396,29,0.067,CoAP,68,24.7,65,22,txn_427,failed,block_9492,node_3,successful,2,219,0.7,0.15,1
+2020-01-02 11:35:00,device_3,3.52,heater,Zone 3,2694,6,0.039,CoAP,101,32.3,58,97,txn_428,pending,block_7975,node_3,successful,5,111,0.81,0.19,3
+2020-01-02 11:40:00,device_4,0.53,air conditioner,Zone 3,1110,26,0.009,HTTP,120,23.2,57,44,txn_429,failed,block_2868,node_3,failed,1,118,0.95,0.11,3
+2020-01-02 11:45:00,device_5,3.07,light bulb,Zone 1,2953,43,0.054,FTP,123,21.7,50,41,txn_430,confirmed,block_6470,node_2,successful,5,204,0.7,0.02,1
+2020-01-02 11:50:00,device_4,2.7,light bulb,Zone 2,4318,45,0.018,CoAP,107,28.8,58,84,txn_431,failed,block_9747,node_2,failed,4,174,0.72,0.01,3
+2020-01-02 11:55:00,device_1,0.73,air conditioner,Zone 1,2503,6,0.021,MQTT,87,18.4,31,49,txn_432,failed,block_1260,node_2,successful,4,290,0.93,0.11,2
+2020-01-02 12:00:00,device_5,2.53,fan,Zone 3,761,46,0.007,CoAP,93,25.1,63,68,txn_433,confirmed,block_6224,node_1,successful,1,83,0.81,0.16,3
+2020-01-02 12:05:00,device_2,3.35,light bulb,Zone 1,3757,30,0.054,FTP,89,27.2,70,26,txn_434,pending,block_1505,node_2,successful,3,141,0.89,0.11,1
+2020-01-02 12:10:00,device_3,4.04,smart appliance,Zone 3,393,41,0.011,MQTT,65,25.7,44,11,txn_435,failed,block_5242,node_3,failed,2,139,0.93,0.16,2
+2020-01-02 12:15:00,device_3,4.51,smart appliance,Zone 1,2515,38,0.015,MQTT,64,16.0,52,93,txn_436,failed,block_2106,node_2,successful,3,193,0.87,0.08,2
+2020-01-02 12:20:00,device_1,3.12,heater,Zone 4,2052,36,0.06,MQTT,110,21.9,43,84,txn_437,pending,block_7286,node_3,successful,2,286,0.85,0.02,3
+2020-01-02 12:25:00,device_5,4.31,air conditioner,Zone 5,970,13,0.039,MQTT,105,18.0,76,21,txn_438,confirmed,block_5114,node_3,failed,3,122,0.82,0.1,2
+2020-01-02 12:30:00,device_2,1.21,smart appliance,Zone 2,482,20,0.033,HTTP,71,18.0,76,43,txn_439,pending,block_7889,node_1,successful,3,134,0.75,0.17,3
+2020-01-02 12:35:00,device_2,3.03,fan,Zone 5,422,17,0.079,CoAP,134,26.4,68,100,txn_440,failed,block_3131,node_2,failed,2,91,0.72,0.09,1
+2020-01-02 12:40:00,device_2,1.06,air conditioner,Zone 5,136,13,0.015,FTP,66,22.9,80,29,txn_441,confirmed,block_1286,node_2,failed,1,80,0.77,0.07,2
+2020-01-02 12:45:00,device_5,2.26,smart appliance,Zone 5,4440,11,0.049,FTP,74,33.9,58,13,txn_442,confirmed,block_8781,node_3,successful,4,63,0.76,0.12,2
+2020-01-02 12:50:00,device_5,2.63,fan,Zone 5,687,16,0.08,CoAP,75,25.3,45,0,txn_443,failed,block_7459,node_3,successful,1,37,0.87,0.05,2
+2020-01-02 12:55:00,device_2,4.25,smart appliance,Zone 2,4770,36,0.001,FTP,119,27.6,32,76,txn_444,failed,block_9981,node_1,failed,1,193,0.84,0.05,3
+2020-01-02 13:00:00,device_4,3.2,heater,Zone 5,2319,46,0.021,FTP,131,21.8,75,90,txn_445,pending,block_6890,node_3,successful,4,257,0.86,0.02,1
+2020-01-02 13:05:00,device_1,0.8,air conditioner,Zone 4,4635,45,0.029,HTTP,100,15.5,33,92,txn_446,confirmed,block_4065,node_2,failed,5,298,0.92,0.17,2
+2020-01-02 13:10:00,device_1,3.23,smart appliance,Zone 5,3534,27,0.008,HTTP,90,33.0,57,19,txn_447,confirmed,block_4912,node_3,failed,3,56,0.82,0.17,3
+2020-01-02 13:15:00,device_1,0.6,heater,Zone 4,4933,36,0.035,FTP,131,30.0,72,40,txn_448,confirmed,block_2978,node_3,failed,4,196,0.74,0.15,3
+2020-01-02 13:20:00,device_1,2.19,fan,Zone 4,1126,18,0.032,CoAP,128,31.8,57,51,txn_449,failed,block_8766,node_2,successful,3,91,0.82,0.12,2
+2020-01-02 13:25:00,device_2,3.23,smart appliance,Zone 5,3272,21,0.036,MQTT,56,25.3,68,14,txn_450,pending,block_2005,node_3,failed,2,274,0.88,0.06,2
+2020-01-02 13:30:00,device_3,3.42,light bulb,Zone 1,3592,42,0.026,CoAP,142,27.6,71,85,txn_451,pending,block_6188,node_3,successful,5,152,0.73,0.02,3
+2020-01-02 13:35:00,device_4,1.0,fan,Zone 2,3455,35,0.014,FTP,66,31.6,36,79,txn_452,failed,block_7628,node_3,failed,1,224,0.95,0.08,3
+2020-01-02 13:40:00,device_2,1.7,smart appliance,Zone 5,4515,30,0.063,HTTP,144,32.6,64,65,txn_453,failed,block_2282,node_1,failed,2,169,0.91,0.19,3
+2020-01-02 13:45:00,device_2,1.64,fan,Zone 1,2570,47,0.097,HTTP,122,22.2,72,52,txn_454,confirmed,block_3496,node_1,successful,3,82,0.73,0.09,3
+2020-01-02 13:50:00,device_3,0.89,light bulb,Zone 3,3390,35,0.051,HTTP,74,27.4,61,100,txn_455,pending,block_2870,node_2,successful,5,110,0.94,0.04,3
+2020-01-02 13:55:00,device_4,0.79,air conditioner,Zone 1,2253,9,0.027,FTP,95,17.9,57,23,txn_456,confirmed,block_1109,node_3,failed,4,276,0.77,0.02,3
+2020-01-02 14:00:00,device_1,3.92,light bulb,Zone 4,2114,17,0.035,CoAP,57,30.1,75,35,txn_457,failed,block_4106,node_1,successful,1,289,0.86,0.1,3
+2020-01-02 14:05:00,device_2,2.22,light bulb,Zone 2,485,36,0.092,MQTT,73,31.7,66,66,txn_458,pending,block_2424,node_3,failed,4,220,0.91,0.13,3
+2020-01-02 14:10:00,device_5,4.6,light bulb,Zone 2,1878,8,0.054,CoAP,100,22.8,77,18,txn_459,pending,block_4478,node_2,failed,1,269,0.92,0.18,3
+2020-01-02 14:15:00,device_3,0.14,heater,Zone 2,3095,28,0.039,FTP,63,25.4,67,64,txn_460,pending,block_6163,node_1,successful,1,53,0.71,0.11,1
+2020-01-02 14:20:00,device_3,4.49,smart appliance,Zone 3,2504,33,0.009,MQTT,61,18.5,59,66,txn_461,confirmed,block_4535,node_3,failed,5,99,0.9,0.18,2
+2020-01-02 14:25:00,device_5,4.88,fan,Zone 5,2085,20,0.016,MQTT,95,27.1,63,73,txn_462,pending,block_3517,node_3,failed,1,155,0.85,0.05,3
+2020-01-02 14:30:00,device_5,3.35,light bulb,Zone 4,2222,48,0.032,FTP,103,32.2,51,57,txn_463,pending,block_3403,node_2,successful,1,155,0.81,0.19,1
+2020-01-02 14:35:00,device_2,2.2,smart appliance,Zone 1,572,8,0.026,CoAP,94,22.3,65,76,txn_464,confirmed,block_6136,node_1,failed,5,87,0.95,0.17,3
+2020-01-02 14:40:00,device_5,4.79,light bulb,Zone 3,3911,11,0.07,MQTT,86,30.0,53,55,txn_465,pending,block_9434,node_1,failed,4,80,0.93,0.11,1
+2020-01-02 14:45:00,device_2,1.72,air conditioner,Zone 1,4040,44,0.088,FTP,59,24.8,58,47,txn_466,pending,block_4407,node_2,successful,2,235,0.87,0.02,2
+2020-01-02 14:50:00,device_1,2.48,fan,Zone 2,3038,23,0.082,FTP,59,21.7,42,8,txn_467,confirmed,block_4255,node_1,failed,2,98,0.71,0.08,3
+2020-01-02 14:55:00,device_2,2.15,heater,Zone 3,4127,19,0.045,CoAP,130,32.5,72,27,txn_468,confirmed,block_1210,node_2,failed,5,175,0.93,0.06,3
+2020-01-02 15:00:00,device_4,3.81,light bulb,Zone 2,4335,16,0.029,HTTP,66,30.5,30,13,txn_469,failed,block_1610,node_1,successful,4,81,0.89,0.06,2
+2020-01-02 15:05:00,device_5,3.94,fan,Zone 1,2749,32,0.019,MQTT,131,24.3,75,5,txn_470,failed,block_8962,node_1,successful,1,91,0.78,0.12,3
+2020-01-02 15:10:00,device_2,0.58,smart appliance,Zone 4,114,31,0.084,MQTT,143,17.2,72,71,txn_471,pending,block_5433,node_1,successful,3,106,0.73,0.06,1
+2020-01-02 15:15:00,device_5,1.33,fan,Zone 2,3829,33,0.028,MQTT,63,32.9,64,51,txn_472,failed,block_8208,node_3,failed,2,143,0.88,0.03,3
+2020-01-02 15:20:00,device_4,3.71,light bulb,Zone 4,1518,7,0.055,FTP,127,18.6,41,30,txn_473,confirmed,block_8820,node_2,failed,4,147,0.91,0.05,2
+2020-01-02 15:25:00,device_2,1.53,fan,Zone 3,4904,21,0.092,CoAP,79,28.5,31,16,txn_474,confirmed,block_8547,node_1,successful,4,231,0.85,0.12,2
+2020-01-02 15:30:00,device_5,0.37,heater,Zone 1,2070,31,0.094,CoAP,86,16.8,37,6,txn_475,confirmed,block_4674,node_2,failed,3,51,0.76,0.16,3
+2020-01-02 15:35:00,device_3,4.16,light bulb,Zone 1,199,15,0.013,CoAP,132,30.5,56,36,txn_476,confirmed,block_8234,node_1,successful,1,132,0.71,0.17,3
+2020-01-02 15:40:00,device_5,2.75,heater,Zone 2,3161,20,0.011,MQTT,102,17.0,67,60,txn_477,confirmed,block_7434,node_3,successful,4,196,0.85,0.17,3
+2020-01-02 15:45:00,device_4,4.64,light bulb,Zone 2,2443,45,0.077,HTTP,92,28.8,80,19,txn_478,pending,block_1230,node_1,failed,4,125,0.85,0.02,2
+2020-01-02 15:50:00,device_1,0.22,fan,Zone 3,931,40,0.082,MQTT,124,33.2,61,41,txn_479,pending,block_7550,node_3,failed,3,291,0.89,0.1,3
+2020-01-02 15:55:00,device_5,3.01,heater,Zone 3,1174,18,0.003,CoAP,145,25.6,71,91,txn_480,pending,block_4179,node_2,successful,2,210,0.91,0.13,1
+2020-01-02 16:00:00,device_2,3.25,light bulb,Zone 3,760,22,0.072,MQTT,108,28.1,57,94,txn_481,pending,block_9992,node_3,failed,4,114,0.81,0.15,1
+2020-01-02 16:05:00,device_1,3.86,fan,Zone 3,409,21,0.069,MQTT,92,18.8,69,39,txn_482,pending,block_8128,node_3,failed,3,35,0.75,0.08,3
+2020-01-02 16:10:00,device_5,3.73,smart appliance,Zone 2,827,27,0.05,FTP,134,28.8,40,99,txn_483,confirmed,block_5983,node_3,successful,3,139,0.74,0.02,1
+2020-01-02 16:15:00,device_3,4.73,air conditioner,Zone 3,4833,7,0.055,MQTT,148,16.9,56,33,txn_484,confirmed,block_6576,node_2,failed,5,260,0.78,0.06,2
+2020-01-02 16:20:00,device_3,4.17,air conditioner,Zone 1,2089,33,0.027,MQTT,96,32.2,35,3,txn_485,pending,block_9778,node_3,failed,5,297,0.93,0.14,3
+2020-01-02 16:25:00,device_2,2.1,fan,Zone 4,3748,29,0.01,MQTT,146,18.2,72,45,txn_486,pending,block_1827,node_3,successful,1,172,0.86,0.1,3
+2020-01-02 16:30:00,device_5,3.74,smart appliance,Zone 1,418,22,0.092,CoAP,104,23.9,61,88,txn_487,failed,block_2601,node_3,successful,5,57,0.91,0.09,2
+2020-01-02 16:35:00,device_1,3.8,air conditioner,Zone 2,4698,8,0.012,FTP,91,22.4,59,21,txn_488,pending,block_6956,node_1,successful,3,245,0.78,0.1,3
+2020-01-02 16:40:00,device_2,2.88,smart appliance,Zone 1,2396,15,0.053,CoAP,103,29.7,60,70,txn_489,pending,block_7856,node_1,successful,1,56,0.73,0.13,3
+2020-01-02 16:45:00,device_5,2.83,air conditioner,Zone 4,2537,18,0.065,FTP,63,23.6,51,58,txn_490,confirmed,block_9939,node_3,successful,4,124,0.77,0.19,2
+2020-01-02 16:50:00,device_3,2.78,fan,Zone 1,4634,17,0.044,MQTT,102,17.6,70,76,txn_491,pending,block_8982,node_2,successful,5,139,0.92,0.13,2
+2020-01-02 16:55:00,device_2,1.54,light bulb,Zone 5,4364,16,0.039,MQTT,58,30.7,43,63,txn_492,confirmed,block_4926,node_3,failed,2,65,0.84,0.14,3
+2020-01-02 17:00:00,device_3,0.99,air conditioner,Zone 5,586,24,0.006,CoAP,141,33.7,46,48,txn_493,confirmed,block_4696,node_3,failed,2,40,0.76,0.19,2
+2020-01-02 17:05:00,device_5,4.29,light bulb,Zone 2,1073,33,0.042,FTP,144,18.3,37,61,txn_494,pending,block_6447,node_2,failed,2,119,0.82,0.08,3
+2020-01-02 17:10:00,device_3,1.93,heater,Zone 3,584,27,0.061,CoAP,123,16.0,79,90,txn_495,confirmed,block_8402,node_2,successful,1,176,0.85,0.19,1
+2020-01-02 17:15:00,device_3,2.98,smart appliance,Zone 5,3664,22,0.096,FTP,82,19.6,63,78,txn_496,pending,block_8074,node_2,failed,2,125,0.71,0.1,2
+2020-01-02 17:20:00,device_2,1.98,heater,Zone 5,2473,31,0.007,MQTT,64,30.7,44,88,txn_497,confirmed,block_2126,node_1,successful,5,220,0.92,0.04,2
+2020-01-02 17:25:00,device_1,4.48,air conditioner,Zone 1,631,19,0.066,HTTP,60,28.4,32,77,txn_498,failed,block_4755,node_1,failed,3,184,0.87,0.07,2
+2020-01-02 17:30:00,device_4,1.87,light bulb,Zone 3,3025,36,0.084,HTTP,111,15.6,74,11,txn_499,failed,block_5519,node_1,failed,3,264,0.74,0.08,2
+2020-01-02 17:35:00,device_5,1.49,air conditioner,Zone 4,2624,46,0.065,CoAP,56,28.8,48,53,txn_500,pending,block_5205,node_2,failed,1,161,0.91,0.1,3
+2020-01-02 17:40:00,device_1,3.15,fan,Zone 2,1064,9,0.057,MQTT,136,28.0,69,19,txn_501,confirmed,block_7505,node_3,failed,5,300,0.9,0.04,1
+2020-01-02 17:45:00,device_3,3.48,heater,Zone 5,4118,6,0.059,CoAP,79,28.3,48,94,txn_502,failed,block_3273,node_1,successful,3,88,0.83,0.19,1
+2020-01-02 17:50:00,device_4,2.07,light bulb,Zone 4,3178,28,0.078,CoAP,126,32.4,56,80,txn_503,pending,block_9453,node_3,failed,3,176,0.88,0.02,2
+2020-01-02 17:55:00,device_2,2.58,heater,Zone 2,3501,22,0.093,CoAP,60,17.5,56,92,txn_504,confirmed,block_7231,node_1,failed,4,214,0.82,0.06,1
+2020-01-02 18:00:00,device_1,0.2,light bulb,Zone 1,2430,34,0.019,MQTT,74,27.7,70,6,txn_505,pending,block_3011,node_3,failed,5,160,0.73,0.04,3
+2020-01-02 18:05:00,device_2,2.97,light bulb,Zone 3,3500,49,0.064,HTTP,110,33.7,80,51,txn_506,confirmed,block_2140,node_3,failed,3,282,0.78,0.04,3
+2020-01-02 18:10:00,device_5,2.16,light bulb,Zone 2,1665,24,0.065,MQTT,120,17.7,65,92,txn_507,pending,block_6681,node_1,failed,5,230,0.93,0.13,2
+2020-01-02 18:15:00,device_1,1.33,air conditioner,Zone 1,2683,38,0.035,MQTT,130,30.5,59,67,txn_508,failed,block_6273,node_1,failed,5,138,0.92,0.15,1
+2020-01-02 18:20:00,device_5,2.6,smart appliance,Zone 4,977,38,0.005,CoAP,92,22.4,73,39,txn_509,failed,block_9757,node_1,successful,3,133,0.86,0.08,2
+2020-01-02 18:25:00,device_4,3.05,smart appliance,Zone 2,4640,44,0.038,MQTT,51,23.1,57,70,txn_510,failed,block_4472,node_1,successful,5,240,0.95,0.14,1
+2020-01-02 18:30:00,device_2,0.26,air conditioner,Zone 5,2303,29,0.017,CoAP,104,19.6,77,46,txn_511,pending,block_4891,node_1,successful,1,199,0.84,0.2,3
+2020-01-02 18:35:00,device_1,1.53,heater,Zone 5,4325,27,0.046,MQTT,145,34.3,43,84,txn_512,pending,block_2448,node_1,failed,2,183,0.92,0.19,1
+2020-01-02 18:40:00,device_4,1.22,heater,Zone 1,2489,33,0.003,MQTT,140,16.7,78,33,txn_513,confirmed,block_9301,node_1,successful,4,180,0.95,0.06,1
+2020-01-02 18:45:00,device_3,4.21,light bulb,Zone 3,3983,30,0.011,HTTP,124,23.7,55,6,txn_514,failed,block_9296,node_3,failed,3,102,0.95,0.13,1
+2020-01-02 18:50:00,device_3,0.3,fan,Zone 4,1728,50,0.002,FTP,59,33.5,35,72,txn_515,failed,block_4523,node_2,successful,1,258,0.88,0.16,3
+2020-01-02 18:55:00,device_4,0.14,smart appliance,Zone 4,2580,15,0.047,FTP,141,16.1,72,57,txn_516,failed,block_4438,node_3,failed,3,77,0.9,0.14,3
+2020-01-02 19:00:00,device_3,2.83,light bulb,Zone 2,4772,20,0.079,MQTT,89,23.0,38,31,txn_517,pending,block_8602,node_3,successful,3,277,0.8,0.09,1
+2020-01-02 19:05:00,device_1,1.68,fan,Zone 1,3078,22,0.048,MQTT,89,16.0,62,82,txn_518,failed,block_4190,node_3,failed,5,126,0.9,0.08,3
+2020-01-02 19:10:00,device_4,1.08,air conditioner,Zone 4,2921,18,0.037,CoAP,65,16.7,66,27,txn_519,failed,block_3279,node_1,failed,5,165,0.88,0.14,1
+2020-01-02 19:15:00,device_2,1.42,fan,Zone 4,334,39,0.085,HTTP,148,33.8,36,98,txn_520,failed,block_3156,node_2,failed,1,86,0.82,0.06,1
+2020-01-02 19:20:00,device_5,4.77,fan,Zone 3,702,35,0.065,HTTP,144,29.6,50,62,txn_521,pending,block_4741,node_1,failed,5,134,0.84,0.06,3
+2020-01-02 19:25:00,device_5,2.3,air conditioner,Zone 1,857,38,0.073,CoAP,139,34.9,78,99,txn_522,failed,block_4040,node_2,failed,5,124,0.79,0.18,3
+2020-01-02 19:30:00,device_1,0.77,light bulb,Zone 5,421,31,0.04,CoAP,145,15.0,69,29,txn_523,pending,block_2932,node_3,successful,5,142,0.91,0.08,3
+2020-01-02 19:35:00,device_2,4.42,smart appliance,Zone 3,170,49,0.045,FTP,146,20.3,74,67,txn_524,pending,block_9771,node_3,failed,4,274,0.76,0.03,2
+2020-01-02 19:40:00,device_2,4.75,light bulb,Zone 2,3207,24,0.013,MQTT,113,31.0,45,21,txn_525,confirmed,block_7614,node_1,successful,2,214,0.76,0.16,2
+2020-01-02 19:45:00,device_3,0.82,fan,Zone 2,2915,33,0.082,FTP,58,19.4,58,61,txn_526,pending,block_6982,node_2,successful,4,226,0.85,0.18,1
+2020-01-02 19:50:00,device_5,4.33,heater,Zone 4,3276,38,0.008,FTP,144,34.5,52,16,txn_527,pending,block_9455,node_1,failed,2,287,0.79,0.06,2
+2020-01-02 19:55:00,device_4,4.97,light bulb,Zone 2,1981,39,0.005,CoAP,121,21.0,33,98,txn_528,confirmed,block_2310,node_1,successful,1,93,0.87,0.15,1
+2020-01-02 20:00:00,device_1,4.74,air conditioner,Zone 1,2270,19,0.032,MQTT,66,31.0,75,52,txn_529,confirmed,block_8045,node_3,failed,4,56,0.86,0.1,3
+2020-01-02 20:05:00,device_4,0.14,air conditioner,Zone 2,427,18,0.087,FTP,136,22.2,65,27,txn_530,failed,block_7143,node_2,successful,1,266,0.94,0.17,2
+2020-01-02 20:10:00,device_3,2.15,air conditioner,Zone 1,3478,21,0.081,HTTP,139,34.7,74,53,txn_531,confirmed,block_5345,node_1,failed,4,65,0.76,0.16,2
+2020-01-02 20:15:00,device_3,4.39,light bulb,Zone 2,3691,29,0.005,CoAP,125,16.1,78,26,txn_532,confirmed,block_9977,node_2,failed,5,97,0.76,0.2,3
+2020-01-02 20:20:00,device_5,1.21,air conditioner,Zone 4,3533,22,0.063,CoAP,53,22.4,56,63,txn_533,confirmed,block_9959,node_2,successful,3,132,0.71,0.07,1
+2020-01-02 20:25:00,device_2,3.5,heater,Zone 1,1211,25,0.008,CoAP,69,25.5,37,43,txn_534,confirmed,block_7928,node_1,failed,3,33,0.74,0.17,3
+2020-01-02 20:30:00,device_4,0.94,air conditioner,Zone 1,665,49,0.01,CoAP,86,20.2,59,39,txn_535,confirmed,block_8917,node_1,successful,5,86,0.76,0.05,2
+2020-01-02 20:35:00,device_3,4.08,light bulb,Zone 1,2549,32,0.03,FTP,112,33.5,48,88,txn_536,pending,block_5961,node_2,failed,3,225,0.78,0.13,1
+2020-01-02 20:40:00,device_1,0.57,smart appliance,Zone 2,4550,44,0.072,HTTP,70,24.3,35,67,txn_537,confirmed,block_2460,node_1,failed,4,300,0.8,0.09,3
+2020-01-02 20:45:00,device_3,3.41,smart appliance,Zone 2,968,21,0.072,FTP,124,21.1,66,10,txn_538,pending,block_7134,node_2,failed,3,215,0.86,0.09,1
+2020-01-02 20:50:00,device_4,4.31,light bulb,Zone 3,2324,8,0.077,FTP,121,15.1,35,60,txn_539,failed,block_8566,node_2,successful,3,103,0.83,0.12,3
+2020-01-02 20:55:00,device_5,1.1,smart appliance,Zone 2,4432,7,0.087,FTP,148,18.8,39,39,txn_540,failed,block_1668,node_1,failed,2,126,0.77,0.03,2
+2020-01-02 21:00:00,device_2,1.99,light bulb,Zone 1,1662,14,0.052,HTTP,80,19.8,32,59,txn_541,pending,block_2937,node_3,successful,2,245,0.95,0.02,3
+2020-01-02 21:05:00,device_4,1.96,air conditioner,Zone 1,562,9,0.054,HTTP,67,23.6,51,2,txn_542,pending,block_2141,node_2,failed,3,289,0.85,0.02,1
+2020-01-02 21:10:00,device_3,0.29,heater,Zone 1,1006,43,0.087,CoAP,133,26.9,33,66,txn_543,failed,block_1384,node_1,successful,5,51,0.93,0.08,1
+2020-01-02 21:15:00,device_5,4.61,fan,Zone 2,4208,5,0.034,FTP,69,16.5,71,51,txn_544,failed,block_9910,node_3,successful,4,108,0.85,0.08,1
+2020-01-02 21:20:00,device_1,0.23,fan,Zone 4,266,5,0.046,CoAP,132,20.3,30,78,txn_545,pending,block_1144,node_2,failed,3,47,0.9,0.16,2
+2020-01-02 21:25:00,device_5,4.77,smart appliance,Zone 2,298,26,0.02,MQTT,57,23.2,38,8,txn_546,confirmed,block_5466,node_1,successful,2,76,0.75,0.05,1
+2020-01-02 21:30:00,device_4,2.3,light bulb,Zone 3,1989,46,0.051,CoAP,84,20.2,66,6,txn_547,confirmed,block_8156,node_2,successful,4,44,0.7,0.07,1
+2020-01-02 21:35:00,device_4,2.0,light bulb,Zone 3,1381,15,0.081,FTP,145,22.1,45,41,txn_548,pending,block_4961,node_2,failed,2,276,0.71,0.08,2
+2020-01-02 21:40:00,device_3,2.66,heater,Zone 5,3516,15,0.071,MQTT,68,29.6,57,57,txn_549,confirmed,block_9166,node_2,failed,2,249,0.76,0.1,1
+2020-01-02 21:45:00,device_1,2.08,fan,Zone 4,3971,18,0.031,HTTP,102,24.0,40,14,txn_550,confirmed,block_1486,node_3,failed,4,292,0.88,0.2,3
+2020-01-02 21:50:00,device_1,3.28,fan,Zone 4,1876,8,0.09,FTP,62,28.5,38,51,txn_551,failed,block_1105,node_1,failed,2,250,0.82,0.14,3
+2020-01-02 21:55:00,device_5,2.32,light bulb,Zone 3,567,9,0.045,HTTP,115,29.1,52,62,txn_552,failed,block_7291,node_3,failed,3,154,0.72,0.03,3
+2020-01-02 22:00:00,device_4,2.14,heater,Zone 1,854,13,0.058,MQTT,122,17.3,49,16,txn_553,confirmed,block_3442,node_2,failed,5,135,0.86,0.14,1
+2020-01-02 22:05:00,device_5,2.65,light bulb,Zone 3,1829,7,0.061,MQTT,125,17.3,58,100,txn_554,confirmed,block_3812,node_1,failed,2,152,0.84,0.11,3
+2020-01-02 22:10:00,device_2,2.48,air conditioner,Zone 1,2410,34,0.024,HTTP,60,24.3,48,58,txn_555,confirmed,block_3399,node_2,failed,5,182,0.92,0.04,2
+2020-01-02 22:15:00,device_4,0.15,air conditioner,Zone 3,1252,18,0.015,HTTP,70,21.5,73,58,txn_556,failed,block_4280,node_3,successful,3,59,0.72,0.09,3
+2020-01-02 22:20:00,device_4,0.36,light bulb,Zone 1,2213,19,0.048,HTTP,122,32.7,67,66,txn_557,failed,block_3382,node_3,successful,3,159,0.79,0.13,1
+2020-01-02 22:25:00,device_4,4.54,smart appliance,Zone 3,849,24,0.052,HTTP,77,22.8,50,22,txn_558,pending,block_7242,node_1,successful,3,293,0.83,0.14,3
+2020-01-02 22:30:00,device_5,1.95,light bulb,Zone 4,3878,15,0.087,HTTP,141,23.2,71,65,txn_559,failed,block_4870,node_2,successful,5,215,0.82,0.18,3
+2020-01-02 22:35:00,device_3,4.99,smart appliance,Zone 5,825,46,0.002,MQTT,115,34.1,35,26,txn_560,confirmed,block_3951,node_2,successful,5,56,0.79,0.18,1
+2020-01-02 22:40:00,device_2,3.61,light bulb,Zone 4,2217,9,0.047,MQTT,116,31.4,33,42,txn_561,failed,block_6564,node_3,successful,5,160,0.85,0.02,1
+2020-01-02 22:45:00,device_4,1.84,light bulb,Zone 3,4407,15,0.054,HTTP,147,34.0,44,46,txn_562,failed,block_6081,node_2,successful,4,158,0.71,0.12,1
+2020-01-02 22:50:00,device_4,2.48,smart appliance,Zone 3,3704,14,0.032,FTP,123,20.3,42,98,txn_563,failed,block_4849,node_1,successful,2,92,0.84,0.04,3
+2020-01-02 22:55:00,device_3,1.28,fan,Zone 1,3516,30,0.078,FTP,137,34.2,43,80,txn_564,confirmed,block_3869,node_2,successful,1,216,0.95,0.04,2
+2020-01-02 23:00:00,device_5,2.58,light bulb,Zone 3,3716,28,0.02,MQTT,100,20.1,36,30,txn_565,failed,block_8713,node_1,successful,5,267,0.81,0.11,1
+2020-01-02 23:05:00,device_2,2.37,smart appliance,Zone 1,3701,7,0.044,HTTP,97,23.4,72,51,txn_566,confirmed,block_4230,node_3,failed,5,50,0.91,0.11,1
+2020-01-02 23:10:00,device_1,0.66,smart appliance,Zone 4,1370,21,0.052,CoAP,61,22.8,77,60,txn_567,pending,block_4027,node_3,successful,3,65,0.86,0.07,2
+2020-01-02 23:15:00,device_4,1.25,light bulb,Zone 1,2172,15,0.098,CoAP,70,16.9,48,95,txn_568,pending,block_1688,node_3,failed,5,82,0.74,0.06,1
+2020-01-02 23:20:00,device_3,1.34,fan,Zone 5,3441,41,0.034,CoAP,68,23.6,75,100,txn_569,failed,block_8532,node_1,failed,3,111,0.88,0.11,3
+2020-01-02 23:25:00,device_2,1.88,air conditioner,Zone 4,594,23,0.017,FTP,113,30.6,79,22,txn_570,failed,block_5098,node_2,failed,2,276,0.91,0.11,3
+2020-01-02 23:30:00,device_2,2.17,smart appliance,Zone 5,222,37,0.066,CoAP,57,21.1,45,85,txn_571,pending,block_5397,node_2,failed,3,70,0.86,0.1,2
+2020-01-02 23:35:00,device_5,3.51,smart appliance,Zone 1,4385,47,0.024,FTP,94,21.8,79,41,txn_572,failed,block_1413,node_2,successful,5,89,0.84,0.04,3
+2020-01-02 23:40:00,device_2,1.5,light bulb,Zone 3,3593,33,0.096,MQTT,133,34.3,68,0,txn_573,failed,block_1370,node_1,failed,3,198,0.86,0.17,1
+2020-01-02 23:45:00,device_1,2.68,light bulb,Zone 5,641,32,0.048,CoAP,69,27.9,70,52,txn_574,failed,block_9817,node_2,failed,5,58,0.76,0.06,2
+2020-01-02 23:50:00,device_1,2.87,heater,Zone 4,4398,27,0.002,FTP,110,27.5,34,47,txn_575,failed,block_6652,node_2,failed,2,238,0.75,0.06,2
+2020-01-02 23:55:00,device_3,4.27,light bulb,Zone 4,1582,50,0.025,FTP,93,17.9,64,89,txn_576,failed,block_9026,node_3,failed,3,216,0.95,0.04,2
+2020-01-03 00:00:00,device_4,0.74,smart appliance,Zone 5,3908,25,0.064,MQTT,135,22.2,67,62,txn_577,pending,block_5976,node_1,failed,5,149,0.75,0.02,1
+2020-01-03 00:05:00,device_5,0.93,smart appliance,Zone 1,2927,47,0.001,MQTT,118,30.1,74,89,txn_578,failed,block_2844,node_3,successful,5,120,0.9,0.15,2
+2020-01-03 00:10:00,device_4,0.95,light bulb,Zone 5,321,20,0.033,MQTT,144,30.8,72,36,txn_579,failed,block_3328,node_3,failed,3,294,0.86,0.07,2
+2020-01-03 00:15:00,device_1,0.32,heater,Zone 1,4884,24,0.042,HTTP,90,29.4,52,24,txn_580,confirmed,block_6809,node_1,failed,1,80,0.84,0.18,3
+2020-01-03 00:20:00,device_1,3.54,heater,Zone 4,4653,10,0.095,HTTP,97,15.6,59,73,txn_581,failed,block_9725,node_2,successful,2,33,0.79,0.13,2
+2020-01-03 00:25:00,device_1,4.31,air conditioner,Zone 5,2493,46,0.086,CoAP,72,25.5,40,96,txn_582,confirmed,block_5892,node_2,failed,1,282,0.77,0.05,2
+2020-01-03 00:30:00,device_1,1.27,heater,Zone 3,4012,45,0.068,MQTT,124,30.6,80,26,txn_583,confirmed,block_8791,node_3,successful,2,119,0.82,0.06,3
+2020-01-03 00:35:00,device_3,3.52,smart appliance,Zone 1,4955,48,0.049,CoAP,50,26.8,33,16,txn_584,confirmed,block_5999,node_2,successful,4,81,0.86,0.07,3
+2020-01-03 00:40:00,device_1,3.15,heater,Zone 1,4438,17,0.035,FTP,127,20.7,62,30,txn_585,confirmed,block_1656,node_1,failed,3,116,0.86,0.07,1
+2020-01-03 00:45:00,device_4,3.47,air conditioner,Zone 3,4724,38,0.084,HTTP,94,33.7,44,8,txn_586,failed,block_1816,node_3,failed,3,85,0.89,0.1,2
+2020-01-03 00:50:00,device_3,3.09,light bulb,Zone 2,539,33,0.068,FTP,133,22.3,68,50,txn_587,confirmed,block_7155,node_2,failed,1,189,0.72,0.13,1
+2020-01-03 00:55:00,device_5,2.19,smart appliance,Zone 2,2691,19,0.078,CoAP,142,27.3,43,62,txn_588,failed,block_9721,node_3,failed,2,267,0.85,0.13,1
+2020-01-03 01:00:00,device_2,3.73,light bulb,Zone 4,1722,28,0.052,FTP,92,15.6,48,76,txn_589,confirmed,block_5284,node_2,successful,5,213,0.85,0.06,1
+2020-01-03 01:05:00,device_2,4.33,light bulb,Zone 1,4988,44,0.059,HTTP,91,23.8,33,1,txn_590,failed,block_3057,node_3,successful,3,82,0.91,0.17,2
+2020-01-03 01:10:00,device_5,1.43,heater,Zone 4,4885,25,0.09,MQTT,67,22.9,39,73,txn_591,confirmed,block_8549,node_1,successful,4,243,0.75,0.06,1
+2020-01-03 01:15:00,device_5,1.16,air conditioner,Zone 1,2393,44,0.002,HTTP,150,28.1,32,44,txn_592,confirmed,block_4483,node_1,successful,2,146,0.82,0.16,3
+2020-01-03 01:20:00,device_4,1.28,light bulb,Zone 4,4503,6,0.06,FTP,125,34.0,51,71,txn_593,confirmed,block_7025,node_2,successful,4,270,0.92,0.16,2
+2020-01-03 01:25:00,device_4,0.81,smart appliance,Zone 1,4521,26,0.033,FTP,75,33.2,70,57,txn_594,failed,block_5964,node_3,successful,2,73,0.77,0.05,2
+2020-01-03 01:30:00,device_3,3.51,heater,Zone 2,3991,13,0.041,CoAP,53,22.8,37,24,txn_595,pending,block_3294,node_3,failed,3,47,0.74,0.17,2
+2020-01-03 01:35:00,device_3,4.04,light bulb,Zone 1,338,11,0.089,FTP,137,27.1,33,53,txn_596,failed,block_5832,node_2,failed,5,278,0.93,0.11,1
+2020-01-03 01:40:00,device_5,3.04,smart appliance,Zone 1,473,5,0.013,CoAP,70,32.5,36,41,txn_597,failed,block_4721,node_3,failed,5,172,0.9,0.08,3
+2020-01-03 01:45:00,device_3,2.37,smart appliance,Zone 4,4458,10,0.063,HTTP,86,17.0,37,58,txn_598,pending,block_3158,node_3,failed,1,150,0.84,0.15,2
+2020-01-03 01:50:00,device_1,0.19,heater,Zone 2,1309,12,0.006,HTTP,80,19.6,60,53,txn_599,failed,block_5823,node_2,successful,1,186,0.91,0.07,2
+2020-01-03 01:55:00,device_2,1.04,fan,Zone 1,805,9,0.017,FTP,96,15.3,66,0,txn_600,confirmed,block_9074,node_3,successful,4,38,0.8,0.03,1
+2020-01-03 02:00:00,device_1,1.68,fan,Zone 5,256,22,0.036,CoAP,73,23.8,55,33,txn_601,pending,block_2935,node_1,successful,2,298,0.93,0.16,1
+2020-01-03 02:05:00,device_1,4.17,light bulb,Zone 2,1639,28,0.017,CoAP,84,31.9,70,83,txn_602,confirmed,block_3298,node_2,failed,3,189,0.72,0.15,2
+2020-01-03 02:10:00,device_3,2.66,light bulb,Zone 5,1255,45,0.031,CoAP,127,18.5,32,46,txn_603,pending,block_7231,node_3,failed,1,280,0.92,0.1,3
+2020-01-03 02:15:00,device_2,1.24,smart appliance,Zone 2,4822,50,0.053,CoAP,134,31.8,78,37,txn_604,failed,block_9753,node_2,failed,4,194,0.78,0.1,1
+2020-01-03 02:20:00,device_4,0.7,heater,Zone 5,288,11,0.053,MQTT,135,23.4,48,8,txn_605,confirmed,block_3385,node_3,successful,5,208,0.74,0.08,1
+2020-01-03 02:25:00,device_5,4.08,light bulb,Zone 2,3557,6,0.024,CoAP,147,26.9,63,34,txn_606,pending,block_5841,node_3,failed,1,273,0.79,0.1,1
+2020-01-03 02:30:00,device_1,2.97,fan,Zone 1,641,29,0.085,FTP,107,20.6,73,76,txn_607,failed,block_8272,node_1,successful,5,220,0.71,0.03,1
+2020-01-03 02:35:00,device_5,0.86,light bulb,Zone 5,4548,30,0.066,CoAP,69,29.1,49,6,txn_608,pending,block_3879,node_1,successful,3,155,0.81,0.01,1
+2020-01-03 02:40:00,device_5,0.93,air conditioner,Zone 3,274,17,0.075,CoAP,132,28.3,56,81,txn_609,pending,block_1008,node_3,successful,2,173,0.87,0.15,2
+2020-01-03 02:45:00,device_2,3.06,air conditioner,Zone 5,743,20,0.018,CoAP,85,20.2,52,73,txn_610,failed,block_7825,node_3,successful,4,100,0.94,0.02,2
+2020-01-03 02:50:00,device_3,1.1,smart appliance,Zone 5,1486,33,0.006,FTP,134,31.4,61,59,txn_611,confirmed,block_1644,node_1,failed,4,276,0.86,0.06,3
+2020-01-03 02:55:00,device_5,2.49,air conditioner,Zone 5,2039,6,0.01,FTP,78,26.1,77,54,txn_612,failed,block_8902,node_1,failed,5,204,0.9,0.05,2
+2020-01-03 03:00:00,device_2,0.98,heater,Zone 5,2338,31,0.012,CoAP,89,18.2,46,92,txn_613,pending,block_4141,node_3,successful,1,173,0.95,0.19,2
+2020-01-03 03:05:00,device_4,2.55,fan,Zone 3,4512,31,0.047,FTP,88,25.6,34,48,txn_614,pending,block_1192,node_3,successful,5,290,0.75,0.2,3
+2020-01-03 03:10:00,device_4,1.82,light bulb,Zone 1,1509,14,0.048,CoAP,92,15.4,65,14,txn_615,pending,block_1309,node_2,failed,3,116,0.87,0.16,3
+2020-01-03 03:15:00,device_5,4.2,smart appliance,Zone 2,2667,24,0.034,FTP,119,17.8,55,96,txn_616,failed,block_5978,node_3,successful,4,288,0.91,0.16,3
+2020-01-03 03:20:00,device_2,2.55,heater,Zone 5,573,22,0.049,CoAP,73,24.4,48,5,txn_617,pending,block_3333,node_3,failed,2,105,0.77,0.04,2
+2020-01-03 03:25:00,device_5,1.37,fan,Zone 3,4519,5,0.098,MQTT,57,23.1,52,49,txn_618,failed,block_5757,node_1,failed,3,129,0.78,0.15,3
+2020-01-03 03:30:00,device_4,4.34,light bulb,Zone 2,781,6,0.072,MQTT,139,20.4,32,99,txn_619,pending,block_9145,node_3,failed,4,262,0.8,0.17,2
+2020-01-03 03:35:00,device_4,1.23,light bulb,Zone 2,1636,47,0.014,MQTT,95,22.0,30,80,txn_620,pending,block_3574,node_1,successful,5,181,0.71,0.05,1
+2020-01-03 03:40:00,device_5,1.54,air conditioner,Zone 5,2276,28,0.079,FTP,118,19.3,56,46,txn_621,pending,block_6929,node_1,successful,1,36,0.82,0.19,3
+2020-01-03 03:45:00,device_4,1.75,smart appliance,Zone 1,1700,34,0.015,HTTP,101,30.6,35,74,txn_622,pending,block_5762,node_3,failed,5,97,0.92,0.17,3
+2020-01-03 03:50:00,device_3,2.45,fan,Zone 1,4672,7,0.071,MQTT,77,22.1,64,38,txn_623,failed,block_9657,node_1,failed,4,220,0.76,0.16,2
+2020-01-03 03:55:00,device_2,2.96,heater,Zone 4,4944,23,0.095,FTP,148,16.3,66,55,txn_624,pending,block_4353,node_1,successful,3,203,0.91,0.03,1
+2020-01-03 04:00:00,device_5,3.43,heater,Zone 4,1447,49,0.087,CoAP,112,18.6,52,0,txn_625,failed,block_3596,node_1,failed,3,120,0.92,0.11,2
+2020-01-03 04:05:00,device_3,3.9,light bulb,Zone 3,739,21,0.038,FTP,117,17.4,78,82,txn_626,confirmed,block_3530,node_3,successful,4,280,0.84,0.16,3
+2020-01-03 04:10:00,device_2,0.82,air conditioner,Zone 3,4252,14,0.012,HTTP,83,34.0,66,25,txn_627,pending,block_4219,node_2,successful,5,245,0.76,0.16,2
+2020-01-03 04:15:00,device_4,0.41,light bulb,Zone 2,1498,42,0.078,MQTT,114,18.3,46,44,txn_628,failed,block_6392,node_1,failed,1,194,0.93,0.14,3
+2020-01-03 04:20:00,device_4,0.33,heater,Zone 5,213,40,0.074,MQTT,121,33.8,75,30,txn_629,failed,block_6267,node_3,failed,3,177,0.88,0.08,2
+2020-01-03 04:25:00,device_3,3.17,smart appliance,Zone 1,1489,13,0.032,CoAP,150,30.3,30,69,txn_630,pending,block_3665,node_2,successful,1,172,0.95,0.02,2
+2020-01-03 04:30:00,device_3,2.09,light bulb,Zone 5,4057,27,0.026,MQTT,116,24.8,64,65,txn_631,pending,block_1077,node_3,failed,5,206,0.76,0.14,3
+2020-01-03 04:35:00,device_3,0.3,light bulb,Zone 4,911,28,0.056,FTP,138,23.2,67,18,txn_632,failed,block_5262,node_1,successful,5,84,0.83,0.19,1
+2020-01-03 04:40:00,device_2,3.05,smart appliance,Zone 1,1238,37,0.094,FTP,124,16.8,48,87,txn_633,failed,block_7058,node_3,failed,2,39,0.77,0.08,2
+2020-01-03 04:45:00,device_1,0.7,light bulb,Zone 4,1867,44,0.003,CoAP,117,22.7,57,49,txn_634,failed,block_7010,node_3,successful,3,258,0.77,0.16,2
+2020-01-03 04:50:00,device_1,3.52,air conditioner,Zone 2,688,8,0.071,HTTP,72,21.7,61,81,txn_635,confirmed,block_9443,node_3,failed,3,213,0.9,0.04,2
+2020-01-03 04:55:00,device_4,3.53,light bulb,Zone 2,1129,15,0.053,FTP,104,19.8,62,63,txn_636,failed,block_1100,node_2,failed,4,170,0.76,0.04,1
+2020-01-03 05:00:00,device_4,1.33,air conditioner,Zone 1,3618,32,0.02,HTTP,84,17.7,48,8,txn_637,pending,block_9510,node_1,successful,3,95,0.87,0.1,2
+2020-01-03 05:05:00,device_1,1.1,light bulb,Zone 3,3553,48,0.081,CoAP,58,19.0,40,39,txn_638,pending,block_4990,node_3,failed,4,62,0.88,0.13,3
+2020-01-03 05:10:00,device_3,3.23,fan,Zone 3,4908,6,0.001,HTTP,58,29.8,33,91,txn_639,failed,block_4492,node_2,failed,1,137,0.84,0.1,3
+2020-01-03 05:15:00,device_4,1.0,smart appliance,Zone 5,4949,50,0.055,CoAP,73,20.5,42,49,txn_640,confirmed,block_6797,node_2,successful,3,71,0.82,0.17,2
+2020-01-03 05:20:00,device_3,2.67,heater,Zone 5,2494,36,0.095,MQTT,88,25.6,69,23,txn_641,failed,block_1717,node_2,failed,5,272,0.83,0.1,3
+2020-01-03 05:25:00,device_3,2.05,light bulb,Zone 1,1063,20,0.078,CoAP,143,24.3,78,27,txn_642,pending,block_8308,node_1,successful,2,226,0.79,0.13,1
+2020-01-03 05:30:00,device_2,2.72,air conditioner,Zone 4,1642,46,0.071,HTTP,101,31.9,79,84,txn_643,pending,block_3881,node_3,failed,4,269,0.76,0.06,1
+2020-01-03 05:35:00,device_2,1.48,heater,Zone 5,4661,16,0.021,FTP,90,23.3,39,27,txn_644,failed,block_3337,node_3,failed,5,222,0.81,0.15,2
+2020-01-03 05:40:00,device_2,1.41,smart appliance,Zone 4,1334,39,0.007,HTTP,104,18.7,66,91,txn_645,failed,block_7413,node_1,failed,3,216,0.93,0.11,1
+2020-01-03 05:45:00,device_2,3.6,smart appliance,Zone 2,3116,48,0.018,MQTT,51,30.9,61,98,txn_646,pending,block_8568,node_1,successful,3,34,0.79,0.15,3
+2020-01-03 05:50:00,device_5,0.93,heater,Zone 4,4544,30,0.025,CoAP,140,26.9,31,16,txn_647,pending,block_3384,node_2,failed,4,87,0.72,0.11,3
+2020-01-03 05:55:00,device_1,2.39,fan,Zone 4,928,44,0.036,CoAP,60,21.5,74,94,txn_648,failed,block_7236,node_3,successful,4,40,0.89,0.14,2
+2020-01-03 06:00:00,device_4,4.08,smart appliance,Zone 3,4057,34,0.021,HTTP,56,23.5,44,19,txn_649,pending,block_7616,node_1,successful,4,248,0.86,0.03,2
+2020-01-03 06:05:00,device_5,0.23,light bulb,Zone 1,223,39,0.033,CoAP,131,21.2,68,22,txn_650,pending,block_6811,node_3,failed,5,220,0.92,0.09,2
+2020-01-03 06:10:00,device_2,1.67,fan,Zone 1,1325,32,0.086,HTTP,149,22.9,70,61,txn_651,failed,block_2015,node_3,successful,4,262,0.71,0.14,1
+2020-01-03 06:15:00,device_3,2.48,fan,Zone 5,4834,40,0.008,CoAP,84,25.8,58,93,txn_652,confirmed,block_9954,node_2,successful,4,192,0.91,0.05,1
+2020-01-03 06:20:00,device_1,0.36,air conditioner,Zone 3,4461,23,0.017,FTP,134,32.4,76,37,txn_653,failed,block_5010,node_1,successful,5,241,0.72,0.1,2
+2020-01-03 06:25:00,device_5,2.89,air conditioner,Zone 4,1763,41,0.0,CoAP,84,18.6,74,83,txn_654,failed,block_8990,node_3,successful,3,279,0.79,0.06,2
+2020-01-03 06:30:00,device_4,3.13,fan,Zone 1,1565,30,0.018,FTP,85,16.1,69,2,txn_655,confirmed,block_1773,node_1,successful,1,207,0.73,0.12,3
+2020-01-03 06:35:00,device_2,4.17,smart appliance,Zone 2,3067,21,0.07,HTTP,95,28.8,60,69,txn_656,confirmed,block_7372,node_3,successful,4,122,0.91,0.13,1
+2020-01-03 06:40:00,device_4,4.57,air conditioner,Zone 4,4895,46,0.032,HTTP,89,16.2,44,59,txn_657,pending,block_5079,node_3,successful,2,103,0.74,0.01,1
+2020-01-03 06:45:00,device_2,2.48,heater,Zone 3,4550,18,0.03,FTP,104,22.0,45,36,txn_658,failed,block_7121,node_1,failed,1,224,0.81,0.13,2
+2020-01-03 06:50:00,device_5,3.81,light bulb,Zone 1,4233,38,0.011,CoAP,59,27.8,66,13,txn_659,pending,block_5597,node_3,failed,4,173,0.81,0.17,2
+2020-01-03 06:55:00,device_4,1.02,light bulb,Zone 5,4622,28,0.034,MQTT,150,32.5,43,48,txn_660,failed,block_8976,node_3,failed,2,114,0.88,0.12,3
+2020-01-03 07:00:00,device_3,1.23,air conditioner,Zone 5,2130,43,0.097,CoAP,113,17.3,76,61,txn_661,failed,block_6660,node_2,failed,4,185,0.88,0.02,1
+2020-01-03 07:05:00,device_1,3.82,fan,Zone 2,3024,18,0.073,CoAP,111,15.4,36,70,txn_662,pending,block_8936,node_2,failed,3,78,0.93,0.02,2
+2020-01-03 07:10:00,device_4,1.65,heater,Zone 5,1196,22,0.066,HTTP,93,27.6,42,24,txn_663,confirmed,block_5592,node_1,successful,2,207,0.72,0.13,2
+2020-01-03 07:15:00,device_3,2.37,fan,Zone 2,455,11,0.04,HTTP,116,17.5,45,95,txn_664,failed,block_7003,node_2,successful,3,131,0.93,0.03,3
+2020-01-03 07:20:00,device_3,4.31,heater,Zone 2,2881,21,0.056,FTP,68,31.4,31,46,txn_665,confirmed,block_9684,node_3,failed,4,125,0.73,0.09,2
+2020-01-03 07:25:00,device_1,3.07,heater,Zone 2,3633,17,0.054,CoAP,128,17.8,47,57,txn_666,failed,block_4919,node_2,successful,4,201,0.94,0.13,3
+2020-01-03 07:30:00,device_2,1.33,fan,Zone 1,4598,16,0.026,MQTT,125,18.6,80,41,txn_667,pending,block_9728,node_1,failed,1,188,0.81,0.08,3
+2020-01-03 07:35:00,device_3,0.21,fan,Zone 3,4209,44,0.093,CoAP,55,19.3,30,1,txn_668,failed,block_3219,node_1,successful,2,125,0.84,0.03,3
+2020-01-03 07:40:00,device_1,4.4,fan,Zone 5,4669,49,0.02,CoAP,100,30.4,57,79,txn_669,confirmed,block_8727,node_3,successful,1,71,0.76,0.1,1
+2020-01-03 07:45:00,device_2,2.32,light bulb,Zone 3,4208,10,0.078,FTP,138,21.0,60,100,txn_670,failed,block_9993,node_3,failed,3,154,0.76,0.07,3
+2020-01-03 07:50:00,device_2,3.07,fan,Zone 2,1545,6,0.02,MQTT,139,21.4,70,16,txn_671,failed,block_2382,node_1,successful,5,167,0.94,0.14,1
+2020-01-03 07:55:00,device_2,0.64,air conditioner,Zone 4,2751,44,0.049,CoAP,90,15.7,35,36,txn_672,failed,block_7443,node_2,successful,3,77,0.78,0.11,1
+2020-01-03 08:00:00,device_5,1.18,air conditioner,Zone 1,809,28,0.079,FTP,55,15.4,53,9,txn_673,failed,block_5477,node_1,failed,1,244,0.93,0.08,2
+2020-01-03 08:05:00,device_2,0.62,smart appliance,Zone 3,2943,8,0.088,FTP,127,16.4,45,97,txn_674,failed,block_2465,node_2,failed,5,288,0.71,0.11,1
+2020-01-03 08:10:00,device_4,1.91,air conditioner,Zone 1,4810,7,0.028,HTTP,133,20.2,61,5,txn_675,pending,block_3906,node_2,failed,5,168,0.78,0.11,2
+2020-01-03 08:15:00,device_1,1.92,heater,Zone 3,4491,20,0.028,FTP,56,29.1,69,13,txn_676,confirmed,block_9123,node_1,successful,4,131,0.86,0.2,1
+2020-01-03 08:20:00,device_5,3.07,heater,Zone 1,3727,40,0.077,FTP,61,27.9,46,98,txn_677,confirmed,block_7394,node_1,failed,3,70,0.74,0.17,1
+2020-01-03 08:25:00,device_1,2.72,smart appliance,Zone 4,4005,36,0.04,HTTP,150,18.5,64,57,txn_678,confirmed,block_6867,node_3,failed,4,37,0.82,0.06,1
+2020-01-03 08:30:00,device_4,1.11,heater,Zone 5,1859,26,0.049,MQTT,90,15.4,73,58,txn_679,confirmed,block_6591,node_3,failed,2,57,0.77,0.15,2
+2020-01-03 08:35:00,device_2,1.98,heater,Zone 2,2354,27,0.015,MQTT,75,24.7,35,34,txn_680,failed,block_6737,node_1,successful,3,231,0.76,0.19,3
+2020-01-03 08:40:00,device_5,0.42,air conditioner,Zone 1,4753,26,0.006,HTTP,113,18.2,54,55,txn_681,confirmed,block_5862,node_3,successful,4,224,0.94,0.03,1
+2020-01-03 08:45:00,device_4,4.9,light bulb,Zone 5,1433,30,0.093,HTTP,127,31.9,40,99,txn_682,pending,block_4903,node_3,successful,5,95,0.71,0.16,3
+2020-01-03 08:50:00,device_3,2.52,light bulb,Zone 2,130,11,0.056,CoAP,92,25.3,57,6,txn_683,failed,block_8258,node_3,failed,3,107,0.78,0.15,1
+2020-01-03 08:55:00,device_1,3.84,smart appliance,Zone 1,2642,35,0.06,CoAP,126,26.2,63,99,txn_684,pending,block_8800,node_1,failed,3,198,0.79,0.17,3
+2020-01-03 09:00:00,device_4,1.81,heater,Zone 4,2042,41,0.089,HTTP,60,28.7,52,58,txn_685,confirmed,block_3444,node_2,failed,3,292,0.8,0.17,3
+2020-01-03 09:05:00,device_2,0.69,smart appliance,Zone 4,2373,25,0.037,MQTT,61,19.3,70,4,txn_686,pending,block_5432,node_3,successful,1,142,0.93,0.15,2
+2020-01-03 09:10:00,device_1,0.13,air conditioner,Zone 1,2670,47,0.094,CoAP,122,32.9,66,40,txn_687,pending,block_7097,node_1,failed,5,155,0.81,0.03,3
+2020-01-03 09:15:00,device_2,1.88,fan,Zone 5,3946,15,0.088,FTP,55,23.2,48,37,txn_688,pending,block_6498,node_1,successful,1,269,0.84,0.09,1
+2020-01-03 09:20:00,device_1,1.54,fan,Zone 1,3193,44,0.071,MQTT,112,26.0,45,10,txn_689,pending,block_4433,node_2,failed,4,61,0.85,0.14,2
+2020-01-03 09:25:00,device_4,3.36,air conditioner,Zone 5,419,24,0.078,MQTT,100,32.8,47,93,txn_690,failed,block_3400,node_1,successful,5,117,0.93,0.05,2
+2020-01-03 09:30:00,device_5,2.6,light bulb,Zone 5,3835,18,0.008,MQTT,126,20.9,57,31,txn_691,pending,block_7165,node_1,failed,4,218,0.94,0.04,1
+2020-01-03 09:35:00,device_2,0.89,air conditioner,Zone 2,598,44,0.084,MQTT,82,20.4,65,81,txn_692,confirmed,block_8592,node_1,failed,1,184,0.8,0.13,2
+2020-01-03 09:40:00,device_5,1.2,heater,Zone 2,708,12,0.038,FTP,148,22.0,73,2,txn_693,pending,block_8155,node_2,failed,1,95,0.87,0.05,2
+2020-01-03 09:45:00,device_1,3.89,light bulb,Zone 2,3378,15,0.041,FTP,50,32.9,60,41,txn_694,failed,block_7102,node_2,successful,2,207,0.85,0.16,1
+2020-01-03 09:50:00,device_3,1.84,fan,Zone 4,3021,27,0.065,MQTT,115,16.7,30,95,txn_695,confirmed,block_8714,node_2,successful,4,56,0.93,0.04,1
+2020-01-03 09:55:00,device_1,0.98,fan,Zone 2,4742,43,0.057,FTP,110,34.7,48,55,txn_696,failed,block_7568,node_3,successful,3,231,0.95,0.2,1
+2020-01-03 10:00:00,device_1,2.23,light bulb,Zone 2,3086,21,0.097,FTP,82,22.9,57,1,txn_697,failed,block_1850,node_1,failed,3,231,0.89,0.14,3
+2020-01-03 10:05:00,device_2,2.53,smart appliance,Zone 4,1681,10,0.005,MQTT,104,34.3,51,32,txn_698,confirmed,block_3378,node_2,successful,3,69,0.83,0.13,1
+2020-01-03 10:10:00,device_5,2.16,light bulb,Zone 2,4873,9,0.085,MQTT,139,22.0,74,23,txn_699,confirmed,block_5651,node_1,successful,3,67,0.73,0.08,3
+2020-01-03 10:15:00,device_3,0.33,smart appliance,Zone 5,3782,9,0.069,HTTP,85,33.7,38,65,txn_700,failed,block_6698,node_2,failed,2,112,0.88,0.14,1
+2020-01-03 10:20:00,device_4,3.02,smart appliance,Zone 4,234,27,0.045,CoAP,93,30.7,63,60,txn_701,failed,block_3965,node_2,failed,3,86,0.78,0.05,3
+2020-01-03 10:25:00,device_5,3.16,fan,Zone 1,654,36,0.042,FTP,106,29.6,71,14,txn_702,confirmed,block_2801,node_3,successful,5,101,0.81,0.16,2
+2020-01-03 10:30:00,device_5,3.2,light bulb,Zone 5,2174,44,0.041,CoAP,90,29.0,65,25,txn_703,confirmed,block_2677,node_1,failed,4,280,0.84,0.2,2
+2020-01-03 10:35:00,device_5,2.78,air conditioner,Zone 1,1203,30,0.026,MQTT,84,20.6,68,73,txn_704,pending,block_9255,node_3,successful,3,184,0.75,0.14,2
+2020-01-03 10:40:00,device_2,1.18,air conditioner,Zone 5,3228,47,0.069,FTP,148,19.1,70,48,txn_705,pending,block_6770,node_2,successful,4,297,0.7,0.1,1
+2020-01-03 10:45:00,device_4,2.01,heater,Zone 5,1431,28,0.089,MQTT,87,22.9,36,39,txn_706,pending,block_3491,node_3,failed,3,136,0.7,0.07,3
+2020-01-03 10:50:00,device_5,1.95,heater,Zone 2,3301,23,0.026,CoAP,74,16.8,44,86,txn_707,pending,block_3326,node_1,failed,2,247,0.81,0.14,1
+2020-01-03 10:55:00,device_4,4.83,fan,Zone 4,4257,24,0.088,HTTP,50,17.8,80,25,txn_708,failed,block_3983,node_3,failed,4,192,0.73,0.1,3
+2020-01-03 11:00:00,device_2,4.34,light bulb,Zone 1,4006,29,0.082,HTTP,52,16.0,72,18,txn_709,failed,block_5558,node_3,failed,5,241,0.9,0.02,1
+2020-01-03 11:05:00,device_1,1.53,heater,Zone 1,211,15,0.033,FTP,103,17.0,60,86,txn_710,failed,block_2487,node_3,successful,4,130,0.72,0.05,1
+2020-01-03 11:10:00,device_2,1.97,heater,Zone 5,3320,9,0.061,CoAP,137,17.0,43,58,txn_711,pending,block_5707,node_1,failed,2,49,0.87,0.05,2
+2020-01-03 11:15:00,device_3,4.15,air conditioner,Zone 1,1309,28,0.054,HTTP,114,34.0,72,99,txn_712,pending,block_2405,node_1,failed,4,181,0.8,0.08,2
+2020-01-03 11:20:00,device_5,1.41,heater,Zone 4,1206,7,0.042,CoAP,96,22.8,67,31,txn_713,failed,block_1352,node_3,failed,3,228,0.73,0.13,1
+2020-01-03 11:25:00,device_4,4.8,fan,Zone 3,3493,49,0.03,CoAP,57,26.9,67,89,txn_714,confirmed,block_5261,node_1,failed,2,153,0.93,0.2,3
+2020-01-03 11:30:00,device_5,2.38,smart appliance,Zone 4,1115,28,0.079,FTP,65,23.5,48,75,txn_715,confirmed,block_1900,node_2,failed,3,43,0.93,0.09,1
+2020-01-03 11:35:00,device_2,4.33,light bulb,Zone 4,1149,7,0.059,MQTT,146,17.8,67,41,txn_716,failed,block_5545,node_3,successful,1,207,0.81,0.17,3
+2020-01-03 11:40:00,device_1,0.52,heater,Zone 2,3900,45,0.027,MQTT,73,17.2,73,16,txn_717,confirmed,block_5249,node_3,failed,1,44,0.85,0.12,2
+2020-01-03 11:45:00,device_5,2.66,fan,Zone 5,4296,9,0.033,CoAP,51,34.8,45,27,txn_718,pending,block_3014,node_1,failed,2,191,0.9,0.2,2
+2020-01-03 11:50:00,device_5,3.98,light bulb,Zone 4,3407,16,0.059,HTTP,122,18.1,77,42,txn_719,pending,block_4931,node_1,successful,5,205,0.78,0.01,3
+2020-01-03 11:55:00,device_2,4.51,heater,Zone 5,1918,44,0.092,HTTP,118,27.2,72,14,txn_720,confirmed,block_6966,node_1,failed,2,83,0.94,0.05,2
+2020-01-03 12:00:00,device_4,3.33,light bulb,Zone 4,647,30,0.066,HTTP,68,23.1,49,82,txn_721,confirmed,block_8632,node_1,successful,5,295,0.94,0.06,1
+2020-01-03 12:05:00,device_4,2.92,heater,Zone 3,2151,28,0.065,HTTP,141,22.1,30,63,txn_722,confirmed,block_9950,node_1,failed,3,48,0.8,0.17,2
+2020-01-03 12:10:00,device_1,1.87,smart appliance,Zone 4,3641,25,0.05,MQTT,75,16.7,41,25,txn_723,failed,block_5124,node_3,successful,2,232,0.7,0.18,1
+2020-01-03 12:15:00,device_3,4.89,light bulb,Zone 3,1370,28,0.096,MQTT,52,22.3,67,46,txn_724,confirmed,block_4615,node_3,failed,4,115,0.71,0.16,2
+2020-01-03 12:20:00,device_4,2.67,light bulb,Zone 5,1518,36,0.094,CoAP,108,30.7,67,51,txn_725,pending,block_2475,node_3,successful,4,161,0.74,0.11,3
+2020-01-03 12:25:00,device_3,3.39,fan,Zone 4,467,32,0.016,CoAP,93,23.4,46,37,txn_726,failed,block_2586,node_3,successful,2,77,0.86,0.04,1
+2020-01-03 12:30:00,device_5,0.13,smart appliance,Zone 1,1335,20,0.055,MQTT,110,27.4,65,8,txn_727,pending,block_8547,node_2,successful,5,176,0.7,0.18,2
+2020-01-03 12:35:00,device_5,4.37,air conditioner,Zone 4,3242,16,0.014,HTTP,85,29.0,38,96,txn_728,confirmed,block_3518,node_3,failed,2,74,0.85,0.16,2
+2020-01-03 12:40:00,device_5,2.23,heater,Zone 3,4883,17,0.002,CoAP,55,16.0,64,40,txn_729,confirmed,block_7517,node_2,successful,3,48,0.88,0.02,2
+2020-01-03 12:45:00,device_4,2.5,light bulb,Zone 1,805,22,0.023,MQTT,65,15.9,43,72,txn_730,failed,block_2032,node_2,successful,3,87,0.79,0.18,3
+2020-01-03 12:50:00,device_4,0.95,fan,Zone 4,362,35,0.007,CoAP,129,15.4,34,67,txn_731,failed,block_9606,node_2,failed,3,149,0.94,0.01,3
+2020-01-03 12:55:00,device_3,4.6,heater,Zone 3,3745,46,0.025,CoAP,83,23.5,42,49,txn_732,failed,block_4745,node_1,successful,3,192,0.79,0.02,3
+2020-01-03 13:00:00,device_5,1.85,heater,Zone 4,2922,49,0.055,FTP,69,25.9,55,100,txn_733,failed,block_4415,node_2,failed,3,224,0.81,0.15,1
+2020-01-03 13:05:00,device_1,0.94,fan,Zone 1,3267,44,0.086,HTTP,143,24.0,41,92,txn_734,confirmed,block_4274,node_3,successful,4,167,0.74,0.15,2
+2020-01-03 13:10:00,device_4,1.0,fan,Zone 2,3031,46,0.099,CoAP,68,19.3,66,67,txn_735,confirmed,block_7481,node_1,successful,3,163,0.76,0.12,3
+2020-01-03 13:15:00,device_3,4.17,air conditioner,Zone 5,1078,8,0.021,CoAP,84,22.3,70,5,txn_736,failed,block_4738,node_1,failed,1,45,0.89,0.16,2
+2020-01-03 13:20:00,device_3,2.79,air conditioner,Zone 4,2722,20,0.046,HTTP,105,17.4,30,20,txn_737,confirmed,block_4353,node_3,successful,2,172,0.91,0.13,1
+2020-01-03 13:25:00,device_4,0.21,fan,Zone 1,3516,31,0.02,MQTT,79,16.9,77,39,txn_738,failed,block_2318,node_3,failed,3,172,0.72,0.01,3
+2020-01-03 13:30:00,device_1,0.72,smart appliance,Zone 2,1710,21,0.041,MQTT,145,27.6,62,36,txn_739,failed,block_7770,node_2,successful,5,40,0.79,0.1,1
+2020-01-03 13:35:00,device_3,3.58,light bulb,Zone 1,4762,9,0.05,CoAP,115,34.3,40,42,txn_740,confirmed,block_9430,node_2,failed,3,140,0.73,0.11,1
+2020-01-03 13:40:00,device_3,3.69,heater,Zone 1,405,46,0.032,FTP,84,19.4,53,47,txn_741,failed,block_5387,node_3,successful,1,120,0.9,0.17,2
+2020-01-03 13:45:00,device_1,1.86,light bulb,Zone 1,2020,35,0.065,HTTP,142,22.0,63,70,txn_742,failed,block_2423,node_2,successful,3,125,0.83,0.14,3
+2020-01-03 13:50:00,device_3,0.6,smart appliance,Zone 4,4530,44,0.075,HTTP,56,31.4,69,82,txn_743,failed,block_9607,node_2,successful,5,272,0.91,0.04,2
+2020-01-03 13:55:00,device_2,0.94,air conditioner,Zone 5,2685,47,0.095,HTTP,85,20.9,37,47,txn_744,pending,block_7392,node_1,successful,2,255,0.85,0.17,1
+2020-01-03 14:00:00,device_3,2.85,smart appliance,Zone 4,1355,33,0.066,FTP,145,20.9,55,72,txn_745,pending,block_8542,node_3,failed,2,66,0.81,0.11,3
+2020-01-03 14:05:00,device_1,3.79,heater,Zone 5,819,43,0.03,CoAP,94,18.4,38,26,txn_746,confirmed,block_8274,node_1,failed,4,115,0.79,0.03,1
+2020-01-03 14:10:00,device_4,1.52,fan,Zone 2,4648,40,0.015,CoAP,91,28.7,74,60,txn_747,failed,block_2639,node_3,failed,1,165,0.81,0.12,3
+2020-01-03 14:15:00,device_4,4.22,air conditioner,Zone 3,3772,12,0.074,HTTP,87,20.9,38,54,txn_748,pending,block_8255,node_3,successful,1,123,0.95,0.15,1
+2020-01-03 14:20:00,device_2,4.57,heater,Zone 2,4232,27,0.097,FTP,69,24.1,76,95,txn_749,pending,block_4490,node_1,failed,2,119,0.83,0.14,2
+2020-01-03 14:25:00,device_1,1.62,heater,Zone 4,2734,45,0.067,HTTP,71,20.4,62,31,txn_750,failed,block_3424,node_3,successful,1,120,0.85,0.17,3
+2020-01-03 14:30:00,device_1,0.19,light bulb,Zone 4,1065,44,0.063,HTTP,73,30.2,73,54,txn_751,pending,block_5178,node_1,failed,1,125,0.75,0.1,3
+2020-01-03 14:35:00,device_1,4.46,heater,Zone 3,3806,23,0.049,MQTT,57,21.8,58,2,txn_752,failed,block_1462,node_3,failed,1,95,0.89,0.02,1
+2020-01-03 14:40:00,device_1,3.17,air conditioner,Zone 3,2982,28,0.056,HTTP,83,17.4,74,67,txn_753,confirmed,block_5804,node_3,failed,5,162,0.77,0.11,1
+2020-01-03 14:45:00,device_5,0.21,heater,Zone 1,2221,7,0.062,CoAP,149,28.0,54,35,txn_754,confirmed,block_4855,node_1,failed,4,49,0.87,0.04,1
+2020-01-03 14:50:00,device_3,4.56,smart appliance,Zone 5,3023,10,0.02,FTP,69,16.1,63,64,txn_755,confirmed,block_1917,node_2,failed,2,200,0.93,0.12,1
+2020-01-03 14:55:00,device_1,1.46,air conditioner,Zone 4,2623,15,0.004,CoAP,60,17.8,45,39,txn_756,failed,block_3010,node_1,successful,1,154,0.7,0.16,2
+2020-01-03 15:00:00,device_2,3.04,heater,Zone 4,2096,33,0.025,FTP,89,28.3,57,85,txn_757,confirmed,block_7606,node_3,failed,2,64,0.71,0.05,1
+2020-01-03 15:05:00,device_2,2.04,heater,Zone 5,2593,47,0.019,FTP,51,28.9,64,84,txn_758,failed,block_1556,node_1,failed,4,202,0.94,0.03,2
+2020-01-03 15:10:00,device_5,0.16,air conditioner,Zone 1,3190,24,0.07,MQTT,120,16.4,44,42,txn_759,confirmed,block_4698,node_1,failed,5,156,0.84,0.12,1
+2020-01-03 15:15:00,device_1,0.85,smart appliance,Zone 3,889,7,0.093,HTTP,81,28.9,49,42,txn_760,pending,block_4851,node_3,failed,3,229,0.94,0.08,2
+2020-01-03 15:20:00,device_3,1.96,smart appliance,Zone 1,1929,6,0.07,CoAP,103,23.9,64,30,txn_761,confirmed,block_3641,node_3,failed,1,87,0.72,0.01,1
+2020-01-03 15:25:00,device_4,3.99,light bulb,Zone 1,1992,16,0.063,HTTP,76,16.1,61,6,txn_762,failed,block_7236,node_3,successful,3,91,0.75,0.03,3
+2020-01-03 15:30:00,device_3,3.23,heater,Zone 5,2804,37,0.052,HTTP,75,19.8,80,7,txn_763,confirmed,block_3085,node_3,successful,5,51,0.72,0.16,1
+2020-01-03 15:35:00,device_4,1.61,fan,Zone 2,3984,23,0.094,CoAP,97,34.0,79,47,txn_764,pending,block_2016,node_3,successful,3,278,0.8,0.09,3
+2020-01-03 15:40:00,device_3,4.38,fan,Zone 4,2658,27,0.032,CoAP,133,23.2,72,37,txn_765,failed,block_1684,node_1,failed,2,112,0.71,0.02,2
+2020-01-03 15:45:00,device_1,0.14,heater,Zone 5,1063,49,0.032,HTTP,79,25.0,37,34,txn_766,pending,block_8971,node_1,failed,4,179,0.87,0.1,3
+2020-01-03 15:50:00,device_2,3.39,light bulb,Zone 3,3946,26,0.037,MQTT,137,22.1,31,37,txn_767,pending,block_3098,node_2,failed,2,228,0.91,0.1,3
+2020-01-03 15:55:00,device_4,1.1,smart appliance,Zone 5,3028,33,0.069,MQTT,61,30.8,49,65,txn_768,failed,block_3085,node_3,successful,2,227,0.72,0.09,1
+2020-01-03 16:00:00,device_3,4.23,air conditioner,Zone 5,210,48,0.017,HTTP,124,30.7,40,47,txn_769,confirmed,block_4232,node_3,failed,2,182,0.91,0.13,2
+2020-01-03 16:05:00,device_5,1.64,light bulb,Zone 1,3496,32,0.084,CoAP,77,18.7,40,21,txn_770,confirmed,block_5261,node_1,failed,5,291,0.74,0.07,1
+2020-01-03 16:10:00,device_1,0.16,smart appliance,Zone 4,4411,42,0.087,HTTP,129,20.6,43,27,txn_771,failed,block_1273,node_3,failed,2,182,0.94,0.11,2
+2020-01-03 16:15:00,device_3,0.86,fan,Zone 3,2400,50,0.003,HTTP,118,26.4,64,40,txn_772,failed,block_7792,node_1,failed,5,190,0.88,0.15,3
+2020-01-03 16:20:00,device_1,0.63,smart appliance,Zone 5,2852,29,0.064,HTTP,84,24.6,49,75,txn_773,pending,block_1498,node_1,failed,5,120,0.72,0.01,3
+2020-01-03 16:25:00,device_2,1.22,heater,Zone 4,2398,8,0.004,MQTT,93,30.1,52,98,txn_774,pending,block_6092,node_2,failed,5,134,0.76,0.06,3
+2020-01-03 16:30:00,device_5,3.62,light bulb,Zone 5,4181,49,0.042,MQTT,64,33.6,32,86,txn_775,confirmed,block_4310,node_1,successful,5,35,0.77,0.03,1
+2020-01-03 16:35:00,device_4,1.32,air conditioner,Zone 2,536,18,0.088,CoAP,109,22.7,57,58,txn_776,confirmed,block_7421,node_1,failed,3,282,0.76,0.1,2
+2020-01-03 16:40:00,device_4,1.98,fan,Zone 4,4285,8,0.009,MQTT,148,19.3,76,38,txn_777,confirmed,block_7142,node_1,successful,2,145,0.88,0.07,1
+2020-01-03 16:45:00,device_2,3.87,smart appliance,Zone 3,3500,46,0.052,CoAP,96,25.1,70,79,txn_778,pending,block_6378,node_3,failed,3,137,0.74,0.1,3
+2020-01-03 16:50:00,device_4,1.78,air conditioner,Zone 3,158,6,0.097,FTP,131,28.1,52,48,txn_779,pending,block_9381,node_3,failed,2,110,0.81,0.16,2
+2020-01-03 16:55:00,device_1,1.7,light bulb,Zone 5,782,28,0.006,MQTT,125,17.8,60,69,txn_780,confirmed,block_1547,node_3,failed,3,85,0.79,0.16,2
+2020-01-03 17:00:00,device_2,4.39,smart appliance,Zone 4,4989,6,0.037,FTP,61,18.7,35,8,txn_781,confirmed,block_9143,node_3,failed,4,130,0.8,0.05,1
+2020-01-03 17:05:00,device_3,2.41,heater,Zone 5,4486,39,0.048,HTTP,59,31.0,71,59,txn_782,confirmed,block_7549,node_1,successful,1,132,0.93,0.04,1
+2020-01-03 17:10:00,device_4,2.04,light bulb,Zone 4,4602,34,0.039,MQTT,112,29.8,57,40,txn_783,pending,block_6350,node_2,successful,1,269,0.84,0.14,1
+2020-01-03 17:15:00,device_5,3.18,fan,Zone 5,1876,35,0.001,FTP,139,16.0,59,52,txn_784,confirmed,block_5837,node_2,failed,5,111,0.79,0.1,3
+2020-01-03 17:20:00,device_4,1.79,light bulb,Zone 4,856,42,0.056,CoAP,112,24.3,44,44,txn_785,pending,block_4673,node_2,successful,1,52,0.88,0.04,2
+2020-01-03 17:25:00,device_3,1.66,air conditioner,Zone 1,1427,37,0.084,FTP,71,22.9,68,71,txn_786,pending,block_8715,node_3,successful,4,287,0.88,0.13,3
+2020-01-03 17:30:00,device_3,2.29,smart appliance,Zone 4,2001,50,0.087,FTP,133,24.1,49,5,txn_787,pending,block_1467,node_3,failed,4,70,0.73,0.14,1
+2020-01-03 17:35:00,device_2,1.27,air conditioner,Zone 2,1268,30,0.093,HTTP,110,20.6,58,68,txn_788,confirmed,block_4690,node_2,failed,5,135,0.88,0.16,2
+2020-01-03 17:40:00,device_5,3.03,smart appliance,Zone 1,195,6,0.057,CoAP,108,30.9,55,31,txn_789,pending,block_5500,node_2,successful,3,168,0.89,0.07,3
+2020-01-03 17:45:00,device_3,3.77,air conditioner,Zone 5,1256,15,0.097,CoAP,137,32.7,79,58,txn_790,pending,block_3174,node_2,successful,5,208,0.92,0.01,2
+2020-01-03 17:50:00,device_3,4.67,air conditioner,Zone 5,233,42,0.048,MQTT,143,27.2,61,1,txn_791,pending,block_7349,node_2,failed,3,223,0.76,0.03,3
+2020-01-03 17:55:00,device_2,4.89,fan,Zone 2,4932,27,0.064,HTTP,59,26.5,65,18,txn_792,failed,block_8259,node_2,failed,2,74,0.72,0.14,3
+2020-01-03 18:00:00,device_3,1.89,light bulb,Zone 4,3331,15,0.026,FTP,107,31.8,42,19,txn_793,pending,block_6372,node_3,failed,3,46,0.74,0.16,2
+2020-01-03 18:05:00,device_3,1.4,heater,Zone 4,1962,49,0.044,HTTP,80,28.9,77,62,txn_794,pending,block_5571,node_3,failed,2,84,0.88,0.02,3
+2020-01-03 18:10:00,device_1,4.13,heater,Zone 1,3469,28,0.019,FTP,116,18.2,31,50,txn_795,pending,block_5922,node_2,successful,2,237,0.84,0.06,3
+2020-01-03 18:15:00,device_1,0.61,smart appliance,Zone 5,4363,21,0.078,HTTP,133,18.8,46,48,txn_796,failed,block_6002,node_2,failed,3,215,0.76,0.1,3
+2020-01-03 18:20:00,device_4,2.03,fan,Zone 5,4511,27,0.051,MQTT,105,16.4,44,6,txn_797,confirmed,block_3768,node_1,failed,5,45,0.93,0.08,1
+2020-01-03 18:25:00,device_2,4.13,fan,Zone 5,2465,39,0.01,CoAP,148,21.5,63,70,txn_798,confirmed,block_8808,node_3,failed,1,168,0.93,0.17,2
+2020-01-03 18:30:00,device_2,1.28,fan,Zone 5,1756,39,0.071,MQTT,105,20.9,58,3,txn_799,pending,block_2690,node_1,successful,1,160,0.77,0.05,2
+2020-01-03 18:35:00,device_3,2.77,smart appliance,Zone 5,4312,46,0.013,FTP,113,33.9,71,29,txn_800,pending,block_4250,node_2,failed,3,251,0.83,0.08,2
+2020-01-03 18:40:00,device_5,1.14,light bulb,Zone 2,1159,5,0.077,HTTP,107,15.6,65,10,txn_801,confirmed,block_8781,node_1,failed,1,250,0.84,0.18,1
+2020-01-03 18:45:00,device_4,0.2,heater,Zone 5,3104,9,0.011,FTP,92,26.9,40,87,txn_802,failed,block_1716,node_1,successful,2,136,0.73,0.11,2
+2020-01-03 18:50:00,device_1,4.83,light bulb,Zone 2,1321,9,0.074,HTTP,65,27.0,33,38,txn_803,pending,block_3865,node_3,failed,4,214,0.82,0.01,1
+2020-01-03 18:55:00,device_2,1.24,light bulb,Zone 2,4347,10,0.019,FTP,50,26.2,73,12,txn_804,failed,block_3765,node_2,failed,3,284,0.88,0.05,2
+2020-01-03 19:00:00,device_5,4.72,air conditioner,Zone 3,3853,10,0.065,CoAP,99,31.7,73,11,txn_805,confirmed,block_4727,node_3,successful,5,117,0.76,0.1,3
+2020-01-03 19:05:00,device_2,3.11,fan,Zone 1,4333,16,0.001,MQTT,115,22.6,64,20,txn_806,pending,block_1486,node_3,failed,5,222,0.86,0.05,3
+2020-01-03 19:10:00,device_4,1.81,smart appliance,Zone 4,2706,16,0.033,FTP,82,19.3,61,60,txn_807,pending,block_4163,node_1,failed,1,46,0.9,0.08,1
+2020-01-03 19:15:00,device_2,2.63,air conditioner,Zone 3,594,35,0.027,CoAP,129,16.7,30,27,txn_808,confirmed,block_4744,node_3,successful,1,226,0.8,0.11,2
+2020-01-03 19:20:00,device_3,2.3,light bulb,Zone 3,4225,37,0.033,CoAP,54,18.8,59,99,txn_809,confirmed,block_5021,node_2,failed,2,205,0.77,0.05,3
+2020-01-03 19:25:00,device_3,2.12,smart appliance,Zone 4,1534,20,0.1,MQTT,142,20.7,72,96,txn_810,pending,block_8270,node_1,successful,3,236,0.81,0.2,3
+2020-01-03 19:30:00,device_5,0.39,heater,Zone 4,2675,6,0.024,CoAP,119,24.5,79,2,txn_811,failed,block_9016,node_2,successful,5,184,0.87,0.16,1
+2020-01-03 19:35:00,device_3,4.73,light bulb,Zone 2,3626,19,0.061,MQTT,109,26.5,71,50,txn_812,pending,block_5153,node_3,successful,5,148,0.74,0.13,2
+2020-01-03 19:40:00,device_1,1.05,air conditioner,Zone 2,2719,48,0.007,CoAP,104,15.1,34,100,txn_813,pending,block_1955,node_3,failed,3,187,0.88,0.11,3
+2020-01-03 19:45:00,device_2,2.41,air conditioner,Zone 5,1858,10,0.08,HTTP,138,31.2,68,71,txn_814,failed,block_6486,node_2,successful,1,197,0.75,0.14,3
+2020-01-03 19:50:00,device_2,3.66,smart appliance,Zone 1,3259,6,0.073,FTP,136,16.9,56,97,txn_815,pending,block_2927,node_1,failed,1,246,0.8,0.15,1
+2020-01-03 19:55:00,device_4,3.81,light bulb,Zone 5,3622,47,0.097,FTP,145,24.9,71,61,txn_816,failed,block_8145,node_3,failed,1,191,0.77,0.09,1
+2020-01-03 20:00:00,device_2,4.58,smart appliance,Zone 3,4886,32,0.049,FTP,106,29.9,43,59,txn_817,failed,block_6562,node_3,failed,5,132,0.91,0.17,1
+2020-01-03 20:05:00,device_3,0.82,air conditioner,Zone 1,4523,37,0.081,CoAP,112,24.1,63,7,txn_818,pending,block_4636,node_3,failed,2,154,0.86,0.1,2
+2020-01-03 20:10:00,device_5,4.34,light bulb,Zone 2,3899,49,0.032,HTTP,142,32.8,71,88,txn_819,confirmed,block_9664,node_1,failed,4,51,0.83,0.08,1
+2020-01-03 20:15:00,device_3,2.34,air conditioner,Zone 5,1878,20,0.085,FTP,68,21.3,45,34,txn_820,failed,block_5459,node_2,failed,5,250,0.76,0.11,3
+2020-01-03 20:20:00,device_5,4.33,smart appliance,Zone 4,2872,45,0.044,FTP,117,15.8,35,78,txn_821,pending,block_4531,node_2,successful,3,170,0.85,0.12,3
+2020-01-03 20:25:00,device_3,1.09,light bulb,Zone 5,385,15,0.066,MQTT,114,26.5,37,20,txn_822,pending,block_7806,node_1,successful,2,224,0.9,0.09,2
+2020-01-03 20:30:00,device_3,0.62,smart appliance,Zone 3,2582,17,0.076,CoAP,112,22.6,40,25,txn_823,confirmed,block_2014,node_2,successful,3,292,0.82,0.08,1
+2020-01-03 20:35:00,device_5,4.63,fan,Zone 1,372,11,0.052,FTP,68,32.3,64,88,txn_824,confirmed,block_1414,node_2,successful,2,87,0.85,0.17,1
+2020-01-03 20:40:00,device_1,0.42,light bulb,Zone 2,4422,22,0.098,HTTP,132,27.7,70,78,txn_825,confirmed,block_3487,node_2,failed,5,176,0.8,0.03,2
+2020-01-03 20:45:00,device_4,0.72,air conditioner,Zone 5,3512,50,0.025,FTP,80,15.4,63,25,txn_826,confirmed,block_3453,node_3,failed,5,188,0.8,0.1,2
+2020-01-03 20:50:00,device_5,4.07,heater,Zone 2,4452,47,0.092,FTP,73,27.1,63,15,txn_827,pending,block_5955,node_2,failed,5,183,0.76,0.17,1
+2020-01-03 20:55:00,device_1,3.65,heater,Zone 4,4105,37,0.086,FTP,105,31.4,77,74,txn_828,confirmed,block_1512,node_2,successful,5,132,0.93,0.04,1
+2020-01-03 21:00:00,device_3,3.86,air conditioner,Zone 2,2190,17,0.079,CoAP,149,34.7,80,1,txn_829,failed,block_9745,node_2,failed,4,37,0.91,0.16,2
+2020-01-03 21:05:00,device_5,1.84,fan,Zone 1,1796,21,0.035,HTTP,74,29.8,57,10,txn_830,pending,block_8953,node_2,failed,3,164,0.85,0.02,3
+2020-01-03 21:10:00,device_5,3.46,air conditioner,Zone 1,2393,9,0.086,HTTP,91,27.7,50,48,txn_831,failed,block_8660,node_1,successful,5,65,0.81,0.1,2
+2020-01-03 21:15:00,device_1,4.04,smart appliance,Zone 2,4354,33,0.01,HTTP,98,21.0,80,65,txn_832,failed,block_4923,node_2,failed,5,168,0.81,0.12,2
+2020-01-03 21:20:00,device_1,0.24,smart appliance,Zone 5,3267,34,0.01,FTP,74,28.3,72,97,txn_833,confirmed,block_9912,node_3,failed,4,234,0.93,0.02,1
+2020-01-03 21:25:00,device_3,1.81,air conditioner,Zone 5,4251,24,0.012,FTP,77,33.7,71,21,txn_834,failed,block_6012,node_3,failed,3,183,0.7,0.12,3
+2020-01-03 21:30:00,device_4,4.32,air conditioner,Zone 1,1801,28,0.06,MQTT,99,26.1,77,52,txn_835,failed,block_2406,node_2,successful,2,181,0.83,0.12,1
+2020-01-03 21:35:00,device_4,1.25,smart appliance,Zone 4,1217,11,0.013,CoAP,149,17.5,65,13,txn_836,confirmed,block_6258,node_1,failed,4,87,0.93,0.17,1
+2020-01-03 21:40:00,device_3,2.37,smart appliance,Zone 2,4676,19,0.061,HTTP,123,17.7,38,71,txn_837,pending,block_4105,node_3,failed,2,36,0.89,0.17,2
+2020-01-03 21:45:00,device_2,1.21,light bulb,Zone 1,2959,34,0.063,FTP,54,25.0,79,10,txn_838,pending,block_9462,node_1,failed,5,232,0.88,0.2,2
+2020-01-03 21:50:00,device_3,2.75,fan,Zone 2,3554,17,0.011,FTP,117,17.3,50,65,txn_839,pending,block_3724,node_1,successful,1,60,0.82,0.17,3
+2020-01-03 21:55:00,device_3,3.12,heater,Zone 3,1090,14,0.022,CoAP,83,27.3,50,95,txn_840,pending,block_9094,node_2,failed,1,252,0.85,0.05,2
+2020-01-03 22:00:00,device_1,0.54,heater,Zone 2,4045,27,0.015,MQTT,149,28.1,51,5,txn_841,failed,block_4285,node_2,successful,5,123,0.88,0.17,3
+2020-01-03 22:05:00,device_1,1.03,air conditioner,Zone 1,1268,21,0.055,CoAP,102,17.5,40,34,txn_842,failed,block_9026,node_3,failed,4,52,0.94,0.04,1
+2020-01-03 22:10:00,device_4,1.49,fan,Zone 4,177,28,0.004,FTP,87,16.5,69,24,txn_843,pending,block_1175,node_2,successful,1,263,0.88,0.05,1
+2020-01-03 22:15:00,device_3,4.72,heater,Zone 4,1554,10,0.064,MQTT,83,26.0,69,88,txn_844,failed,block_1315,node_3,successful,1,265,0.93,0.06,1
+2020-01-03 22:20:00,device_3,1.33,fan,Zone 4,4824,5,0.086,MQTT,142,24.2,68,57,txn_845,confirmed,block_6604,node_1,successful,2,174,0.72,0.01,1
+2020-01-03 22:25:00,device_3,4.14,air conditioner,Zone 5,3350,9,0.004,HTTP,92,18.2,34,68,txn_846,confirmed,block_3703,node_2,successful,1,296,0.74,0.06,1
+2020-01-03 22:30:00,device_1,3.3,light bulb,Zone 4,4305,15,0.023,CoAP,57,30.8,50,14,txn_847,confirmed,block_7232,node_1,failed,5,210,0.84,0.16,1
+2020-01-03 22:35:00,device_1,0.24,heater,Zone 1,2642,33,0.074,FTP,61,19.4,61,54,txn_848,pending,block_9246,node_1,failed,1,132,0.9,0.05,3
+2020-01-03 22:40:00,device_5,1.89,heater,Zone 5,4167,50,0.007,CoAP,78,26.3,73,4,txn_849,failed,block_2771,node_2,failed,2,73,0.73,0.1,2
+2020-01-03 22:45:00,device_4,0.24,heater,Zone 1,4851,8,0.01,FTP,72,22.7,62,45,txn_850,failed,block_6062,node_1,successful,4,252,0.86,0.14,2
+2020-01-03 22:50:00,device_5,3.41,smart appliance,Zone 3,3729,49,0.059,HTTP,150,31.1,33,40,txn_851,failed,block_6912,node_2,failed,2,252,0.75,0.19,1
+2020-01-03 22:55:00,device_4,3.56,fan,Zone 1,1495,17,0.075,MQTT,114,29.3,46,7,txn_852,pending,block_3854,node_2,successful,3,180,0.94,0.11,1
+2020-01-03 23:00:00,device_4,4.75,light bulb,Zone 3,4279,5,0.061,HTTP,130,30.5,66,47,txn_853,confirmed,block_4461,node_2,successful,2,211,0.91,0.03,2
+2020-01-03 23:05:00,device_3,4.35,smart appliance,Zone 1,2613,40,0.07,CoAP,93,18.7,78,23,txn_854,pending,block_5484,node_2,successful,1,168,0.89,0.1,3
+2020-01-03 23:10:00,device_2,1.95,air conditioner,Zone 5,4053,40,0.061,FTP,79,18.1,67,1,txn_855,failed,block_7370,node_1,successful,5,267,0.8,0.14,1
+2020-01-03 23:15:00,device_2,0.82,air conditioner,Zone 2,1131,32,0.011,HTTP,94,20.3,45,45,txn_856,confirmed,block_1350,node_1,successful,3,48,0.7,0.15,1
+2020-01-03 23:20:00,device_4,4.96,air conditioner,Zone 5,4762,38,0.003,FTP,114,17.4,64,71,txn_857,pending,block_3671,node_1,failed,1,86,0.92,0.05,1
+2020-01-03 23:25:00,device_2,4.94,fan,Zone 2,2155,48,0.048,FTP,148,33.3,71,62,txn_858,pending,block_2002,node_3,failed,3,196,0.72,0.14,2
+2020-01-03 23:30:00,device_1,2.81,smart appliance,Zone 3,2735,26,0.078,MQTT,136,25.8,73,37,txn_859,pending,block_2607,node_3,failed,1,293,0.85,0.02,1
+2020-01-03 23:35:00,device_4,3.99,light bulb,Zone 3,103,43,0.046,CoAP,122,18.4,77,16,txn_860,pending,block_8432,node_2,successful,5,106,0.71,0.03,3
+2020-01-03 23:40:00,device_2,1.42,fan,Zone 1,431,33,0.081,HTTP,93,25.4,79,96,txn_861,failed,block_6739,node_1,failed,1,233,0.82,0.14,1
+2020-01-03 23:45:00,device_3,0.58,air conditioner,Zone 1,2394,13,0.058,MQTT,58,32.7,64,47,txn_862,pending,block_3516,node_1,failed,3,187,0.78,0.2,2
+2020-01-03 23:50:00,device_3,4.2,air conditioner,Zone 5,4517,48,0.095,HTTP,107,25.8,42,70,txn_863,confirmed,block_9853,node_1,successful,4,205,0.87,0.06,1
+2020-01-03 23:55:00,device_5,3.9,air conditioner,Zone 3,1824,31,0.07,MQTT,70,28.4,56,32,txn_864,failed,block_8930,node_1,successful,3,57,0.8,0.18,3
+2020-01-04 00:00:00,device_1,4.67,fan,Zone 5,1285,15,0.015,FTP,71,20.4,32,53,txn_865,confirmed,block_9801,node_1,failed,2,295,0.76,0.18,3
+2020-01-04 00:05:00,device_5,0.88,air conditioner,Zone 3,4117,47,0.027,CoAP,70,20.0,55,0,txn_866,failed,block_1222,node_3,failed,5,268,0.71,0.08,1
+2020-01-04 00:10:00,device_2,3.33,smart appliance,Zone 1,1045,41,0.004,CoAP,73,33.2,68,28,txn_867,confirmed,block_1893,node_3,failed,5,213,0.83,0.18,2
+2020-01-04 00:15:00,device_1,0.82,light bulb,Zone 5,117,27,0.092,FTP,116,33.6,62,29,txn_868,confirmed,block_5207,node_2,failed,1,188,0.95,0.1,3
+2020-01-04 00:20:00,device_1,3.17,heater,Zone 4,3305,47,0.028,FTP,106,31.3,80,16,txn_869,confirmed,block_2602,node_2,successful,5,155,0.72,0.12,1
+2020-01-04 00:25:00,device_2,4.93,smart appliance,Zone 2,1179,17,0.004,HTTP,109,27.5,52,88,txn_870,confirmed,block_1399,node_3,successful,4,276,0.83,0.03,3
+2020-01-04 00:30:00,device_5,2.49,fan,Zone 1,1213,18,0.02,CoAP,72,26.6,36,34,txn_871,pending,block_5009,node_2,successful,3,69,0.7,0.03,2
+2020-01-04 00:35:00,device_4,3.52,smart appliance,Zone 5,197,32,0.076,MQTT,142,33.8,69,84,txn_872,confirmed,block_4002,node_3,successful,2,213,0.91,0.18,1
+2020-01-04 00:40:00,device_5,4.6,smart appliance,Zone 1,4443,41,0.05,CoAP,66,18.1,40,61,txn_873,confirmed,block_1052,node_2,successful,2,176,0.92,0.02,1
+2020-01-04 00:45:00,device_5,4.75,smart appliance,Zone 5,139,18,0.002,HTTP,72,34.4,54,92,txn_874,pending,block_3740,node_1,failed,5,266,0.77,0.16,3
+2020-01-04 00:50:00,device_5,3.95,air conditioner,Zone 3,4523,8,0.073,MQTT,80,32.0,56,8,txn_875,pending,block_8758,node_2,successful,3,258,0.89,0.17,1
+2020-01-04 00:55:00,device_4,4.71,light bulb,Zone 3,2129,40,0.049,FTP,87,20.4,61,63,txn_876,confirmed,block_7829,node_1,failed,3,230,0.93,0.05,3
+2020-01-04 01:00:00,device_3,4.69,fan,Zone 3,3876,30,0.082,FTP,92,18.8,55,67,txn_877,failed,block_4696,node_3,failed,1,38,0.9,0.11,3
+2020-01-04 01:05:00,device_2,4.41,fan,Zone 3,4511,45,0.051,CoAP,149,20.3,63,100,txn_878,confirmed,block_5314,node_1,failed,1,176,0.73,0.11,3
+2020-01-04 01:10:00,device_4,2.62,smart appliance,Zone 2,1871,34,0.001,CoAP,91,28.7,58,53,txn_879,pending,block_5011,node_2,successful,3,211,0.7,0.1,1
+2020-01-04 01:15:00,device_2,1.68,air conditioner,Zone 2,1639,45,0.045,FTP,62,31.9,74,69,txn_880,confirmed,block_8850,node_1,failed,3,231,0.8,0.18,3
+2020-01-04 01:20:00,device_3,2.3,air conditioner,Zone 5,1725,9,0.024,MQTT,121,34.8,58,31,txn_881,confirmed,block_9415,node_1,successful,4,195,0.85,0.09,1
+2020-01-04 01:25:00,device_4,4.62,heater,Zone 3,1113,43,0.001,CoAP,117,15.9,65,22,txn_882,pending,block_5129,node_3,failed,4,239,0.8,0.2,1
+2020-01-04 01:30:00,device_4,0.17,fan,Zone 5,2597,48,0.055,CoAP,119,18.3,55,58,txn_883,confirmed,block_7989,node_2,failed,1,288,0.87,0.03,1
+2020-01-04 01:35:00,device_1,0.52,heater,Zone 4,512,31,0.063,HTTP,119,31.8,34,98,txn_884,pending,block_2927,node_2,successful,2,97,0.85,0.1,1
+2020-01-04 01:40:00,device_5,2.09,smart appliance,Zone 5,3762,35,0.089,FTP,73,28.0,66,72,txn_885,failed,block_8898,node_3,successful,3,81,0.81,0.19,1
+2020-01-04 01:45:00,device_4,1.47,smart appliance,Zone 5,153,5,0.043,MQTT,80,17.8,43,63,txn_886,failed,block_4993,node_3,failed,5,88,0.9,0.15,1
+2020-01-04 01:50:00,device_2,3.09,heater,Zone 4,4217,28,0.088,CoAP,79,16.5,55,31,txn_887,pending,block_2389,node_1,failed,5,261,0.85,0.15,2
+2020-01-04 01:55:00,device_4,1.49,fan,Zone 1,447,17,0.08,HTTP,100,20.6,62,15,txn_888,failed,block_9988,node_1,successful,4,61,0.88,0.08,1
+2020-01-04 02:00:00,device_3,1.83,smart appliance,Zone 4,4650,13,0.087,FTP,129,34.6,44,15,txn_889,failed,block_2301,node_1,successful,1,77,0.91,0.11,3
+2020-01-04 02:05:00,device_4,3.21,air conditioner,Zone 3,1059,16,0.03,HTTP,92,18.0,75,46,txn_890,failed,block_4620,node_1,failed,2,295,0.94,0.15,3
+2020-01-04 02:10:00,device_1,1.25,heater,Zone 1,3348,19,0.008,MQTT,93,23.3,78,2,txn_891,confirmed,block_1858,node_3,successful,2,148,0.75,0.05,3
+2020-01-04 02:15:00,device_1,1.53,light bulb,Zone 3,3611,6,0.062,MQTT,81,19.7,44,42,txn_892,confirmed,block_3678,node_2,failed,2,35,0.84,0.04,3
+2020-01-04 02:20:00,device_2,2.04,heater,Zone 1,2234,50,0.024,MQTT,139,31.4,47,66,txn_893,pending,block_1216,node_2,failed,4,53,0.95,0.1,2
+2020-01-04 02:25:00,device_5,1.33,heater,Zone 1,1026,30,0.049,FTP,57,31.7,51,89,txn_894,failed,block_1533,node_2,failed,3,268,0.85,0.18,2
+2020-01-04 02:30:00,device_5,2.43,smart appliance,Zone 3,403,30,0.061,MQTT,115,21.2,69,40,txn_895,failed,block_7961,node_1,failed,1,176,0.79,0.01,1
+2020-01-04 02:35:00,device_3,1.16,light bulb,Zone 2,4643,7,0.025,CoAP,83,22.1,68,97,txn_896,pending,block_9719,node_3,failed,2,118,0.74,0.07,3
+2020-01-04 02:40:00,device_2,4.91,smart appliance,Zone 1,398,34,0.098,HTTP,150,30.0,56,97,txn_897,confirmed,block_4051,node_2,failed,4,288,0.89,0.05,2
+2020-01-04 02:45:00,device_4,2.85,smart appliance,Zone 4,3331,45,0.083,HTTP,51,34.4,69,8,txn_898,confirmed,block_3964,node_1,successful,4,99,0.71,0.09,2
+2020-01-04 02:50:00,device_1,0.59,smart appliance,Zone 2,1958,47,0.061,CoAP,122,34.0,39,13,txn_899,confirmed,block_3171,node_1,failed,1,46,0.88,0.12,3
+2020-01-04 02:55:00,device_5,4.7,heater,Zone 3,4356,50,0.027,HTTP,99,23.2,38,42,txn_900,failed,block_2689,node_3,successful,2,144,0.79,0.01,3
+2020-01-04 03:00:00,device_3,2.84,heater,Zone 4,3559,7,0.021,HTTP,107,18.2,53,43,txn_901,confirmed,block_4906,node_1,failed,1,263,0.92,0.18,3
+2020-01-04 03:05:00,device_2,3.64,light bulb,Zone 1,2512,36,0.036,HTTP,126,21.1,49,31,txn_902,pending,block_5804,node_2,failed,2,141,0.8,0.12,2
+2020-01-04 03:10:00,device_5,4.55,heater,Zone 5,3218,33,0.046,FTP,94,19.8,42,54,txn_903,failed,block_2921,node_1,successful,1,254,0.92,0.19,1
+2020-01-04 03:15:00,device_3,1.19,fan,Zone 4,3038,9,0.039,CoAP,142,23.9,47,61,txn_904,confirmed,block_7397,node_1,failed,3,223,0.91,0.04,2
+2020-01-04 03:20:00,device_2,1.71,heater,Zone 4,1404,14,0.014,HTTP,141,29.0,47,44,txn_905,failed,block_3962,node_2,successful,1,62,0.75,0.03,1
+2020-01-04 03:25:00,device_4,0.4,fan,Zone 1,370,40,0.066,FTP,75,21.8,76,4,txn_906,failed,block_4442,node_3,successful,3,135,0.95,0.11,1
+2020-01-04 03:30:00,device_5,0.97,light bulb,Zone 5,1304,7,0.009,MQTT,102,28.2,64,40,txn_907,failed,block_4562,node_1,successful,3,300,0.83,0.19,2
+2020-01-04 03:35:00,device_3,4.51,fan,Zone 1,4341,34,0.062,FTP,99,17.3,75,98,txn_908,failed,block_2230,node_3,successful,2,152,0.72,0.13,2
+2020-01-04 03:40:00,device_5,1.12,light bulb,Zone 5,4241,32,0.058,HTTP,83,18.1,77,45,txn_909,pending,block_2578,node_3,failed,1,158,0.85,0.08,1
+2020-01-04 03:45:00,device_4,3.38,light bulb,Zone 5,1747,44,0.082,MQTT,80,33.7,61,96,txn_910,pending,block_3774,node_1,successful,3,185,0.94,0.05,3
+2020-01-04 03:50:00,device_5,1.09,air conditioner,Zone 5,1679,6,0.04,FTP,55,32.5,68,22,txn_911,pending,block_4390,node_3,failed,3,48,0.79,0.11,3
+2020-01-04 03:55:00,device_1,4.63,smart appliance,Zone 4,2719,14,0.005,HTTP,118,33.3,62,7,txn_912,failed,block_1184,node_3,failed,4,175,0.85,0.06,3
+2020-01-04 04:00:00,device_4,3.89,heater,Zone 5,3441,27,0.069,CoAP,115,27.9,61,24,txn_913,pending,block_3100,node_2,failed,5,279,0.86,0.02,1
+2020-01-04 04:05:00,device_3,2.18,smart appliance,Zone 1,3754,49,0.046,FTP,136,26.5,63,94,txn_914,confirmed,block_9599,node_3,failed,2,49,0.71,0.14,3
+2020-01-04 04:10:00,device_2,2.84,smart appliance,Zone 5,4310,46,0.02,CoAP,105,29.3,40,1,txn_915,failed,block_5392,node_3,failed,4,149,0.76,0.05,2
+2020-01-04 04:15:00,device_2,1.42,light bulb,Zone 4,1921,49,0.063,CoAP,75,15.1,68,26,txn_916,failed,block_6931,node_3,failed,4,281,0.85,0.14,2
+2020-01-04 04:20:00,device_2,2.71,light bulb,Zone 3,1575,38,0.051,MQTT,53,28.3,50,2,txn_917,pending,block_1671,node_3,failed,2,237,0.71,0.08,1
+2020-01-04 04:25:00,device_5,4.37,fan,Zone 3,953,5,0.047,FTP,89,16.1,31,5,txn_918,failed,block_9644,node_3,failed,1,183,0.83,0.08,1
+2020-01-04 04:30:00,device_5,0.51,smart appliance,Zone 3,2150,44,0.093,HTTP,87,28.5,63,78,txn_919,confirmed,block_9267,node_1,successful,3,257,0.84,0.05,3
+2020-01-04 04:35:00,device_4,0.21,air conditioner,Zone 2,3818,48,0.069,CoAP,51,29.3,31,66,txn_920,failed,block_4472,node_2,failed,1,230,0.73,0.16,3
+2020-01-04 04:40:00,device_4,1.09,light bulb,Zone 5,4062,41,0.079,MQTT,131,27.3,34,57,txn_921,pending,block_4966,node_2,successful,3,282,0.78,0.1,3
+2020-01-04 04:45:00,device_5,1.21,heater,Zone 4,4251,9,0.095,FTP,149,23.2,35,68,txn_922,confirmed,block_5081,node_2,successful,2,119,0.87,0.2,2
+2020-01-04 04:50:00,device_1,1.67,fan,Zone 3,1492,23,0.094,HTTP,66,31.5,68,26,txn_923,pending,block_9217,node_2,successful,4,297,0.88,0.2,2
+2020-01-04 04:55:00,device_4,1.12,light bulb,Zone 5,1832,36,0.024,HTTP,135,30.6,33,85,txn_924,failed,block_1973,node_3,successful,1,44,0.78,0.05,3
+2020-01-04 05:00:00,device_5,1.67,smart appliance,Zone 2,1780,7,0.071,CoAP,134,34.8,37,14,txn_925,pending,block_7055,node_2,failed,2,260,0.8,0.03,2
+2020-01-04 05:05:00,device_4,2.93,smart appliance,Zone 5,1994,23,0.065,MQTT,56,17.0,41,63,txn_926,failed,block_8024,node_2,failed,1,252,0.77,0.14,2
+2020-01-04 05:10:00,device_1,2.73,heater,Zone 2,2859,13,0.044,CoAP,134,33.3,73,18,txn_927,pending,block_6660,node_1,successful,4,159,0.88,0.17,2
+2020-01-04 05:15:00,device_2,2.97,light bulb,Zone 4,2326,7,0.057,MQTT,112,23.2,33,17,txn_928,pending,block_3780,node_2,failed,5,151,0.78,0.03,1
+2020-01-04 05:20:00,device_2,1.88,fan,Zone 5,3076,14,0.046,FTP,65,27.2,76,95,txn_929,confirmed,block_7753,node_1,failed,2,247,0.94,0.04,2
+2020-01-04 05:25:00,device_5,0.28,light bulb,Zone 3,4578,7,0.041,CoAP,135,31.5,48,87,txn_930,pending,block_7665,node_2,failed,5,128,0.76,0.12,2
+2020-01-04 05:30:00,device_2,4.63,heater,Zone 1,1939,8,0.036,CoAP,102,23.8,40,47,txn_931,failed,block_4486,node_3,successful,1,67,0.72,0.05,2
+2020-01-04 05:35:00,device_2,0.88,heater,Zone 5,1643,15,0.045,FTP,75,24.5,61,75,txn_932,confirmed,block_6299,node_1,failed,5,251,0.77,0.15,3
+2020-01-04 05:40:00,device_3,3.71,fan,Zone 1,2246,49,0.06,MQTT,91,28.9,51,42,txn_933,confirmed,block_5972,node_2,failed,2,148,0.78,0.06,3
+2020-01-04 05:45:00,device_3,4.83,air conditioner,Zone 3,4073,32,0.015,CoAP,121,19.7,44,48,txn_934,confirmed,block_9614,node_2,failed,2,102,0.92,0.08,1
+2020-01-04 05:50:00,device_4,0.99,light bulb,Zone 3,2311,41,0.062,MQTT,129,26.2,56,9,txn_935,confirmed,block_2313,node_3,successful,1,123,0.94,0.11,2
+2020-01-04 05:55:00,device_2,0.41,heater,Zone 2,2162,7,0.037,CoAP,117,31.9,45,27,txn_936,confirmed,block_6121,node_3,successful,1,104,0.8,0.09,1
+2020-01-04 06:00:00,device_1,3.08,light bulb,Zone 4,3442,39,0.065,CoAP,76,23.1,56,40,txn_937,failed,block_3619,node_1,failed,5,267,0.85,0.09,1
+2020-01-04 06:05:00,device_5,1.89,fan,Zone 4,4303,9,0.024,CoAP,90,20.4,53,73,txn_938,confirmed,block_1524,node_1,successful,2,260,0.83,0.03,1
+2020-01-04 06:10:00,device_2,0.17,fan,Zone 2,2281,7,0.074,MQTT,105,21.1,50,12,txn_939,failed,block_6312,node_3,successful,5,255,0.73,0.08,2
+2020-01-04 06:15:00,device_2,3.19,fan,Zone 4,4827,19,0.005,HTTP,138,24.5,34,40,txn_940,confirmed,block_9939,node_3,successful,1,284,0.78,0.14,2
+2020-01-04 06:20:00,device_3,2.28,heater,Zone 4,2414,42,0.0,FTP,58,29.4,64,8,txn_941,confirmed,block_3204,node_3,successful,1,285,0.74,0.05,1
+2020-01-04 06:25:00,device_5,4.85,air conditioner,Zone 5,3104,38,0.007,FTP,142,22.1,57,30,txn_942,confirmed,block_5648,node_3,failed,3,182,0.79,0.14,2
+2020-01-04 06:30:00,device_4,2.79,smart appliance,Zone 4,3928,8,0.089,MQTT,101,25.3,62,50,txn_943,failed,block_7350,node_1,failed,2,160,0.81,0.15,1
+2020-01-04 06:35:00,device_4,1.56,fan,Zone 1,2583,34,0.059,FTP,104,30.9,75,49,txn_944,pending,block_6605,node_3,successful,4,64,0.85,0.16,2
+2020-01-04 06:40:00,device_1,3.87,air conditioner,Zone 2,4625,9,0.064,CoAP,64,32.3,31,37,txn_945,confirmed,block_4733,node_3,failed,4,243,0.81,0.15,2
+2020-01-04 06:45:00,device_1,4.4,light bulb,Zone 1,2681,15,0.056,MQTT,125,28.4,57,66,txn_946,confirmed,block_7927,node_1,failed,1,221,0.72,0.09,3
+2020-01-04 06:50:00,device_1,1.36,air conditioner,Zone 1,2328,24,0.093,FTP,81,25.1,59,48,txn_947,pending,block_7275,node_1,successful,1,135,0.92,0.18,3
+2020-01-04 06:55:00,device_3,0.64,fan,Zone 1,2286,49,0.05,HTTP,108,25.8,38,68,txn_948,pending,block_3215,node_1,successful,2,210,0.89,0.15,3
+2020-01-04 07:00:00,device_2,1.96,smart appliance,Zone 4,4599,6,0.091,MQTT,136,29.5,53,66,txn_949,failed,block_3200,node_3,successful,4,129,0.92,0.01,3
+2020-01-04 07:05:00,device_3,2.71,heater,Zone 1,2347,10,0.085,HTTP,60,32.5,75,20,txn_950,pending,block_9776,node_1,failed,2,232,0.93,0.11,1
+2020-01-04 07:10:00,device_5,4.31,fan,Zone 1,1895,23,0.058,FTP,79,26.6,37,25,txn_951,failed,block_2171,node_1,failed,3,176,0.95,0.07,1
+2020-01-04 07:15:00,device_5,4.27,fan,Zone 1,1917,5,0.042,FTP,55,24.3,53,46,txn_952,confirmed,block_4544,node_3,failed,1,86,0.75,0.05,2
+2020-01-04 07:20:00,device_2,2.32,smart appliance,Zone 3,260,17,0.023,CoAP,98,26.9,49,34,txn_953,failed,block_6442,node_3,failed,2,119,0.91,0.12,2
+2020-01-04 07:25:00,device_4,2.03,air conditioner,Zone 3,1889,15,0.06,CoAP,148,25.7,74,80,txn_954,confirmed,block_1541,node_2,successful,4,132,0.92,0.04,3
+2020-01-04 07:30:00,device_5,1.7,fan,Zone 4,1743,19,0.06,MQTT,139,23.1,45,100,txn_955,confirmed,block_4748,node_2,failed,2,173,0.81,0.14,3
+2020-01-04 07:35:00,device_3,1.28,fan,Zone 2,606,43,0.009,CoAP,89,31.1,64,47,txn_956,failed,block_3328,node_1,failed,4,118,0.78,0.12,3
+2020-01-04 07:40:00,device_3,2.43,fan,Zone 2,2245,35,0.094,MQTT,136,28.1,77,20,txn_957,pending,block_3444,node_1,successful,3,133,0.87,0.07,3
+2020-01-04 07:45:00,device_5,0.87,air conditioner,Zone 1,2600,44,0.078,FTP,92,17.6,67,61,txn_958,confirmed,block_1897,node_3,failed,5,249,0.77,0.13,2
+2020-01-04 07:50:00,device_5,4.57,light bulb,Zone 3,1593,50,0.003,CoAP,91,17.6,36,71,txn_959,pending,block_3627,node_1,successful,4,293,0.81,0.05,3
+2020-01-04 07:55:00,device_2,1.97,light bulb,Zone 5,2189,46,0.014,CoAP,135,24.4,33,36,txn_960,confirmed,block_3917,node_1,failed,1,44,0.84,0.2,1
+2020-01-04 08:00:00,device_3,0.79,smart appliance,Zone 2,1180,20,0.044,HTTP,128,21.3,54,63,txn_961,confirmed,block_3308,node_1,failed,1,69,0.87,0.12,2
+2020-01-04 08:05:00,device_1,1.46,fan,Zone 4,3311,23,0.045,HTTP,109,17.4,55,54,txn_962,confirmed,block_2977,node_1,successful,5,150,0.94,0.05,3
+2020-01-04 08:10:00,device_1,4.19,heater,Zone 1,4778,47,0.016,MQTT,136,16.5,64,66,txn_963,pending,block_1222,node_2,successful,5,55,0.72,0.04,2
+2020-01-04 08:15:00,device_1,3.87,air conditioner,Zone 3,4864,30,0.06,HTTP,54,33.3,35,96,txn_964,pending,block_3924,node_3,successful,4,182,0.91,0.05,3
+2020-01-04 08:20:00,device_3,2.83,fan,Zone 1,3935,6,0.026,MQTT,101,28.6,63,34,txn_965,confirmed,block_5664,node_2,failed,3,210,0.87,0.05,3
+2020-01-04 08:25:00,device_1,2.73,air conditioner,Zone 1,166,5,0.023,MQTT,86,33.4,50,22,txn_966,pending,block_1316,node_3,failed,4,243,0.89,0.07,3
+2020-01-04 08:30:00,device_4,3.64,smart appliance,Zone 1,1982,37,0.062,MQTT,133,20.2,45,26,txn_967,pending,block_3438,node_3,failed,2,292,0.91,0.07,2
+2020-01-04 08:35:00,device_5,3.37,fan,Zone 4,2480,7,0.032,FTP,141,22.7,53,63,txn_968,confirmed,block_2668,node_2,successful,2,189,0.74,0.02,3
+2020-01-04 08:40:00,device_4,1.75,light bulb,Zone 2,1606,18,0.027,CoAP,75,26.7,33,14,txn_969,failed,block_8291,node_3,successful,5,145,0.86,0.16,3
+2020-01-04 08:45:00,device_1,2.65,smart appliance,Zone 5,1544,8,0.062,HTTP,99,17.7,71,72,txn_970,pending,block_3763,node_1,failed,3,270,0.87,0.1,3
+2020-01-04 08:50:00,device_5,1.13,air conditioner,Zone 1,3016,21,0.067,CoAP,135,18.5,32,4,txn_971,confirmed,block_6144,node_1,failed,4,226,0.94,0.06,2
+2020-01-04 08:55:00,device_4,4.56,fan,Zone 3,1346,9,0.086,HTTP,129,28.2,46,9,txn_972,confirmed,block_1915,node_3,failed,1,212,0.76,0.11,3
+2020-01-04 09:00:00,device_4,2.03,air conditioner,Zone 5,1985,34,0.041,HTTP,87,32.3,31,66,txn_973,pending,block_6123,node_2,successful,4,194,0.72,0.15,3
+2020-01-04 09:05:00,device_1,1.45,fan,Zone 3,2013,29,0.051,CoAP,145,19.0,51,76,txn_974,pending,block_6598,node_1,successful,1,43,0.89,0.02,1
+2020-01-04 09:10:00,device_2,4.5,fan,Zone 4,451,25,0.059,CoAP,111,26.4,46,20,txn_975,confirmed,block_7459,node_1,failed,2,91,0.72,0.11,1
+2020-01-04 09:15:00,device_5,2.43,smart appliance,Zone 1,983,41,0.028,HTTP,79,16.9,49,94,txn_976,confirmed,block_1868,node_3,successful,1,85,0.92,0.05,3
+2020-01-04 09:20:00,device_2,2.83,light bulb,Zone 4,4285,37,0.03,CoAP,50,21.1,51,32,txn_977,failed,block_3831,node_3,successful,1,129,0.89,0.09,1
+2020-01-04 09:25:00,device_1,1.56,air conditioner,Zone 3,2038,14,0.006,MQTT,62,25.0,44,66,txn_978,confirmed,block_3816,node_1,successful,1,193,0.74,0.07,1
+2020-01-04 09:30:00,device_3,3.82,fan,Zone 2,3347,40,0.07,FTP,71,30.7,70,74,txn_979,failed,block_2538,node_3,successful,4,48,0.92,0.05,1
+2020-01-04 09:35:00,device_1,1.7,heater,Zone 2,4799,16,0.041,HTTP,50,15.3,55,27,txn_980,confirmed,block_9069,node_3,successful,4,155,0.79,0.17,3
+2020-01-04 09:40:00,device_1,4.39,light bulb,Zone 2,2582,46,0.021,MQTT,93,28.4,44,53,txn_981,confirmed,block_7336,node_1,failed,1,103,0.87,0.19,3
+2020-01-04 09:45:00,device_5,0.23,light bulb,Zone 3,2450,25,0.079,FTP,131,19.3,76,100,txn_982,pending,block_7585,node_2,failed,2,204,0.7,0.07,3
+2020-01-04 09:50:00,device_2,0.33,heater,Zone 3,695,5,0.057,MQTT,51,32.7,47,91,txn_983,confirmed,block_5835,node_3,successful,1,239,0.85,0.06,3
+2020-01-04 09:55:00,device_3,1.67,heater,Zone 3,463,18,0.071,CoAP,135,16.2,39,37,txn_984,failed,block_4134,node_3,successful,1,202,0.82,0.14,3
+2020-01-04 10:00:00,device_5,4.74,heater,Zone 1,457,36,0.047,FTP,86,18.0,53,37,txn_985,pending,block_8630,node_3,failed,4,176,0.86,0.01,3
+2020-01-04 10:05:00,device_1,3.74,smart appliance,Zone 4,4727,23,0.061,MQTT,72,32.3,41,4,txn_986,failed,block_8107,node_2,successful,4,204,0.93,0.03,3
+2020-01-04 10:10:00,device_5,3.86,fan,Zone 2,4982,26,0.059,HTTP,77,23.8,37,25,txn_987,failed,block_3550,node_1,successful,1,158,0.92,0.12,1
+2020-01-04 10:15:00,device_2,3.39,smart appliance,Zone 2,812,20,0.096,HTTP,50,33.5,76,18,txn_988,confirmed,block_6513,node_1,successful,1,195,0.78,0.19,2
+2020-01-04 10:20:00,device_3,0.74,smart appliance,Zone 5,1861,6,0.067,FTP,125,31.0,57,17,txn_989,failed,block_8126,node_1,failed,4,230,0.76,0.19,2
+2020-01-04 10:25:00,device_4,4.9,heater,Zone 2,1494,22,0.069,MQTT,68,26.0,69,2,txn_990,pending,block_4260,node_1,failed,4,100,0.81,0.03,1
+2020-01-04 10:30:00,device_3,0.57,air conditioner,Zone 4,1088,29,0.099,FTP,63,26.9,52,29,txn_991,failed,block_7430,node_2,failed,3,155,0.89,0.1,2
+2020-01-04 10:35:00,device_1,2.17,air conditioner,Zone 2,3901,31,0.053,MQTT,66,27.8,76,93,txn_992,failed,block_6363,node_1,failed,4,167,0.81,0.1,3
+2020-01-04 10:40:00,device_2,0.83,heater,Zone 3,1160,5,0.016,CoAP,129,19.3,50,65,txn_993,failed,block_5253,node_1,successful,2,127,0.74,0.06,1
+2020-01-04 10:45:00,device_3,2.67,fan,Zone 3,3797,34,0.081,HTTP,98,32.3,56,82,txn_994,pending,block_1525,node_3,successful,1,227,0.9,0.03,1
+2020-01-04 10:50:00,device_2,4.82,light bulb,Zone 5,2146,42,0.044,MQTT,85,20.9,59,88,txn_995,confirmed,block_5481,node_2,failed,3,93,0.87,0.18,3
+2020-01-04 10:55:00,device_1,2.09,air conditioner,Zone 3,2083,18,0.043,HTTP,142,30.1,46,75,txn_996,failed,block_3471,node_2,successful,4,36,0.89,0.05,1
+2020-01-04 11:00:00,device_3,4.24,fan,Zone 5,4898,35,0.018,HTTP,134,20.6,79,57,txn_997,confirmed,block_1796,node_2,successful,4,58,0.88,0.19,3
+2020-01-04 11:05:00,device_4,4.63,heater,Zone 1,2921,38,0.02,HTTP,91,21.0,51,39,txn_998,failed,block_5089,node_3,successful,1,225,0.78,0.07,2
+2020-01-04 11:10:00,device_1,4.94,heater,Zone 3,2171,24,0.091,MQTT,58,15.5,73,39,txn_999,confirmed,block_2863,node_1,successful,5,277,0.72,0.09,1
+2020-01-04 11:15:00,device_5,3.25,fan,Zone 3,2953,36,0.043,MQTT,69,21.6,69,79,txn_1000,failed,block_8771,node_2,successful,3,191,0.94,0.04,2
